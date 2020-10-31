@@ -652,7 +652,8 @@
     }
 
     #popularCars {
-        width: 360px;
+        width: 100%;
+        min-width: unset;
     }
 
     
@@ -669,6 +670,12 @@
         margin-top: 25px;
         position: relative;
         width: 360px;
+    }
+
+    #howItWorks {
+        width: 360px;
+        margin: auto;
+        margin-top: 100px;
     }
 
     #howItWorksContent {
