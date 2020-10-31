@@ -1,0 +1,849 @@
+
+#together {
+    width: 1000px;
+    height: max-content;
+    min-height: 400px;
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+}
+
+#togetherChat {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 430px;
+    height: max-content;
+}
+
+#togetherContent {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 500px;
+    height: max-content;
+}
+
+#togetherContent .submitButton{
+    margin-top: 30px;
+}
+
+#togetherContentMain {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+#togetherContentText {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+}
+
+.message {
+    padding: 16px 24px 16px 24px;
+    width: 295px;
+    height: max-content;
+    right: 882px;
+    top: 1653px;
+    margin-bottom: 10px;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E4B66;
+
+    letter-spacing: 0.04em;
+
+    background: #C3E1FB;
+    border-radius: 32px 32px 32px 0px;
+}
+
+.greyMessage {
+    float: right;
+    background: #EFF0F7;
+    border-radius: 32px 32px 0px 32px;
+}
+
+
+.message:last-child {
+    margin-top: 78px;
+}
+
+#mainPhoto {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: -100px;
+    position: relative;
+    z-index: 0;
+    /* transition: .3s; */
+}
+
+#mainPhoto img {
+    width: 1100px;
+    height: 350px;
+    position: absolute;
+    top: 75px;
+    left: -50px;
+    opacity: .9;
+}
+
+#bluredBack {
+    position: absolute;
+    width: 1050px;
+    height: 500px;
+    left: -50px;
+    top: 0px;
+
+    background: radial-gradient(50% 50% at 50% 50%, rgba(30, 41, 137, 0.5) 15.62%, rgba(131, 135, 168, 0) 100%);
+}
+
+#popularCars {
+    width: calc(100% - 160px);
+    min-width: max-content;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#howItWorks {
+    margin-top: 100px;
+}
+
+#howItWorksContent {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 75px;
+    height: 335px;
+    border-radius: 16px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 8px 16px rgba(51, 51, 98, 0.04);
+}
+
+#howItWorksContentFix {
+    width: 1150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#line {
+    position: absolute;
+    width: 1050px;
+    height: 4px;
+    left: 50px;
+    top: calc(50% - 2px);
+    background: rgba(214, 216, 231, 0.73);
+    border-radius: 40px;
+}
+
+.set {
+    transition: .2s;
+    cursor: pointer;
+}
+
+.set:hover {
+    transition: .2s;
+    transform: scale(1.15);
+}
+
+.setContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F7FC;
+    border-radius: 56px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2997EE;
+    line-height: 100%;
+}
+
+.fullSet {
+    width: 56px;
+    height: 56px;
+    overflow: visible;
+    border-radius: 56px;
+    background-color: rgba(180, 205, 255, 0.6);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullSet .setContent {
+    width: 46px;
+    height: 46px;
+    border: 3px solid #2997EE;
+}
+
+.emptySet {
+    width: 42px;
+    height: 42px;
+    overflow: visible;
+    border-radius: 42px;
+    background-color: rgba(180, 205, 255, 0.6);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptySet .setContent {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #2997EE;
+}
+
+.fullSet:nth-child(1) {
+    position: absolute;
+    top: calc(50% - 28px);
+    right: 28px;
+}
+
+.fullSet:nth-child(2) {
+    position: absolute;
+    top: calc(50% - 28px);
+    right: calc(28px + 180px);
+}
+
+.emptySet:nth-child(3) {
+    position: absolute;
+    top: calc(50% - 21px);
+    right: calc(28px + 180px + 200px);
+}
+
+.emptySet:nth-child(4) {
+    position: absolute;
+    top: calc(50% - 21px);
+    right: calc(28px + 180px + 200px + 200px);
+}
+
+.emptySet:nth-child(5) {
+    position: absolute;
+    top: calc(50% - 21px);
+    right: calc(28px + 180px + 200px + 200px + 200px);
+}
+
+.lineBlocks {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#tenantFirst {
+    color: #338BD6;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .03em;
+    line-height: 28px;
+    position: absolute;
+    left: 50px;
+    top: calc(50% - 28px - 40px);
+}
+
+.tenantBlock {
+    width: 180px;
+    height: max-content;
+    position: absolute;
+}
+
+.tenantBlockText {
+    width: 180px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(7, 39, 63, 0.8);
+}
+
+.tenantBlockLogo {
+    width: 64px;
+    height: 36px;
+    margin: auto;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #D4E2FE;
+    border-radius: 16px;
+    color: #338BD6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tenantBlock:nth-child(2) {
+    position: absolute;
+    right: calc(50px + 180px + 200px - 91px);
+    top: 50px;
+}
+
+.tenantBlock:nth-child(3) {
+    position: absolute;
+    right: calc(50px + 180px + 200px - 91px + 200px);
+    top: 50px;
+}
+
+.tenantBlock:nth-child(4) {
+    position: absolute;
+    right: calc(50px + 180px + 200px - 91px + 200px + 200px);
+    top: 30px;
+}
+
+#lessorFirst {
+    color: #492C9C;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .03em;
+    line-height: 28px;
+    position: absolute;
+    left: 50px;
+    top: calc(50% + 40px);
+}
+
+.lessorBlock {
+    width: 180px;
+    height: max-content;
+    position: absolute;
+}
+
+.lessorBlockText {
+    margin-top: 16px;
+    width: 180px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(7, 39, 63, 0.8);
+}
+
+.lessorBlockLogo {
+    width: 64px;
+    height: 36px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #E4DBFE;
+    border-radius: 16px;
+    color: #492C9C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lessorBlock:nth-child(2) {
+    position: absolute;
+    right: calc(50px + 180px + 200px - 91px);
+    bottom: 50px;
+}
+
+.lessorBlock:nth-child(3) {
+    position: absolute;
+    right: calc(50px + 180px + 200px - 91px + 200px);
+    bottom: 50px;
+}
+
+.lessorBlock:nth-child(4) {
+    position: absolute;
+    right: calc(50px + 180px + 200px - 91px + 200px + 200px);
+    bottom: 30px;
+}
+
+#forFive {
+    position: absolute;
+    width: 100px;
+    right: 5px;
+    top: calc(50% + 40px);
+}
+
+#forFour {
+    position: absolute;
+    width: 100px;
+    right: 185px;
+    top: calc(50% + 40px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1365px) {
+
+    #together {
+        width: 768px;
+        margin-top: 60px;
+    }
+    
+    #mainPhoto {
+        overflow: visible;
+        width: 768px;
+        height: 380px;
+        margin: auto;
+        margin-top: -100px;
+        position: relative;
+        z-index: 0;
+        transition: .3s;
+    }
+    
+    #mainPhoto img {
+        width: 830px;
+        height: 270px;
+        position: absolute;
+        top: 75px;
+        left: -30px;
+        opacity: .9;
+    }
+    
+    #bluredBack {
+        position: absolute;
+        width: 810px;
+        height: 300px;
+        left: -75px;
+        top: 40px;
+    }
+
+    #popularCars {
+        width: 768px;
+    }
+
+    
+
+    #togetherChat {
+        width: 360px;
+        top: 125px;
+    }
+
+    #togetherContent {
+        width: 360px;
+    }
+
+    #howItWorksContent {
+        width: 768px;
+        position: relative;
+        font-size: 14px;
+    }
+
+    #howItWorksContentFix {
+        width: 100%;
+        height: 100%;
+    }
+
+    #line {
+        position: absolute;
+        width: 700px;
+        height: 4px;
+        background: rgba(214, 216, 231, 0.73);
+        border-radius: 40px;
+        left: 20px;
+    }
+
+    .fullSet:nth-child(1) {
+        position: absolute;
+        top: calc(50% - 28px);
+        right: 28px;
+        transform: scale(.6);
+    }
+    
+    .fullSet:nth-child(2) {
+        position: absolute;
+        top: calc(50% - 28px);
+        right: calc(28px + 120px);
+        transform: scale(.6);
+    }
+    
+    .emptySet:nth-child(3) {
+        position: absolute;
+        top: calc(50% - 21px);
+        right: calc(28px + 120px + 130px);
+        transform: scale(.6);
+    }
+    
+    .emptySet:nth-child(4) {
+        position: absolute;
+        top: calc(50% - 21px);
+        right: calc(28px + 120px + 130px + 130px);
+        transform: scale(.6);
+    }
+    
+    .emptySet:nth-child(5) {
+        position: absolute;
+        top: calc(50% - 21px);
+        right: calc(28px + 120px + 130px + 130px + 130px);
+        transform: scale(.6);
+    }
+
+    #forFive {
+        position: absolute;
+        width: 100px;
+        right: 5px;
+        top: calc(50% + 40px);
+    }
+    
+    #forFour {
+        position: absolute;
+        width: 100px;
+        right: 125px;
+        top: calc(50% + 40px);
+    }
+
+    .tenantBlock {
+        width: 105px;
+    }
+
+    .lessorBlock {
+        width: 105px;
+    }
+
+    .tenantBlockText {
+        max-width: 105px;
+    }
+
+    .lessorBlockText {
+        max-width: 105px;
+    }
+
+    .tenantBlock:nth-child(2) {
+        position: absolute;
+        right: calc(50px + 89px + 200px - 91px);
+        top: 50px;
+    }
+    
+    .tenantBlock:nth-child(3) {
+        position: absolute;
+        right: calc(50px + 89px + 130px - 91px + 200px);
+        top: 50px;
+    }
+    
+    .tenantBlock:nth-child(4) {
+        position: absolute;
+        right: calc(50px + 89px + 60px - 91px + 200px + 200px);
+        top: 50px;
+    }
+
+    .lessorBlock:nth-child(2) {
+        position: absolute;
+        right: calc(50px + 89px + 200px - 91px);
+        bottom: 50px;
+    }
+    
+    .lessorBlock:nth-child(3) {
+        position: absolute;
+        right: calc(50px + 89px + 130px - 91px + 200px);
+        bottom: 50px;
+    }
+    
+    .lessorBlock:nth-child(4) {
+        position: absolute;
+        right: calc(50px + 89px + 60px - 91px + 200px + 200px);
+        bottom: 50px;
+    }
+
+    #lessorFirst {
+        left: 20px;
+    }
+
+    #tenantFirst {
+        left: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    #together {
+        width: 360px;
+        margin-top: 0px;
+    }
+    
+    #mainPhoto {
+        overflow: visible;
+        width: 360px;
+        height: 300px;
+        margin: auto;
+        margin-top: -100px;
+        position: relative;
+        z-index: 0;
+        transition: .3s;
+    }
+    
+    #mainPhoto img {
+        width: 500px;
+        height: 160px;
+        position: absolute;
+        top: 75px;
+        left: -75px;
+        opacity: .9;
+    }
+    
+    #bluredBack {
+        position: absolute;
+        width: 500px;
+        height: 225px;
+        left: -75px;
+        top: 40px;
+    }
+
+    #popularCars {
+        width: 360px;
+    }
+
+    
+
+    #togetherChat {
+        top: unset;
+        margin-top: 25px;
+        position: relative;
+        width: 360px;
+    }
+
+    #togetherContent {
+        top: unset;
+        margin-top: 25px;
+        position: relative;
+        width: 360px;
+    }
+
+    #howItWorksContent {
+        width: 310px;
+        height: 760px;
+        position: relative;
+        font-size: 14px;
+    }
+
+    #howItWorksContentFix {
+        width: 100%;
+        height: 100%;
+    }
+
+    #line {
+        position: absolute;
+        width: 4px;
+        height: 660px;
+        left: calc(50% - 2px);
+        top: 50px;
+        background: rgba(214, 216, 231, 0.73);
+        border-radius: 40px;
+    }
+
+    .fullSet:nth-child(1) {
+        position: absolute;
+        right: calc(50% - 28px);
+        bottom: 28px;
+        top: unset;
+        transform: unset;
+    }
+    
+    .fullSet:nth-child(2) {
+        position: absolute;
+        right: calc(50% - 28px);
+        bottom: calc(28px + 150px);
+        top: unset;
+        transform: unset;
+    }
+    
+    .emptySet:nth-child(3) {
+        position: absolute;
+        right: calc(50% - 21px);
+        bottom: calc(28px + 150px + 150px);
+        top: unset;
+        transform: unset;
+    }
+    
+    .emptySet:nth-child(4) {
+        position: absolute;
+        right: calc(50% - 21px);
+        bottom: calc(28px + 150px + 150px + 150px);
+        top: unset;
+        transform: unset;
+    }
+    
+    .emptySet:nth-child(5) {
+        position: absolute;
+        right: calc(50% - 21px);
+        bottom: calc(28px + 150px + 150px + 150px + 150px);
+        top: unset;
+        transform: unset;
+    }
+
+    #forFive {
+        position: absolute;
+        width: 100px;
+        bottom: 35px;
+        left: calc(50% + 25px);
+        top: unset;
+    }
+    
+    #forFour {
+        position: absolute;
+        width: 100px;
+        bottom: 185px;
+        left: calc(50% + 35px);
+        top: unset;
+    }
+
+    .tenantBlockText {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: rgba(7, 39, 63, 0.8);
+        max-width: 130px;
+        margin: auto;
+        top: 67px;
+        left: calc(50% - 65px);
+        position: absolute;
+    }
+
+    #tenantFirst {
+        font-size: 18px;
+        top: 30px;
+        left: calc(50% - 28px - 100px);
+    }
+    
+    .tenantBlock:nth-child(2) {
+        position: absolute;
+        top: calc(50px + 180px + 200px - 54px);
+        left: -15px;
+        right: unset;
+        width: 180px;
+    }
+    
+    .tenantBlock:nth-child(3) {
+        position: absolute;
+        top: calc(50px + 180px);
+        left: -15px;
+        right: unset;
+        width: 180px;
+    }
+    
+    .tenantBlock:nth-child(4) {
+        position: absolute;
+        top: calc(76px);
+        left: -15px;
+        right: unset;
+        width: 180px;
+    }
+
+    .lessorBlockText {
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: rgba(7, 39, 63, 0.8);
+        max-width: 130px;
+        margin: auto;
+        margin-top: 16px;
+    }
+
+    #lessorFirst {
+        font-size: 18px;
+        top: 30px;
+        right: calc(50% - 28px - 110px);
+        bottom: unset;
+        left: unset;
+    }
+    
+    .lessorBlock:nth-child(2) {
+        position: absolute;
+        top: calc(50px + 196px + 200px - 54px);
+        right: -15px;
+        bottom: unset;
+        width: 180px;
+    }
+    
+    .lessorBlock:nth-child(3) {
+        position: absolute;
+        top: calc(50px + 196px);
+        right: -15px;
+        bottom: unset;
+        width: 180px;
+    }
+    
+    .lessorBlock:nth-child(4) {
+        position: absolute;
+        top: calc(92px);
+        right: -15px;
+        bottom: unset;
+        width: 180px;
+    }
+
+}
