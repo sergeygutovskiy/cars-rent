@@ -1,0 +1,556 @@
+
+#aboutBlock {
+    position: relative;
+    margin-top: 90px;
+    width: 100%;
+    height: max-content;
+    min-height: 450px;
+    /* background-color: tomato; */
+}
+
+#aboutPluses {
+    width: 940px;
+    height: 400px;
+    margin-right: 80px;
+    float: right;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.aboutPlusesBlock {
+    width: 420px;
+    height: max-content;
+    margin-left: 50px;
+    margin-bottom: 65px;
+    float: right;
+    position: relative;
+}
+
+.aboutPlusesBlockLogo {
+    width: 50px;
+    height: 50px;
+    background-color: #C4C4C4;
+}
+
+.aboutPlusesBlockMain {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+    position: relative;
+    top: 0;
+    left: 70px;
+    margin: 0;
+    margin-top: -50px;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.aboutPlusesBlockText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+    position: relative;
+    float: right;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+#aboutBack {
+    width: 350px;
+    height: 530px;
+    position: absolute;
+    top: 310px;
+    left: -5px;
+    opacity: .9;
+}
+
+#howAllWorks {
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    width: 1200px;
+    height: max-content;
+    /* background-color: violet; */
+}
+
+#howAllWorksButtons {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.howAllWorksButton {
+    border-radius: 5px;
+    width: 260px;
+    height: 70px;
+    margin-left: 0px;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1.5px solid white;
+    color: #4E4B66;
+    transition: .2s;
+}
+
+.howAllWorksButton:hover {
+    color: #2997EE;
+    transition: .2s;
+}
+
+.activeHowAllWorksButton {
+    border: 1.5px solid #2997EE;
+    color: #2997EE;
+    transition: .2s;
+}
+
+.howAllWorksButton + .howAllWorksButton {
+    margin-left: 50px;
+}
+
+
+
+.howAllWorksExampleBlock {
+    padding-left: 20px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    opacity: 1;
+    transition: .5s;
+}
+
+.exampleAllWorks {
+    position: relative;
+    margin-left: 0px;
+    width: 370px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.exampleAllWorks:nth-child(2n) {
+    margin-left: 20px;
+}
+
+.exampleAllWorks:hover .exampleNumber{
+    color: rgba(121, 147, 175, .6);
+
+    transition: .5s;
+}
+
+.exampleNumber {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    color: rgba(234, 235, 244, .8);
+    font-weight: 500;
+    font-size: 160px;
+    line-height: 196px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    transition: .5s;
+}
+
+.exampleMain {
+    position: absolute;
+    bottom: 64px;
+    left: 55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.exampleText {
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+    max-width: 300px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+}
+
+.notDisplayExmapleBlock {
+    display: none;
+    opacity: 0;
+    transition: .5s;
+}
+
+#howAllWorks .animatedButton {
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+#questions {
+    margin-top: 150px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: left;
+}
+
+#popularQuestions {
+    margin-left: 80px;
+    width: 400px;
+    height: max-content;
+    position: relative;
+}
+
+#popularQuestions h3 {
+    text-align: left;
+}
+
+#popularQuestions p {
+    width: 100%;
+    height: max-content;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+}
+
+#questionsContent {
+    position: relative;
+    margin-left: 160px;
+    width: 500px;
+    height: max-content;
+}
+
+.question {
+    width: 500px;
+    height: 68px;
+    background: #EAEBF4;
+    border-radius: 10px;
+    border: 2px solid #EAEBF4;
+    transition: .5s;
+    overflow: hidden;
+    margin-bottom: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.question:hover {
+    background: #F7F7FC;
+    border: 2px solid #07273F;
+    transition: .5s;
+}
+
+.activeQuestion {
+    background: #F7F7FC;
+    border: 2px solid #07273F;
+    transition: .5s;
+    height: 200px;
+}
+
+.questionMain {
+    font-style: normal;
+    height: 28px;
+    width: 450px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 156% */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.questionIcon{
+    float: right;
+    clear: left;
+    height: 28px;
+    margin-top: -28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 22px;
+    /* identical to box height, or 156% */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #6E7191;
+}
+
+.questionText {
+    margin-top: 20px;
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    letter-spacing: 0.03em;
+
+    /* grey */
+
+    color: #4E4B66;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1365px) {
+
+    #aboutBlock {
+        position: relative;
+        margin-top: 90px;
+        width: 100%;
+        height: max-content;
+        min-height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #aboutPluses {
+        width: 768px;
+        height: 450px;
+        margin-right: 0px;
+        float: unset;
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+
+    .aboutPlusesBlock {
+        width: 360px;
+        height: max-content;
+        margin-left: 0px;
+        margin-bottom: 65px;
+        float: right;
+        position: relative;
+    }
+
+    .aboutPlusesBlock:nth-child(2n) {
+        margin-left: 48px;
+    }
+    
+    .aboutPlusesBlockLogo {
+        width: 50px;
+        height: 50px;
+        background-color: #C4C4C4;
+    }
+    
+    .aboutPlusesBlockMain {
+        width: 290px;
+    }
+    
+    .aboutPlusesBlockText {
+        width: 290px;
+    }
+
+    #aboutBack {
+        display: none;
+    }
+
+    #howAllWorks {
+        margin: auto;
+        position: relative;
+        margin-top: 100px;
+        width: 768px;
+        height: max-content;
+        /* background-color: violet; */
+    }
+
+    .howAllWorksExampleBlock {
+        padding-left: 0px;
+    }
+
+    #howAllWorks .animatedButton {
+        margin-right: 60px;
+    }
+
+    #questions {
+        display: block;
+    }
+
+    #popularQuestions {
+        margin-left: 0px;
+    }
+
+    #questionsContent {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    #aboutBlock {
+        margin: auto;
+        position: relative;
+        margin-top: 90px;
+        width: 100%;
+        max-width: 312px;
+        height: max-content;
+        min-height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #aboutPluses {
+        width: 312px;
+        height: max-content;
+        float: unset;
+        display: block;
+    }
+
+    .aboutPlusesBlock {
+        width: 312px;
+        height: max-content;
+        margin-left: 0px;
+        margin-bottom: 35px;
+        float: right;
+        position: relative;
+    }
+
+    .aboutPlusesBlock:nth-child(2n) {
+        margin-left: 0px;
+    }
+    
+    .aboutPlusesBlockMain {
+        width: 242px;
+    }
+    
+    .aboutPlusesBlockText {
+        width: 242px;
+    }
+
+    #aboutBack {
+        display: none;
+    }
+
+    .exampleAllWorks:nth-child(2n) {
+        margin-left: 0px;
+    }
+
+    .howAllWorksButton {
+        width: 150px;
+        height: 56px;
+    }
+
+    .howAllWorksButton + .howAllWorksButton {
+        margin-left: 14px;
+    }
+
+    #howAllWorks {
+        margin: auto;
+        position: relative;
+        margin-top: 50px;
+        width: 312px;
+        height: max-content;
+        /* background-color: violet; */
+    }
+
+    .howAllWorksExampleBlock {
+        padding-left: 0px;
+    }
+
+    #howAllWorks .animatedButton {
+        margin-right: -5px;
+    }
+
+    #questions {
+        margin: auto;
+        margin-top: 40px;
+        display: block;
+        width: 312px;
+    }
+
+    #popularQuestions {
+        width: 312px;
+        margin-left: 0px;
+    }
+
+    #questionsContent {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .question {
+        width: 312px;
+        padding: 20px;
+    }
+
+    .activeQuestion {
+        height: max-content;
+    }
+
+    .questionMain {
+        width: 230px;
+    }
+
+    .questionText {
+        height: max-content;
+        width: 230px;
+    }
+}

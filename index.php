@@ -46,21 +46,27 @@
     <div id="absolutedHamburger" class="notDisplay">
         <div id="absolutedHamburgerContent">
             <div id="nav">
-                <div id="navPersonal">
-                    <div id="enter" class="blue"><div id="animateEnter"></div><p>Войти</p></div>
-                </div>
-                
                 <div id="navLogo">
                     <div id="navLogoImage"></div>
+                    <!-- <div id="navLogoContent" class="grey"><i class="fas fa-map-marker-alt"></i> <span id="geolocation">&nbsp;Санкт-петербург</span></div> -->
                 </div>
-
-                <div id="absolutedHamburgerClose" class="blue">
-                    <i class="fas fa-times"></i>
+                <!-- <div id="navContent">
+                    <p class="navContentText blue">О компании</p>
+                    <p class="navContentText blue">Арендовать</p>
+                    <p class="navContentText blue">Сдать</p>
+                </div> -->
+                <div id="navPersonal">
+                    <!-- <div id="lang">
+                        <div class="langBlock lightGrey activeLangBlock"><p>Ru</p></div>
+                        <div class="langBlock lightGrey"><p>En</p></div>
+                    </div> -->
+                    <div id="enter" class="blue"><div id="animateEnter"></div><p>Войти</p></div>
                 </div>
-
-                
-                
-                
+    
+                <div id="absolutedHamburgerClose">
+                    <div class="absolutedHamburgerCloseContent"></div>
+                    <div class="absolutedHamburgerCloseContent"></div>
+                </div>
             </div>
 
             <div id="absolutedHamburgerTextContent">
