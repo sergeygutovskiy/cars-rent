@@ -22,7 +22,7 @@
             height: 65px;
             margin: auto;
             margin-top: 54px;
-            margin-bottom: 250px;
+            /* margin-bottom: 250px; */
         }
 
         #unfinedBack {
@@ -35,6 +35,12 @@
 
         .soldTextMain  h1{
             font-size: 56px;
+        }
+
+        .soldTextContent {
+            display: flex;
+            justify-content: center;
+            max-width: unset;
         }
 
         @media only screen and (max-width: 1365px) {
@@ -163,7 +169,7 @@
             <img src="assets/main/mainCar.png" alt="" id="unfinedBack" />
         </div>
 
-        <div id="footer">
+        <!-- <div id="footer">
             <div id="footerLogo"><a href="#"><p>Lorem Ipsum</p></a></div>
             <div id="footerContent">
                 <p>О компании</p>
@@ -173,7 +179,7 @@
             </div>
             <div id="footerLine"></div>
             <div id="footerText">© 2020 Lorem Ipsum. All rights reserved.</div>
-        </div>
+        </div> -->
 
     </div>
 

@@ -23,10 +23,21 @@ window.addEventListener('DOMContentLoaded', () => {
     let activeQuestion = -1;
 
     let question = document.getElementsByClassName('question');
+    let questionIcon = document.getElementsByClassName('questionIcon');
+
     for (let elem in question) {
         (() => {question[elem].addEventListener('click', () => {
-            if (activeQuestion != -1) question[activeQuestion].classList.toggle('activeQuestion');
-            if (elem == activeQuestion) question[elem].classList.remove('activeQuestion'); else question[elem].classList.add('activeQuestion');
+            if (activeQuestion != -1) {
+                question[activeQuestion].classList.toggle('activeQuestion');
+                questionIcon[activeQuestion].innerHTML = "+";
+            }
+            if (elem == activeQuestion) {
+                question[elem].classList.remove('activeQuestion');
+                questionIcon[elem].innerHTML = "+";
+            } else {
+                question[elem].classList.add('activeQuestion');
+                questionIcon[elem].innerHTML = "-";
+            }
             if (question[elem].classList.contains('activeQuestion')) activeQuestion = elem; else activeQuestion = -1;
         })})();
     }

@@ -152,7 +152,7 @@
 }
 
 .exampleAllWorks:hover .exampleNumber{
-    color: rgba(121, 147, 175, .6);
+    color: rgba(121, 147, 175, .4);
 
     transition: .5s;
 }
@@ -521,7 +521,7 @@
 
     #questions {
         margin: auto;
-        margin-top: 40px;
+        margin-top: 120px;
         display: block;
         width: 312px;
     }
