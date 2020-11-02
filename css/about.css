@@ -57,7 +57,7 @@
 .aboutPlusesBlockText {
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 26px;
     /* or 162% */
 
@@ -197,7 +197,7 @@
     max-width: 300px;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 26px;
     /* or 162% */
 
@@ -244,7 +244,7 @@
     margin-top: 35px;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 26px;
     /* or 162% */
 
@@ -331,8 +331,8 @@
     width: 400px;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
+    /* font-size: 16px; */
+    line-height: 26px;
     /* or 156% */
 
     letter-spacing: 0.03em;
@@ -350,7 +350,7 @@
 
 
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1259px) {
 
     #aboutBlock {
         position: relative;
@@ -444,6 +444,27 @@
 
 @media screen and (max-width: 767px) {
 
+    #popularQuestions p {
+        line-height: 22px;
+    }
+    
+    .exampleText {
+        line-height: 22px;
+    }
+
+    .questionText {
+        line-height: 22px;
+    }
+
+    .exampleMain {
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
     #aboutBlock {
         margin: auto;
         position: relative;
@@ -478,10 +499,13 @@
     }
     
     .aboutPlusesBlockMain {
+        font-size: 18px;
         width: 242px;
+        line-height: 24px;
     }
     
     .aboutPlusesBlockText {
+        line-height: 22px;
         width: 242px;
     }
 
@@ -547,10 +571,12 @@
 
     .questionMain {
         width: 230px;
+        font-size: 16px;
     }
 
     .questionText {
         height: max-content;
         width: 230px;
+        font-size: 14px;
     }
 }

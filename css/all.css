@@ -962,6 +962,7 @@ h3 {
     text-align: center;
     cursor: pointer;
     position: relative;
+    letter-spacing: 0.02em;
 }
 
 .animatedButton p{
@@ -1035,7 +1036,7 @@ h3 {
 
 
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1259px) {
 
     h3 {
         font-size: 24px;

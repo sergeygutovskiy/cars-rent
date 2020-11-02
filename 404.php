@@ -43,7 +43,7 @@
             max-width: unset;
         }
 
-        @media only screen and (max-width: 1365px) {
+        @media only screen and (max-width: 1259px) {
             #unfinedBack {
                 right: -770px;
             }
