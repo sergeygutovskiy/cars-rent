@@ -19,6 +19,8 @@ window.addEventListener('DOMContentLoaded', () => {
         needShow = !needShow;
     });
 
+    
+
     try {
         for (let elem in inputResets) {
             (() => {
@@ -94,6 +96,18 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     
+    document.getElementById('enterBackSubmitReg').addEventListener('click', () => {
+        document.getElementsByClassName('absoluted')[0].style.opacity = '0';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.display = 'none';}, 300)
+
+        document.getElementsByClassName('absoluted')[1].style.display = 'flex';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[1].style.opacity = '1';}, 300)
+    });
+
+    document.getElementById('regBackClose').addEventListener('click', () => {
+        document.getElementsByClassName('absoluted')[1].style.opacity = '0';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[1].style.display = 'none';}, 300)
+    });
 
     document.getElementById('enterBackClose').addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[0].style.opacity = '0';

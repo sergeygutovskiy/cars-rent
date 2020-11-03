@@ -39,8 +39,13 @@ h3 {
 
 * {
     box-sizing: border-box;
-    outline: none;
+    outline: none !important;
     user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*:focus {
+    outline: none !important;
 }
 
 #main {
@@ -842,7 +847,7 @@ h3 {
     margin: auto;
 }
 
-#enterBackClose {
+.enterBackClose {
     cursor: pointer;
     font-size: 18px;
     font-weight: 300;
@@ -850,9 +855,10 @@ h3 {
     top: 40px;
     right: 40px;
     color: #14142B;
+    z-index: 1;
 }
 
-#enterBackMain {
+.enterBackMain {
     position: absolute;
     left: 20px;
     top: 70px;
