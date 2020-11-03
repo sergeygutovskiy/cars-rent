@@ -9,6 +9,10 @@ window.addEventListener('DOMContentLoaded', () => {
         sortersMarkers[0].classList.toggle('fa-angle-down');
     });
 
+    document.getElementsByClassName('selectFiltration')[0].addEventListener('click', () => {
+        document.getElementById('stickyBlock').classList.toggle('selectedStickyBlock');
+    });
+
     let pointChoice = document.getElementsByClassName('pointChoiceText');
     let activePoint = 1;
     let pointMarker = document.getElementsByClassName('pointChoiceMarker')[0];
@@ -58,10 +62,10 @@ window.addEventListener('DOMContentLoaded', () => {
                         if (categories[elem].classList.contains('activeCategoryInputContainer')) {
                             categoriesText[elem].innerHTML = categoriesNames[elem];
                             categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
-                            categoriesMarkers[elem].style.top="20px";
+                            categoriesMarkers[elem].style.top="18px";
                         } else {
                             categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
-                            categoriesMarkers[elem].style.top="24px";
+                            categoriesMarkers[elem].style.top="22px";
                         }
                     });
             })()
@@ -93,6 +97,7 @@ window.addEventListener('DOMContentLoaded', () => {
             if (filterRadio[i].checked) activatedCategories++;
         }
         document.getElementsByClassName('resetCategoriesCount')[0].innerHTML = activatedCategories;
+        document.getElementsByClassName('filtersCount')[0].innerHTML = activatedCategories;
     });
 
     document.getElementsByClassName('resetCategories')[0].addEventListener('click', () => {
@@ -105,7 +110,11 @@ window.addEventListener('DOMContentLoaded', () => {
             if (categoriesText[i].innerHTML != categoriesNames[i]) {
                 categoriesText[i].innerHTML = categoriesNames[i];
             }
-            if (categories[i].classList.contains('activeCategoryInputContainer')) categories[i].classList.toggle('activeCategoryInputContainer');
+            if (categories[i].classList.contains('activeCategoryInputContainer')) {
+                categories[i].classList.toggle('activeCategoryInputContainer');
+                categoriesMarkers[i].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+                categoriesMarkers[i].style.top="22px";
+            }
         }
     });
 

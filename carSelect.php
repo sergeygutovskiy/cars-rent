@@ -154,7 +154,7 @@
 
         <div id="selectContent">
 
-            <div id="stickyBlock">
+            <!-- <div id="stickyBlock">
 
                 <div class="pointChoice">
                     <p class="pointChoiceText">Автомобиль</p>
@@ -262,7 +262,7 @@
                 </label>
 
                 <div class="resetCategories"><i class="fas fa-times"></i>&nbsp; Сбросить все параметры (<span class="resetCategoriesCount">0</span>)</div>
-            </div>
+            </div> -->
 
 
 
@@ -278,7 +278,126 @@
                         <p class="selectSortElem">По цене&nbsp; </p>
                         <i class="fas fa-angle-up selectSortElemMarker"></i>
                     </div>
+
+
+
+                    <div class="selectSortElemBlock selectFiltration">
+                        <img src="assets/all/filter.svg" />
+                        <p class="selectSortElem">&nbsp; Фильтры (<span class="filtersCount">0</span>)</p>
+                    </div>
                 </div>
+
+
+                <div id="stickyBlock">
+
+                    <div class="pointChoice">
+                        <p class="pointChoiceText">Автомобиль</p>
+                        <p class="pointChoiceText activePoint">Водный</p>
+                        <p class="pointChoiceText">Мототехника</p>
+                        <div class="pointChoiceMarker"></div>
+                    </div>
+    
+                    <div class="categoryInputContainer">
+                        <div class="categoryInput">
+                            <div class="categoryInputText">Цена</div>
+                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                        </div>
+    
+                        <div class="categoryInputContent">
+                            <div class="categoryInputContentItem">Lorem</div>
+                            <div class="categoryInputContentItem">ipsum</div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="categoryInputContainer">
+                        <div class="categoryInput">
+                            <div class="categoryInputText">Марка</div>
+                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                        </div>
+    
+                        <div class="categoryInputContent">
+                            <div class="categoryInputContentItem">Lorem</div>
+                            <div class="categoryInputContentItem">ipsum</div>
+                        </div>
+                    </div>
+    
+                    <div class="categoryInputContainer">
+                        <div class="categoryInput">
+                            <div class="categoryInputText">Класс</div>
+                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                        </div>
+                        
+                        <div class="categoryInputContent">
+                            <div class="categoryInputContentItem">Lorem</div>
+                            <div class="categoryInputContentItem">ipsum</div>
+                        </div>
+                    </div>
+    
+                    <div class="categoryInputContainer">
+                        <div class="categoryInput">
+                            <div class="categoryInputText">Категория</div>
+                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                        </div>
+                        
+                        <div class="categoryInputContent">
+                            <div class="categoryInputContentItem">Lorem</div>
+                            <div class="categoryInputContentItem">ipsum</div>
+                        </div>
+                    </div>
+    
+                    <div class="categoryInputContainer">
+                        <div class="categoryInput">
+                            <div class="categoryInputText">Коробка</div>
+                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                        </div>
+                        
+                        <div class="categoryInputContent">
+                            <div class="categoryInputContentItem">Lorem</div>
+                            <div class="categoryInputContentItem">ipsum</div>
+                        </div>
+                    </div>
+    
+                    <div class="categoryInputContainer">
+                        <div class="categoryInput">
+                            <div class="categoryInputText">Двигатель</div>
+                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                        </div>
+                        
+                        <div class="categoryInputContent">
+                            <div class="categoryInputContentItem">Lorem</div>
+                            <div class="categoryInputContentItem">ipsum</div>
+                        </div>
+                    </div>
+    
+                    <label class="container">Поездка за пределы города
+                        <input class="filterRadio" type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                      
+                    <label class="container">Детское кресло
+                        <input type="checkbox" class="filterRadio">
+                        <span class="checkmark"></span>
+                    </label>
+                      
+                    <label class="container">Багажник на крыше
+                        <input type="checkbox" class="filterRadio">
+                        <span class="checkmark"></span>
+                    </label>
+                      
+                    <label class="container">Крепление на крыше
+                        <input type="checkbox" class="filterRadio">
+                        <span class="checkmark"></span>
+                    </label>
+    
+                    <label class="container">Наличие доставки
+                        <input type="checkbox" class="filterRadio">
+                        <span class="checkmark"></span>
+                    </label>
+    
+                    <div class="resetCategories"><i class="fas fa-times"></i>&nbsp; Сбросить все параметры (<span class="resetCategoriesCount">0</span>)</div>
+                </div>
+
                 <div id="selectMain">
 
 

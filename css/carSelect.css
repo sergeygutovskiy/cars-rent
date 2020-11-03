@@ -32,7 +32,7 @@
     /* float: right;
     clear: left; */
     margin-left: 340px;
-    position: relative;
+    /* position: relative; */
     top: 0;
     right: 0;
     /* background-color: tomato; */
@@ -179,7 +179,7 @@
     max-height: 50px;
     overflow: hidden;
     margin-bottom: 16px;
-    transition: .3s;
+    transition: .5s;
 }
 
 .activeCategoryInputContainer {
@@ -190,7 +190,7 @@
 
 .activeCategoryInputContainer .categoryInput{
     border: 2px solid #2997EE;
-    transition: .3s;
+    transition: .5s;
 }
 
 .categoryInput {
@@ -203,7 +203,7 @@
     transition: .3s;
     padding-left: 20px;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 13px;
     cursor: pointer;
     position: relative;
 }
@@ -233,7 +233,7 @@
 
 .categoryInputMarker {
     position: absolute;
-    top: 24px;
+    top: 22px;
     right: 20px;
     width: 9px;
     height: 5px;
@@ -287,14 +287,6 @@
     transition: .3s;
 }
 
-
-
-
-
-
-
-
-
 /* Customize the label (the container) */
 .container {
     margin: auto;
@@ -337,8 +329,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
+    height: 26px;
+    width: 26px;
     background-color:  #D6D8E6;
     border-radius: 50%;
     transition: .2s;
@@ -368,8 +360,8 @@
   
   /* Style the indicator (dot/circle) */
   .container .checkmark:after {
-    top: 6.5px;
-    left: 6.5px;
+    top: 7px;
+    left: 7px;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -397,3 +389,94 @@
     color: #07273F;
     transition: .3s;
   }
+
+  .selectFiltration {
+      position: absolute;
+      top: 30px;
+      right: 50px;
+      display: none;
+  }
+
+  .selectedStickyBlock {
+    overflow: hidden;
+    padding-bottom: 24px !important;
+    max-height: 1500px !important;
+    top: 60px !important;
+    right: 0 !important;
+    transition: .5s;
+    left: unset;
+    z-index: 1;
+  }
+
+@media screen and (max-width: 1259px) {
+
+    #selectContent {
+        width: 768px;
+        margin-top: 10px;
+    }
+
+    #selectMainContainer {
+        width: 768px;
+        height: max-content;
+        position: relative;
+        margin-left: unset;
+    }
+
+    #stickyBlock {
+        overflow: hidden;
+        padding-bottom: 0px;
+        max-height: 0;
+        transition: .5s;
+        right: 0;
+        top: 60px;
+        z-index: 1;
+        left: unset;
+    }
+
+    #selectMain .swiper-slide{
+        width: 245px;
+    }
+
+    .selectFiltration {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #selectContent {
+        width: 336px;
+        margin-top: 10px;
+    }
+
+    #selectMainContainer {
+        width: 336px;
+        height: max-content;
+        position: relative;
+        margin-left: unset;
+    }
+
+    #selectMain {
+        width: 276px;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    #selectMain .swiper-slide{
+        width: 276px !important;
+        height: 348px;
+        margin-left: 0px;
+    }
+
+    .selectFiltration {
+        right: 8px;
+    }
+
+    #stickyBlock {
+        position: relative;
+        width: 336px;
+        margin-top: -60px;
+        margin-bottom: 100px;
+    }
+  
+}
