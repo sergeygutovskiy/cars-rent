@@ -57,9 +57,11 @@ window.addEventListener('DOMContentLoaded', () => {
                         }
                         if (categories[elem].classList.contains('activeCategoryInputContainer')) {
                             categoriesText[elem].innerHTML = categoriesNames[elem];
-                            categoriesMarkers[elem].innerHTML = "<i class='fas fa-angle-up'></i>";
+                            categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
+                            categoriesMarkers[elem].style.top="20px";
                         } else {
-                            categoriesMarkers[elem].innerHTML = "<i class='fas fa-angle-down'></i>";
+                            categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+                            categoriesMarkers[elem].style.top="24px";
                         }
                     });
             })()

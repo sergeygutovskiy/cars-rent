@@ -166,7 +166,7 @@
                 <div class="categoryInputContainer">
                     <div class="categoryInput">
                         <div class="categoryInputText">Цена</div>
-                        <div class="categoryInputMarker"><i class="fas fa-angle-down"></i></div>
+                        <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
                     </div>
 
                     <div class="categoryInputContent">
@@ -179,7 +179,7 @@
                 <div class="categoryInputContainer">
                     <div class="categoryInput">
                         <div class="categoryInputText">Марка</div>
-                        <div class="categoryInputMarker"><i class="fas fa-angle-down"></i></div>
+                        <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
                     </div>
 
                     <div class="categoryInputContent">
@@ -191,7 +191,7 @@
                 <div class="categoryInputContainer">
                     <div class="categoryInput">
                         <div class="categoryInputText">Класс</div>
-                        <div class="categoryInputMarker"><i class="fas fa-angle-down"></i></div>
+                        <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
                     </div>
                     
                     <div class="categoryInputContent">
@@ -203,7 +203,7 @@
                 <div class="categoryInputContainer">
                     <div class="categoryInput">
                         <div class="categoryInputText">Категория</div>
-                        <div class="categoryInputMarker"><i class="fas fa-angle-down"></i></div>
+                        <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
                     </div>
                     
                     <div class="categoryInputContent">
@@ -215,7 +215,7 @@
                 <div class="categoryInputContainer">
                     <div class="categoryInput">
                         <div class="categoryInputText">Коробка</div>
-                        <div class="categoryInputMarker"><i class="fas fa-angle-down"></i></div>
+                        <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
                     </div>
                     
                     <div class="categoryInputContent">
@@ -227,7 +227,7 @@
                 <div class="categoryInputContainer">
                     <div class="categoryInput">
                         <div class="categoryInputText">Двигатель</div>
-                        <div class="categoryInputMarker"><i class="fas fa-angle-down"></i></div>
+                        <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
                     </div>
                     
                     <div class="categoryInputContent">
