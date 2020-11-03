@@ -54,32 +54,33 @@
 
 
 
-            <?php
+            <!-- <?php
                 global $typeform;
                 if ( ! $typeform || $typeform == 'sign' )
                     $f_sign = 'style="display:block;"';
-                ?>
+                ?> -->
 
-                <div class="form-tab-rcl" id="login-form-rcl"
-                <?php echo $f_sign; ?>
-                    >
+                <div class="form-tab-rcl" id="login-form-rcl"> 
+                 <!-- внутри -->
+                <!-- <?php echo $f_sign; ?>
+                    > -->
                     <div class="form_head">
                         <div class="form_auth form_active">
-                            <?php _e( 'Authorization', 'wp-recall' ); ?>
+                            <!-- <?php _e( 'Authorization', 'wp-recall' ); ?> -->
                         </div>
-                        <?php if ( rcl_is_register_open() ): ?>
+                        <!-- <?php if ( rcl_is_register_open() ): ?> -->
                             <div class="form_reg">
-                                <?php if ( ! $typeform ) { ?><a href="#" class="link-register-rcl link-tab-rcl "><?php _e( 'Registration', 'wp-recall' ); ?></a><?php } ?>
+                                <!-- <?php if ( ! $typeform ) { ?><a href="#" class="link-register-rcl link-tab-rcl "><?php _e( 'Registration', 'wp-recall' ); ?></a><?php } ?> -->
                             </div>
-                        <?php endif; ?>
+                        <!-- <?php endif; ?> -->
                     </div>
 
                     <div class="form-block-rcl">
-                        <?php rcl_notice_form( 'login' ); ?>
+                        <!-- <?php rcl_notice_form( 'login' ); ?> -->
                     </div>
 
-                    <?php $user_login	 = (isset( $_REQUEST['user_login'] )) ? wp_strip_all_tags( $_REQUEST['user_login'], 0 ) : ''; ?>
-                    <?php $user_pass	 = (isset( $_REQUEST['user_pass'] )) ? wp_strip_all_tags( $_REQUEST['user_pass'], 0 ) : ''; ?>
+                    <!-- <?php $user_login	 = (isset( $_REQUEST['user_login'] )) ? wp_strip_all_tags( $_REQUEST['user_login'], 0 ) : ''; ?>
+                    <?php $user_pass	 = (isset( $_REQUEST['user_pass'] )) ? wp_strip_all_tags( $_REQUEST['user_pass'], 0 ) : ''; ?> -->
 
 
 
@@ -154,7 +155,7 @@
 
 
                         
-                        <div class="form-block-rcl">
+                        <!-- <div class="form-block-rcl">
                             <?php do_action( 'login_form' ); ?>
 
                             <div class="default-field rcl-field-input type-checkbox-input">
@@ -183,7 +184,7 @@
                             </a>
                             <?php echo wp_nonce_field( 'login-key-rcl', 'login_wpnonce', true, false ); ?>
                             <input type="hidden" name="redirect_to" value="<?php rcl_referer_url( 'login' ); ?>">
-                        </div>
+                        </div> -->
 
 
                     </form>
