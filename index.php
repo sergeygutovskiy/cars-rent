@@ -78,7 +78,7 @@
 
                         <div class="form-block-rcl default-field customServisInput emptyState">
 
-                            <div class="formLabel">Телефон или e-mail</div>
+                            <div class="formLabel">Телефон</div>
 
                             <div class="formContentReset">
                                 <div class="formContentResetContent"></div>
@@ -198,8 +198,8 @@
 
 
 
-    <div class="absoluted">
-        <div class="enterBack">
+    <div class="absoluted regAbsoluted">
+        <div class="enterBack regBack">
             <div class="enterBackClose" id="regBackClose"><i class="fas fa-times"></i></div>
 
 
@@ -252,7 +252,7 @@
 
                         <div class="form-block-rcl default-field customServisInput emptyState">
 
-                            <div class="formLabel">Телефон или e-mail</div>
+                            <div class="formLabel">Фамилия</div>
 
                             <div class="formContentReset">
                                 <div class="formContentResetContent"></div>
@@ -267,6 +267,90 @@
                         </div>
 
                         <div class="form-block-rcl default-field customServisInput emptyState">
+
+                            <div class="formLabel">Имя</div>
+
+                            <div class="formContentReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+
+                        <div class="form-block-rcl default-field customServisInput emptyState">
+
+                            <div class="formLabel">Отчество</div>
+
+                            <div class="formContentReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+
+                        <div class="form-block-rcl default-field customServisInput emptyState">
+
+                            <div class="formLabel">Телефон</div>
+
+                            <div class="formContentReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+
+                        <div class="form-block-rcl default-field customServisInput connectedPass emptyState">
+
+                            <div class="formLabel">Пароль</div>
+
+                            <div class="formContentReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+
+                        <div class="form-block-rcl default-field customServisInput connectedPass emptyState">
+
+                            <div class="formLabel">Подтвердите пароль</div>
+
+                            <div class="formContentReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+                        <div class="inputHint">Пароли совпадают</div>
+
+
+
+
+                        <!-- <div class="form-block-rcl default-field customServisInput emptyState">
 
                             <div class="passwordInputerImager">
                                 <img src="assets/all/View.svg" height="31px" width="24px" class="passwordShower"/>
@@ -285,14 +369,14 @@
 
 
                                 <input required type="password" name="user_pass" class="customServisInputMain">
-                                <!-- <i class="rcli fa-user"></i>
-                                <span class="required">*</span> -->
+                                <i class="rcli fa-user"></i>
+                                <span class="required">*</span>
 
 
                             </div>
 
                 
-                        </div>
+                        </div> -->
 
 
 
@@ -337,33 +421,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="enterBackSubmit">
-                <div class="submitButton">Войти</div>
-                <div id="enterBackSubmitForget">Забыли пароль?</div>
-                <div id="enterBackSubmitReg">Регистрация</div>
             </div>
 
-
-
-            </div>
-
-            
+            <div class="submitButton">Зарегистрироваться</div>
         </div>
     </div>
 

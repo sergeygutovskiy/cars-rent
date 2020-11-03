@@ -41,6 +41,7 @@ window.addEventListener('DOMContentLoaded', () => {
             (() => {
                 
                 inputs[elem].addEventListener('click', (e) => {
+                    
                     if (!inputs[elem].classList.contains('activeState')) {
                         let state = getState(inputs[elem]);
 
@@ -61,6 +62,34 @@ window.addEventListener('DOMContentLoaded', () => {
                         }
                     } else {
                         inputContents[elem].focus();
+                    }
+                });
+
+            })()
+        }
+    } catch (e) {
+        console.log(e);
+    }
+
+    try {
+        for (let elem in inputContents) {
+            (() => {
+                
+                inputContents[elem].addEventListener('focus', (e) => {
+                    
+                    if (!inputContents[elem].value) {
+                        inputResets[elem].style.display = "none";
+                    } else {
+                        inputResets[elem].style.display = "block";
+                    }
+                });
+
+                inputContents[elem].addEventListener('input', (e) => {
+                    
+                    if (!inputContents[elem].value) {
+                        inputResets[elem].style.display = "none";
+                    } else {
+                        inputResets[elem].style.display = "block";
                     }
                 });
 
@@ -95,6 +124,48 @@ window.addEventListener('DOMContentLoaded', () => {
         console.log(e);
     }
 
+
+    let passCheck = document.getElementsByClassName('connectedPass');
+
+    passCheck[0].addEventListener('input', () => {
+        if (passCheck[1].getElementsByTagName('input')[0].value != passCheck[0].getElementsByTagName('input')[0].value) {
+            if (passCheck[1].classList.contains('correctPassword')) {
+                passCheck[1].classList.remove('correctPassword');
+                document.getElementsByClassName('inputHint')[0].classList.remove('correctInputHint');
+                document.getElementsByClassName('inputHint')[0].innerHTML = "Пароли не совпадают!";
+            }
+            passCheck[1].classList.add('incorrectPassword');
+            document.getElementsByClassName('inputHint')[0].classList.add('incorrectInputHint');
+        } else {
+            if (passCheck[1].classList.contains('incorrectPassword')) {
+                passCheck[1].classList.remove('incorrectPassword');
+                document.getElementsByClassName('inputHint')[0].classList.remove('incorrectInputHint');
+                document.getElementsByClassName('inputHint')[0].innerHTML = "Пароли совпадают!";
+            }
+            passCheck[1].classList.add('correctPassword');
+            document.getElementsByClassName('inputHint')[0].classList.add('correctInputHint');
+        }
+    })
+
+    passCheck[1].addEventListener('input', () => {
+        if (passCheck[1].getElementsByTagName('input')[0].value != passCheck[0].getElementsByTagName('input')[0].value) {
+            if (passCheck[1].classList.contains('correctPassword')) {
+                passCheck[1].classList.remove('correctPassword');
+                document.getElementsByClassName('inputHint')[0].classList.remove('correctInputHint');
+                document.getElementsByClassName('inputHint')[0].innerHTML = "Пароли не совпадают!";
+            }
+            passCheck[1].classList.add('incorrectPassword');
+            document.getElementsByClassName('inputHint')[0].classList.add('incorrectInputHint');
+        } else {
+            if (passCheck[1].classList.contains('incorrectPassword')) {
+                passCheck[1].classList.remove('incorrectPassword');
+                document.getElementsByClassName('inputHint')[0].classList.remove('incorrectInputHint');
+                document.getElementsByClassName('inputHint')[0].innerHTML = "Пароли совпадают!";
+            }
+            passCheck[1].classList.add('correctPassword');
+            document.getElementsByClassName('inputHint')[0].classList.add('correctInputHint');
+        }
+    })
     
     document.getElementById('enterBackSubmitReg').addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[0].style.opacity = '0';

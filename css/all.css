@@ -815,13 +815,20 @@ h3 {
     opacity: 0;
     width: 100%;
     height: 100%;
+    /* height: max-content; */
     position: fixed;
     top: 0;
     left: 0;
     z-index: 5;
     background: rgba(53, 49, 104, 0.3);
-    align-items: center;
+    align-items: top;
     justify-content: center;
+    overflow: auto;
+    padding-top: calc(50vh - 230px - 50px);
+}
+
+.regAbsoluted {
+    padding-top: calc(50vh - 368px - 50px);
 }
 
 .enterBack {
@@ -837,6 +844,10 @@ h3 {
     background: #FFFFFF;
     box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.04);
     border-radius: 32px;
+}
+
+.regBack {
+    height: 736px;
 }
 
 .enterBackContentBox {
@@ -883,6 +894,17 @@ h3 {
     height: 64px;
     left: 0;
     top: 332px;
+    margin-left: unset;
+}
+
+.regBack .submitButton {
+    position: absolute;
+    width: 290px;
+    height: 64px;
+    left: 0;
+    bottom: 15px;
+    top: unset;
+    left: calc(50% - 145px);
     margin-left: unset;
 }
 
@@ -1043,6 +1065,10 @@ h3 {
     position: relative;
     cursor: pointer;
     transition: .3s;
+}
+
+.regBack .customServisInput {
+    margin-bottom: 10px;
 }
 
 .customServisInput:hover {
@@ -1228,6 +1254,73 @@ h3 {
     width: 175px;
 }
 
+.correctPassword.customServisInput{
+    border: 2px solid #00966D;
+}
+
+.correctPassword .formLabel{
+    color: #00966D;
+}
+
+.correctPassword.formContentReset{
+    background-color: #00966D;
+    border: 2px solid #00966D;
+}
+
+.incorrectPassword.customServisInput{
+    border: 2px solid #C30052;
+}
+
+.incorrectPassword .formLabel{
+    color: #C30052;
+}
+
+.incorrectPassword.formContentReset{
+    background-color: #C30052;
+    border: 2px solid #C30052;
+}
+
+.inputHint {
+    opacity: 0;
+    transition: .3s;
+}
+
+.correctInputHint {
+    position: absolute;
+    width: 178px;
+    height: 17px;
+    left: 0px;
+    bottom: -10px;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    opacity: 1;
+    transition: .3s;
+    color: #00966D;
+}
+
+
+.incorrectInputHint {
+    position: absolute;
+    width: 178px;
+    height: 17px;
+    left: 0px;
+    bottom: -10px;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    opacity: 1;
+    transition: .3s;
+    color: #C30052;
+}
 
 /* vars */
 
