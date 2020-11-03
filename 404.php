@@ -142,7 +142,7 @@
                 <div id="navLogoContent" class="grey"><i class="fas fa-map-marker-alt"></i> <span id="geolocation">&nbsp;Санкт-петербург</span></div>
             </div>
             <div id="navContent">
-                <a href="about.html"><p class="navContentText blue">О компании</p></a>
+                <p class="navContentText blue">О компании</p>
                 <p class="navContentText blue">Арендовать</p>
                 <p class="navContentText blue">Сдать</p>
             </div>

@@ -1,0 +1,392 @@
+
+#selectContent {
+    position: relative;
+    width: 1200px;
+    height: max-content;
+    /* height: 1500px; */
+    margin: auto;
+    margin-top: 30px;
+    /* background-color: teal; */
+}
+
+#stickyBlock {
+    /* margin-top: 20px; */
+    width: 320px;
+    height: max-content;
+    /* position: sticky;
+    position: -webkit-sticky; */
+    position: absolute;
+    /* top: 20px; */
+    /* bottom: 20px; */
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    padding-bottom: 24px;
+    box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.04);
+    border-radius: 32px;
+}
+
+#selectMainContainer {
+    width: 860px;
+    height: max-content;
+    /* float: right;
+    clear: left; */
+    margin-left: 340px;
+    position: relative;
+    top: 0;
+    right: 0;
+    /* background-color: tomato; */
+}
+
+#selectSort {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    justify-content: left;
+    /* background-color: yellow; */
+}
+
+#selectMain {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#selectMain .swiper-slide{
+    width: 276px;
+    height: 350px;
+    min-height: max-content;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
+
+#selectMain .swiper-slide:nth-child(3n+1){
+    margin-left: 0px;
+}
+
+#selectMain .swiperSlideName{
+    margin-top: -80px;
+    max-height: 80px;
+    overflow: hidden;
+    line-height: 25px;
+}
+
+.selectSortElemBlock {
+    width: max-content;
+    height: max-content;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    justify-content: left;
+}
+
+.selectSortElemBlock:hover .selectSortElem {
+    transition: .3s;
+    color: #4E4B66;
+}
+
+.selectSortElemBlock:hover i {
+    transition: .3s;
+    color: rgba(78, 75, 102, .7);
+}
+
+.selectSortElem {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+    transition: .3s;
+}
+
+.selectSortElemBlock i {
+    margin-left: 5px;
+    margin-top: 1px;
+    color: rgba(121, 147, 175, .7);
+    transition: .3s;
+}
+
+.pointChoice {
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+    height: 30px;
+    margin: auto;
+    margin-top: 40px;
+    /* background-color: yellowgreen; */
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.pointChoiceText {
+    margin-left: 16px;
+    cursor: pointer;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #6E7191;
+    transition: .3s;
+}
+
+.pointChoiceText:nth-child(1) {
+    margin-left: 0px;
+}
+
+.pointChoiceText:hover {
+
+    color: #07273F;
+    transition: .3s;
+}
+
+.pointChoiceMarker {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: calc(50% - 8px);
+    bottom: 0;
+    border-radius: 4px;
+    /* dark grey */
+
+    background: #07273F;
+    transition: .3s;
+    
+}
+
+.activePoint {
+    color: #07273F;
+}
+
+.categoryInputContainer {
+    width: 100%;
+    max-height: 50px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    transition: .3s;
+}
+
+.activeCategoryInputContainer {
+    transition: .4s;
+    max-height: 300px;
+    /* overflow: visible; */
+}
+
+.activeCategoryInputContainer .categoryInput{
+    border: 2px solid #2997EE;
+    transition: .3s;
+}
+
+.categoryInput {
+    margin: auto;
+    width: 254px;
+    height: 50px;
+    border: 2px solid #F7F7FC;
+    background: #F7F7FC;
+    border-radius: 8px;
+    transition: .3s;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.categoryInput:hover {
+    border: 2px solid #2997EE;
+    transition: .3s;
+}
+
+.categoryInputText {
+    width: 173px;
+    height: 20px;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.categoryInputMarker {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #2997EE;
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.categoryInputContent {
+    /* margin-left: -22px; */
+    margin: auto;
+    margin-top: 4px;
+    width: 254px;
+    height: max-content;
+    padding: 24px;
+    background: #EFF0F6;
+    border-radius: 8px;
+}
+
+.categoryInputContentItem:nth-child(1) {
+    margin-top: 0px;
+}
+
+.categoryInputContentItem {
+    margin-top: 20px;
+    width: 192px;
+    height: 20px;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.categoryInputContentItem:hover {
+    color: #07273F;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+/* Customize the label (the container) */
+.container {
+    margin: auto;
+    display: block;
+    position: relative;
+    padding-left: 36px;
+    padding-top: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* dark grey */
+
+    color: #07273F;
+    margin-left: 35px;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 26px;
+    width: 25px;
+    background-color:  #D6D8E6;
+    border-radius: 50%;
+    transition: .2s;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #2997EE;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2997EE;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 6.5px;
+    left: 6.5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .resetCategories {
+    margin-top: 39px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    
+    /* light grey */
+    
+    color: #7993AF;
+    width: max-content;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .resetCategories:hover {
+    color: #07273F;
+    transition: .3s;
+  }
