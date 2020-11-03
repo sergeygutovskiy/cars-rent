@@ -15,31 +15,212 @@
     <script src="js/swiper.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="js/mainInput.js"></script>
+    <script src="js/login_registration.js"></script>
 
 </head>
 <body>
 
-    <!-- <div class="absoluted">
-        <div id="enterBack">
+    <div class="absoluted">
+        <div class="enterBack">
             <div id="enterBackClose"><i class="fas fa-times"></i></div>
-            <div id="enterBackMain">Вход</div>
 
-            <div id="enterBackContent">
+
+            <div class="enterBackContentBox">
+
+
+
+                <div id="enterBackMain">Вход</div>
+
+            <!-- <div id="enterBackContent">
                 <div class="normalisedInput">
                     <input type="text" id="enterEmail" />
                     <div class="inactiveNormalisedText">Телефон или e-mail</div>
                 </div>
 
                 <div class="normalisedInput"></div>
-            </div>
+            </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <?php
+                global $typeform;
+                if ( ! $typeform || $typeform == 'sign' )
+                    $f_sign = 'style="display:block;"';
+                ?> -->
+
+                <div class="form-tab-rcl" id="login-form-rcl"> 
+                 <!-- внутри -->
+                <!-- <?php echo $f_sign; ?>
+                    > -->
+                    <div class="form_head">
+                        <div class="form_auth form_active">
+                            <!-- <?php _e( 'Authorization', 'wp-recall' ); ?> -->
+                        </div>
+                        <!-- <?php if ( rcl_is_register_open() ): ?> -->
+                            <div class="form_reg">
+                                <!-- <?php if ( ! $typeform ) { ?><a href="#" class="link-register-rcl link-tab-rcl "><?php _e( 'Registration', 'wp-recall' ); ?></a><?php } ?> -->
+                            </div>
+                        <!-- <?php endif; ?> -->
+                    </div>
+
+                    <div class="form-block-rcl">
+                        <!-- <?php rcl_notice_form( 'login' ); ?> -->
+                    </div>
+
+                    <!-- <?php $user_login	 = (isset( $_REQUEST['user_login'] )) ? wp_strip_all_tags( $_REQUEST['user_login'], 0 ) : ''; ?>
+                    <?php $user_pass	 = (isset( $_REQUEST['user_pass'] )) ? wp_strip_all_tags( $_REQUEST['user_pass'], 0 ) : ''; ?> -->
+
+
+
+
+
+
+                    <form action="<?php rcl_form_action( 'login' ); ?>" method="post">
+
+
+                        <div class="form-block-rcl default-field customServisInput emptyState">
+
+                            <div class="formLabel">Телефон или e-mail</div>
+
+                            <div class="formContentReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+
+                        <div class="form-block-rcl default-field customServisInput emptyState">
+
+                            <div class="passwordInputerImager">
+                                <img src="assets/all/View.svg" height="31px" width="24px" class="passwordShower"/>
+                            </div>
+
+                            <div class="passwordInputer">
+
+
+                                <div class="formLabel">Пароль</div>
+
+                                <div class="formContentReset">
+                                    <div class="formContentResetContent"></div>
+                                    <div class="formContentResetContent"></div>
+                                </div>
+
+
+
+                                <input required type="password" name="user_pass" class="customServisInputMain">
+                                <!-- <i class="rcli fa-user"></i>
+                                <span class="required">*</span> -->
+
+
+                            </div>
+
+                
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                        
+                        <!-- <div class="form-block-rcl default-field">
+                            <input required type="password" name="user_pass">
+                            <i class="rcli fa-lock"></i>
+                            <span class="required">*</span>
+                        </div> -->
+
+
+
+
+
+                        
+                        <!-- <div class="form-block-rcl">
+                            <?php do_action( 'login_form' ); ?>
+
+                            <div class="default-field rcl-field-input type-checkbox-input">
+                                <div class="rcl-checkbox-box">
+                                    <input type="checkbox" id="chck_remember" class="checkbox-custom" value="1" name="rememberme">
+                                    <label class="block-label" for="chck_remember">
+                                        <?php _e( 'Remember', 'wp-recall' ); ?>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-block-rcl">
+                            <?php
+                            echo rcl_get_button( array(
+                                'label'		 => __( 'Entry', 'wp-recall' ),
+                                'submit'	 => true,
+                                'fullwidth'	 => true,
+                                'size'		 => 'medium',
+                                'icon'		 => 'fa-sign-in',
+                                'class'		 => 'link-tab-form'
+                            ) );
+                            ?>
+                            <a href="#" class="link-remember-rcl link-tab-rcl ">
+                                <?php _e( 'Lost your Password', 'wp-recall' ); // Забыли пароль            ?>
+                                ?
+                            </a>
+                            <?php echo wp_nonce_field( 'login-key-rcl', 'login_wpnonce', true, false ); ?>
+                            <input type="hidden" name="redirect_to" value="<?php rcl_referer_url( 'login' ); ?>">
+                        </div> -->
+
+
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <div id="enterBackSubmit">
                 <div class="submitButton">Войти</div>
                 <div id="enterBackSubmitForget">Забыли пароль?</div>
                 <div id="enterBackSubmitReg">Регистрация</div>
             </div>
+
+
+
+            </div>
+
+            
         </div>
-    </div> -->
+    </div>
 
     <!-- <div class="absoluted"></div> -->
 
@@ -60,7 +241,7 @@
                         <div class="langBlock lightGrey activeLangBlock"><p>Ru</p></div>
                         <div class="langBlock lightGrey"><p>En</p></div>
                     </div> -->
-                    <div id="enter" class="blue"><div id="animateEnter"></div><p>Войти</p></div>
+                    <div class="enter blue"><div id="animateEnter"></div><p>Войти</p></div>
                 </div>
     
                 <div id="absolutedHamburgerClose">
@@ -102,7 +283,7 @@
                     <div class="langBlock lightGrey activeLangBlock"><p>Ru</p></div>
                     <div class="langBlock lightGrey"><p>En</p></div>
                 </div>
-                <div id="enter" class="blue"><div id="animateEnter"></div><p>Войти</p></div>
+                <div class="enter blue"><div id="animateEnter"></div><p>Войти</p></div>
             </div>
 
             <div id="hamburger"></div>

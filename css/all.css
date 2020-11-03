@@ -11,7 +11,7 @@ body {
     background-color: #F5F6F9;
     font-family: 'Commissioner', sans-serif;
     font-size: 16px;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     max-width: 100%;
     position: relative;
 }
@@ -231,7 +231,7 @@ h3 {
     height: 30px;
 }
 
-#enter {
+.enter {
     width: 70px;
     border-left: 2px solid #E1E3EC;
     height: 30px;
@@ -244,11 +244,11 @@ h3 {
     position: relative;
 }
 
-#enter p{
+.enter p{
     position: relative;
 }
 
-#enter:hover  #animateEnter{
+.enter:hover  #animateEnter{
     width: 100%;
     transition: .3s;
     z-index: 0;
@@ -805,6 +805,9 @@ h3 {
 /* absolute */
 
 .absoluted {
+    display: none;
+    transition: .3s;
+    opacity: 0;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -812,22 +815,31 @@ h3 {
     left: 0;
     z-index: 5;
     background: rgba(53, 49, 104, 0.3);
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#enterBack {
+.enterBack {
     position: relative;
     /* z-index: 6; */
     width: 480px;
     height: 460px;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 24px;
+    margin-left: 24px;
 
     background: #FFFFFF;
     box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.04);
     border-radius: 32px;
+}
+
+.enterBackContentBox {
+    position: relative;
+    width: 290px;
+    height: 100%;
+    /* background-color: red; */
+    margin: auto;
 }
 
 #enterBackClose {
@@ -842,7 +854,7 @@ h3 {
 
 #enterBackMain {
     position: absolute;
-    left: calc(50% - 91px/2 - 117.5px);
+    left: 20px;
     top: 70px;
 
     font-family: Commissioner;
@@ -859,19 +871,20 @@ h3 {
     color: #07273F;
 }
 
-#enterBack .submitButton {
+.enterBack .submitButton {
     position: absolute;
-    width: 214px;
+    width: 176px;
     height: 64px;
-    left: calc(50% - 214px/2 - 56px);
+    left: 0;
     top: 332px;
+    margin-left: unset;
 }
 
 #enterBackSubmitForget {
     position: absolute;
     width: 95px;
     height: 15px;
-    left: calc(50% - 95px/2 + 114.5px);
+    right: 4px;
     top: 359px;
 
     font-family: Commissioner;
@@ -903,8 +916,18 @@ h3 {
 
     text-align: center;
     letter-spacing: 0.02em;
+    cursor: pointer;
 
     color: #6E7191;
+
+    transition: .3s;
+}
+
+#enterBackSubmitReg:hover {
+
+    color: #2997EE;
+
+    transition: .3s;
 }
 
 #enterBackContent {
@@ -993,6 +1016,212 @@ h3 {
     width: 100%;
     transition: .3s;
 }
+
+/* login and registration */
+
+.form-tab-rcl {
+    width: 290px;
+    height: max-content;
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 290px/2);
+}
+
+.customServisInput {
+    width: 290px;
+    height: 64px;
+    background: #EFF0F6;
+    border: 2px solid #EFF0F6;
+    border-radius: 16px;
+    margin-bottom: 18px;
+    position: relative;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.customServisInput:hover {
+    border: 2px solid #2A97F0;
+    transition: .3s;
+}
+
+.formLabel {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #A0A3BD;
+    width: 277px;
+    display: block;
+    height: 17px;
+    padding-left: 24px;
+    margin-top: 20px;
+    /* justify-content: center; */
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+
+.formContentReset {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 26px;
+    right: 16px;
+    transition: .3s;
+}
+
+.formContentReset:hover .formContentResetContent {
+    background-color: #2A97F0;
+    border: 1px solid #2A97F0;
+    transition: .3s;
+}
+
+.formContentResetContent {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 0px;
+    top: -4px;
+    background-color: #A0A3BD;
+    border: 1px solid #A0A3BD;
+    transform: rotate(-135deg);
+}
+
+.formContentResetContent:nth-child(2) {
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 0px;
+    top: unset;
+    bottom: 0;
+
+    border: 1px solid #A0A3BD;
+    transform: rotate(-45deg);
+}
+
+.customServisInputMain {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+    
+    border: none;
+    background: none;
+    width: 220px;
+    height: 20px;
+    position: absolute;
+    bottom: 6px;
+    left: 24px;
+
+    color: #14142B;
+}
+
+.emptyState {
+    overflow: hidden;
+}
+
+.emptyState .formContentReset, .emptyState .customServisInputMain {
+    display: none;
+}
+
+.activeState .formContentReset, .activeState .customServisInputMain {
+    display: block;
+}
+
+.notEmptyUnfocusedState .customServisInputMain {
+    display: block;
+}
+
+.notEmptyUnfocusedState .formContentReset {
+    opacity: 0;
+}
+
+.notEmptyUnfocusedState {
+    overflow: hidden;
+    border: 2px solid inherit;
+    transition: .3s;
+}
+
+.notEmptyUnfocusedState .formLabel {
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    height: 17px;
+    margin-top: 9px;
+    letter-spacing: 0.02em;
+    display: block;
+    align-items: unset;
+    padding-left: 24px;
+
+    color: #6E7191;
+    transition: .3s;
+}
+
+.activeState {
+    overflow: hidden;
+    border: 2px solid #2A97F0;
+    transition: .3s;
+}
+
+.activeState .formLabel {
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    height: 17px;
+    margin-top: 9px;
+    letter-spacing: 0.02em;
+    display: block;
+    align-items: unset;
+    padding-left: 24px;
+
+    color: #6E7191;
+    transition: .3s;
+}
+
+.passwordInputer {
+    position: relative;
+    top: 0;
+    left: 0;
+    float: right;
+    width: calc(100% - 65px);
+    height: 100%;
+    /* padding-left: 65px; */
+}
+
+.passwordInputerImager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lawngreen; */
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 65px;
+    height: 100%;
+    /* padding-left: 65px; */
+}
+
+.passwordInputer .formLabel {
+    padding-left: 0;
+}
+
+.passwordInputer input {
+    left: 0;
+    width: 175px;
+}
+
 
 /* vars */
 
@@ -1152,7 +1381,7 @@ h3 {
         left: 0;
     }
     
-    #enter {
+    .enter {
         float: left;
         clear: unset;
         margin-left: 25px;
@@ -1521,7 +1750,7 @@ h3 {
         left: 0;
     }
     
-    #enter {
+    .enter {
         float: left;
         clear: unset;
         margin-left: 25px;

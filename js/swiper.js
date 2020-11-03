@@ -16,6 +16,10 @@ window.addEventListener('DOMContentLoaded', () => {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
+
+        autoplay: {
+          delay: 4000,
+        },
       
         breakpoints: {
           // when window width is >= 320px

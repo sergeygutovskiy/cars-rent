@@ -18,6 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
         for (let elem in pointChoice) {
             (() => {
                     pointChoice[elem].addEventListener('click', () => {
+                        document.getElementsByClassName('resetCategories')[0].click();
                         if (elem != activePoint) {
                             pointChoice[elem].classList.toggle('activePoint');
                             pointChoice[activePoint].classList.toggle('activePoint');
@@ -35,6 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let categories = document.getElementsByClassName('categoryInputContainer');
     let categoriesNames = ["Цена", "Марка", "Класс", "Категория", "Коробка", "Двигатель"];
     let categoriesText = document.getElementsByClassName('categoryInputText');
+    let categoriesMarkers = document.getElementsByClassName('categoryInputMarker');
     let activatedCategories = 0;
 
     let categoriesContent = document.getElementsByClassName('categoryInputContentItem');
@@ -55,6 +57,9 @@ window.addEventListener('DOMContentLoaded', () => {
                         }
                         if (categories[elem].classList.contains('activeCategoryInputContainer')) {
                             categoriesText[elem].innerHTML = categoriesNames[elem];
+                            categoriesMarkers[elem].innerHTML = "<i class='fas fa-angle-up'></i>";
+                        } else {
+                            categoriesMarkers[elem].innerHTML = "<i class='fas fa-angle-down'></i>";
                         }
                     });
             })()

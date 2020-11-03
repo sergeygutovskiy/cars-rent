@@ -109,7 +109,7 @@
                         <div class="langBlock lightGrey activeLangBlock"><p>Ru</p></div>
                         <div class="langBlock lightGrey"><p>En</p></div>
                     </div> -->
-                    <div id="enter" class="blue"><div id="animateEnter"></div><p>Войти</p></div>
+                    <div class="enter blue"><div id="animateEnter"></div><p>Войти</p></div>
                 </div>
     
                 <div id="absolutedHamburgerClose">
@@ -151,7 +151,7 @@
                     <div class="langBlock lightGrey activeLangBlock"><p>Ru</p></div>
                     <div class="langBlock lightGrey"><p>En</p></div>
                 </div>
-                <div id="enter" class="blue"><div id="animateEnter"></div><p>Войти</p></div>
+                <div class="enter blue"><div id="animateEnter"></div><p>Войти</p></div>
             </div>
 
             <div id="hamburger"></div>

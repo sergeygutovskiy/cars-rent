@@ -174,7 +174,8 @@
 }
 
 .categoryInputContainer {
-    width: 100%;
+    margin: auto;
+    width: max-content;
     max-height: 50px;
     overflow: hidden;
     margin-bottom: 16px;
