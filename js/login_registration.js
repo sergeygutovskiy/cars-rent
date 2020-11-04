@@ -36,6 +36,47 @@ window.addEventListener('DOMContentLoaded', () => {
         console.log(e);
     }
 
+    let passResets = document.getElementsByClassName('passReset');
+
+    try {
+        for (let elem in passResets) {
+            (() => {
+                
+                passResets[elem].addEventListener('click', (event) => {
+                   
+                    if (passCheck[1].getElementsByTagName('input')[0].value != passCheck[0].getElementsByTagName('input')[0].value) {
+                        if (passCheck[1].classList.contains('correctPassword')) {
+                            passCheck[1].classList.remove('correctPassword');
+                            document.getElementsByClassName('inputHint')[0].classList.remove('correctInputHint');
+                            document.getElementsByClassName('inputHint')[0].innerHTML = "Пароли не совпадают!";
+                        }
+                        passCheck[1].classList.add('incorrectPassword');
+                        document.getElementsByClassName('inputHint')[0].classList.add('incorrectInputHint');
+                    } else if (!passCheck[1].getElementsByTagName('input')[0].value || !passCheck[0].getElementsByTagName('input')[0].value) {
+                        passCheck[1].classList.remove('incorrectPassword');
+                        document.getElementsByClassName('inputHint')[0].classList.remove('incorrectInputHint');
+                        passCheck[1].classList.remove('correctPassword');
+                        document.getElementsByClassName('inputHint')[0].classList.remove('correctInputHint');
+                    } else {
+                        if (passCheck[1].classList.contains('incorrectPassword')) {
+                            passCheck[1].classList.remove('incorrectPassword');
+                            document.getElementsByClassName('inputHint')[0].classList.remove('incorrectInputHint');
+                            document.getElementsByClassName('inputHint')[0].innerHTML = "Пароли совпадают!";
+                        }
+                        passCheck[1].classList.add('correctPassword');
+                        document.getElementsByClassName('inputHint')[0].classList.add('correctInputHint');
+                    }
+
+                });
+
+            })()
+        }
+    } catch (e) {
+        console.log(e);
+    }
+
+
+
     try {
         for (let elem in inputs) {
             (() => {
@@ -136,6 +177,11 @@ window.addEventListener('DOMContentLoaded', () => {
             }
             passCheck[1].classList.add('incorrectPassword');
             document.getElementsByClassName('inputHint')[0].classList.add('incorrectInputHint');
+        } else if (!passCheck[1].getElementsByTagName('input')[0].value || !passCheck[0].getElementsByTagName('input')[0].value) {
+            passCheck[1].classList.remove('incorrectPassword');
+            document.getElementsByClassName('inputHint')[0].classList.remove('incorrectInputHint');
+            passCheck[1].classList.remove('correctPassword');
+            document.getElementsByClassName('inputHint')[0].classList.remove('correctInputHint');
         } else {
             if (passCheck[1].classList.contains('incorrectPassword')) {
                 passCheck[1].classList.remove('incorrectPassword');
@@ -156,6 +202,11 @@ window.addEventListener('DOMContentLoaded', () => {
             }
             passCheck[1].classList.add('incorrectPassword');
             document.getElementsByClassName('inputHint')[0].classList.add('incorrectInputHint');
+        } else if (!passCheck[1].getElementsByTagName('input')[0].value || !passCheck[0].getElementsByTagName('input')[0].value) {
+            passCheck[1].classList.remove('incorrectPassword');
+            document.getElementsByClassName('inputHint')[0].classList.remove('incorrectInputHint');
+            passCheck[1].classList.remove('correctPassword');
+            document.getElementsByClassName('inputHint')[0].classList.remove('correctInputHint');
         } else {
             if (passCheck[1].classList.contains('incorrectPassword')) {
                 passCheck[1].classList.remove('incorrectPassword');
@@ -166,6 +217,9 @@ window.addEventListener('DOMContentLoaded', () => {
             document.getElementsByClassName('inputHint')[0].classList.add('correctInputHint');
         }
     })
+
+
+
     
     document.getElementById('enterBackSubmitReg').addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[0].style.opacity = '0';
@@ -178,21 +232,29 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('regBackClose').addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[1].style.opacity = '0';
         setTimeout(() => {document.getElementsByClassName('absoluted')[1].style.display = 'none';}, 300)
+        document.body.style.overflowY = "auto";
+        document.body.style.height = "max-content";
     });
 
     document.getElementById('enterBackClose').addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[0].style.opacity = '0';
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.display = 'none';}, 300)
+        document.body.style.overflowY = "auto";
+        document.body.style.height = "max-content";
     });
 
     document.getElementsByClassName('enter')[0].addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[0].style.display = 'flex';
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.opacity = '1';}, 300)
+        document.body.style.overflowY = "hidden";
+        document.body.style.height = "100vh";
     });
 
     document.getElementsByClassName('enter')[1].addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[0].style.display = 'flex';
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.opacity = '1';}, 300)
+        document.body.style.overflowY = "hidden";
+        document.body.style.height = "100vh";
     });
 
 });

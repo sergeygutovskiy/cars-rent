@@ -318,7 +318,7 @@
 
                             <div class="formLabel">Пароль</div>
 
-                            <div class="formContentReset">
+                            <div class="formContentReset passReset">
                                 <div class="formContentResetContent"></div>
                                 <div class="formContentResetContent"></div>
                             </div>
@@ -334,7 +334,7 @@
 
                             <div class="formLabel">Подтвердите пароль</div>
 
-                            <div class="formContentReset">
+                            <div class="formContentReset passReset">
                                 <div class="formContentResetContent"></div>
                                 <div class="formContentResetContent"></div>
                             </div>
