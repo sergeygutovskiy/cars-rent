@@ -1,0 +1,574 @@
+
+#allPageContent {
+    width: 1204px;
+    margin: auto;
+    height: max-content;
+    min-height: 200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.carPageCarGallery {
+    width: 500px;
+    height: max-content;
+    position: relative;
+}
+
+.galleryName {
+    height: max-content;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.carGallery {
+    width: 100%;
+    height: calc(100% - 40px);
+    position: relative;
+}
+
+.galleryMain {
+    width: 500px;
+    height: 320px;
+    margin: auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    transition: opacity .2s;
+}
+
+.galleryMain:hover .galleryMainController {
+    transition: .3s;
+    opacity: 1;
+}
+
+.galleryMainController {
+    transition: .3s;
+    opacity: 0;
+    color: white;
+    font-size: 26px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+/* .galleryMainController:hover {
+    color: #2997EE;
+} */
+
+.galleryMainController:nth-child(1) {
+    position: absolute;
+    left: 20px;
+    top: calc(50% - 13px);
+}
+
+.galleryMainController:nth-child(2) {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 13px);
+}
+
+/* .galleryMain img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+} */
+
+.gallerySwiper {
+    width: 100%;
+    height: calc(100% - 320px);
+    height: unset !important;
+}
+
+.gallery-swiper-container {
+    margin-top: 10px;
+    overflow: hidden;
+    height: unset !important;
+}
+
+.gallerySwiper .swiper-wrapper {
+    margin-top: unset;
+    height: unset !important;
+}
+
+.gallerySwiper .swiper-slide {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    /* background-size: auto; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    transition: .2s;
+}
+
+.gallerySwiper .swiper-slide:hover {
+    transition: .2s;
+    opacity: .9;
+}
+
+.galleryNameMain {
+    width: 340px;
+    height: max-content;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.galleryNameAdd {
+    margin-top: -22px;
+    width: 130px;
+    height: 28px;
+    float: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+
+    letter-spacing: 0.03em;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
+.galleryNameAddPrice {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.carDescription {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 670px;
+    height: max-content;
+    min-height: 200px;
+}
+
+#allPageContent #mainInputBlock {
+    margin-top: unset;
+    width: 673px;
+    height: 88px;
+}
+
+#allPageContent .submitButton {
+    width: 193px;
+    border-radius: 8px;
+}
+
+.carDescriptionMain {
+    width: 658px;
+    margin-top: 32px;
+    margin-left: 15px;
+    height: max-content;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.carDescriptionMainBlock {
+    width: 213px;
+    margin-bottom: 32px;
+    height: 60px;
+    position: relative;
+}
+
+.carDescriptionMainBlockImg {
+    width: 60px;
+    height: 60px;
+    background: #D9D9D9;
+}
+
+.carDescriptionMainBlockDesc {
+    position: absolute;
+    top: 10px;
+    left: 78px;
+    width: 135px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
+.carDescriptionMainBlockMain {
+    position: absolute;
+    top: 30px;
+    left: 78px;
+    width: 135px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.carDescriptionAdd {
+    margin-left: 15px;
+    width: 673px;
+    height: max-content;
+    position: relative;
+}
+
+.carDescriptionAddMain {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
+.carDescriptionAddContent {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.carDescriptionAddBlock {
+    height: 36px;
+    background: #EFF0F6;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.02em;
+
+    /* dark grey */
+
+    color: #07273F;
+    margin-left: 12px;
+}
+
+.carDescriptionAddBlock:nth-child(1) {
+    margin-left: 0px;
+}
+
+.aboutCar {
+    width: 500px;
+    height: max-content;
+    margin-top: 45px;
+    position: relative;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+
+    /* blue */
+
+    color: #2997EE;
+    margin-bottom: 24px;
+}
+
+.aboutCarText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+    margin-bottom: 65px;
+}
+
+.carMap {
+    margin-top: 45px;
+    width: 670px;
+    margin-left: 33px;
+    height: max-content;
+    margin-bottom: 65px;
+    position: relative;
+}
+
+.carMapContent {
+    width: 586px;
+    height: max-content;
+    float: right;
+}
+
+.mapHint {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.mapContent {
+    width: 586px;
+    height: 360px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(51, 51, 98, 0.04);
+    border-radius: 16px;
+}
+
+.ratingSystem {
+    width: 1204px;
+    height: max-content;
+}
+
+.ownerRating {
+    width: 100%;
+    height: max-content;
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.rateImg {
+    margin-top: 32px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background: #D9D9D9;
+}
+
+.rateName {
+    position: absolute;
+    bottom: 40px;
+    left: 95px;
+    width: 100%;
+    height: 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(7, 39, 63, 0.8);
+}
+
+.rateRating {
+    position: absolute;
+    bottom: 10px;
+    left: 95px;
+    width: 130px;
+    height: 20px;
+    background: #D9D9D9;
+}
+
+.ratesContent {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.rateBlock {
+    width: 538px;
+    height: max-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.rateBlock:nth-child(2n) {
+    margin-left: 128px;
+}
+
+.rateBlockImg {
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    background: #D9D9D9;
+}
+
+.rateBlockName {
+    position: absolute;
+    width: 300px;
+    height: 22px;
+    left: 75px;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(7, 39, 63, 0.8);
+}
+
+.rateBlockDate {
+    position: absolute;
+    width: 300px;
+    height: 12px;
+    left: 75px;
+    top: 28px;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
+.rateBlockText {
+    width: 462px;
+    height: 88px;
+    margin-left: 75px;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+}
+
+.rateBlockName {
+    position: absolute;
+    width: 300px;
+    height: 22px;
+    left: 75px;
+    top: 0;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(7, 39, 63, 0.8);
+}
+
+.rateBlockRating {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 130px;
+    height: 20px;
+    background: #D9D9D9;
+}
+
+.moreRates {
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: calc(50% - 150px);
+    bottom: 0;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.moreRates:hover {
+    transition: .2s;
+    color: #07273F;
+}
+
+.moreRates i{
+    font-size: 12px;
+}
+
+.rates {
+    position: relative;
+}
+
+#swiperHints {
+    width: 1204px;
+    margin: auto;
+}
+
+#swiperHints h4 {
+    margin-top: 60px;
+    margin-bottom: 12px;
+}
