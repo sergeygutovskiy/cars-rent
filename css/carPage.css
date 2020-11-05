@@ -41,6 +41,11 @@
 
 .galleryMain:hover .galleryMainController {
     transition: .3s;
+    opacity: .7;
+}
+
+.galleryMain .galleryMainController:hover {
+    transition: .3s;
     opacity: 1;
 }
 
@@ -481,7 +486,7 @@ h4 {
 
 .rateBlockText {
     width: 462px;
-    height: 88px;
+    /* height: 88px; */
     margin-left: 75px;
 
     font-family: Commissioner;
@@ -571,4 +576,221 @@ h4 {
 #swiperHints h4 {
     margin-top: 60px;
     margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1259px) {
+    #allPageContent {
+        width: 768px;
+        margin-top: 40px;
+    }
+
+    #mainInputBlock {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    #mainInputBlock .submitButton {
+        margin-right: 16px;
+        margin-top: -64px;
+    }
+
+    #inputFixerBlock {
+        padding-left: 10px;
+    }
+
+    .carMap {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .carMapContent {
+        float: left;
+    }
+
+    .rateBlock:nth-child(2n) {
+        margin-left: 0px;
+    }
+
+    .moreRates {
+        left: 119px;
+    }
+
+    #swiperHints {
+        width: 768px;
+    }
+
+    .carDescription {
+        margin-left: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    #allPageContent {
+        width: 312px;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    .aboutCarText {
+        font-size: 14px;
+    }
+
+    .mapHint {
+        font-size: 14px;
+    }
+
+    .galleryNameAdd {
+        float: unset;
+        margin-top: 13px;
+    }
+
+    .carPageCarGallery {
+        width: 312px;
+    }
+
+    .galleryMain {
+        width: 312px;
+        height: 198px;
+    }
+
+    .gallerySwiper .swiper-slide {
+        width: 56px !important;
+        height: 56px;
+    }
+
+    .carDescription {
+        margin-top: 10px;
+        width: 312px;
+    }
+
+    #allPageContent #mainInputBlock {
+        margin-top: unset;
+        width: 336px;
+        height: 210px;
+        margin-left: -12px;
+    }
+
+    #mainInputBlock .submitButton {
+        margin-right: unset;
+        margin: auto;
+        margin-top: 10px;
+        width: 312px;
+        border-radius: 16px;
+    }
+
+    #inputFixerBlock {
+        padding-left: 0px;
+    }
+
+    .inputLogo {
+        top: 18px;
+        right: 28px;
+    }
+
+    .carDescriptionMain {
+        width: 312px;
+        margin-left: 0;
+    }
+
+    .carDescriptionMainBlock {
+        width: 153px;
+    }
+
+    .carDescriptionMainBlockImg {
+        width: 40px;
+        height: 40px;
+        background: #D9D9D9;
+    }
+
+    .carDescriptionMainBlockDesc {
+        top: 3px;
+        left: 50px;
+        font-size: 10px;
+    }
+
+    .carDescriptionMainBlockMain {
+        top: 19px;
+        left: 50px;
+        font-size: 14px;
+    }
+
+    .carDescriptionAdd {
+        width: 312px;
+        margin-left: 0;
+    }
+
+    .carDescriptionAddBlock {
+        margin-left: 0px;
+        margin-bottom: 8px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .carMap {
+        width: 312px;
+    }
+
+    .carMapContent {
+        width: 312px;
+    }
+
+    .mapContent {
+        width: 312px;
+        height: 192px;
+    }
+
+    .ratingSystem {
+        width: 312px;
+    }
+
+    .rateBlock {
+        width: 312px;
+        margin-bottom: 32px;
+    }
+
+    .rateBlockRating {
+        /* width: 300px; */
+        left: 75px;
+        top: 50px;
+    }
+
+    .rateBlockText {
+        width: 237px;
+        height: unset;
+        margin-top: 30px;
+    }
+
+    .moreRates {
+        left: calc(50% - 150px);
+    }
+
+    #swiperHints {
+        width: 100%;
+    }
+
+    #swiperHints h4{
+        width: 312px;
+        margin-left: calc(50% - 156px);
+    }
+
 }

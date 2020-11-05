@@ -111,7 +111,7 @@ h3 {
     height: 12px;
     position: absolute;
     top: 22px;
-    right: 24px;
+    right: 0px;
     cursor: pointer;
 }
 
@@ -1363,6 +1363,24 @@ h3 {
 
 
 
+@media screen and (max-width: 999px) {
+    #absolutedHamburgerClose {
+        right: 24px !important;
+    }
+
+    #hamburger {
+        right: 24px !important;
+    }
+
+    .enter {
+        margin-left: 25px !important;
+    }
+}
+
+
+
+
+
 
 
 
@@ -1387,7 +1405,7 @@ h3 {
         border-bottom: 3px solid #2997EE;
         position: absolute;
         top: 22px;
-        right: 24px;
+        right: 0px;
     }
 
     #hamburger:hover {
@@ -1484,7 +1502,7 @@ h3 {
     .enter {
         float: left;
         clear: unset;
-        margin-left: 25px;
+        margin-left: 0px;
     }
     
     #lang {
@@ -1792,7 +1810,7 @@ h3 {
         border-bottom: 3px solid #2997EE;
         position: absolute;
         top: 22px;
-        right: 24px;
+        right: 0px;
     }
 
     #hamburger:hover {
@@ -1853,7 +1871,7 @@ h3 {
     .enter {
         float: left;
         clear: unset;
-        margin-left: 25px;
+        margin-left: 0px;
     }
     
     #lang {
