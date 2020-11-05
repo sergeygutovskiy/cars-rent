@@ -452,7 +452,8 @@
                         <div class="langBlock lightGrey activeLangBlock"><p>Ru</p></div>
                         <div class="langBlock lightGrey"><p>En</p></div>
                     </div> -->
-                    <div class="enter blue"><div id="animateEnter"></div><p>Войти</p></div>
+                    <div class="enter blue"><div class="animateEnter"></div><p>Войти</p></div>
+                    <div class="loggedEnter blue"><div class="animateEnter"></div><img src="assets/all/user.svg" /></div>
                 </div>
     
                 <div id="absolutedHamburgerClose">
@@ -479,7 +480,7 @@
 
     <div id="main">
 
-        <div id="nav">
+        <div id="nav" class="logged">
             <div id="navLogo">
                 <div id="navLogoImage"></div>
                 <div id="navLogoContent" class="grey"><i class="fas fa-map-marker-alt"></i> <span id="geolocation">&nbsp;Санкт-петербург</span></div>
@@ -494,7 +495,8 @@
                     <div class="langBlock lightGrey activeLangBlock"><p>Ru</p></div>
                     <div class="langBlock lightGrey"><p>En</p></div>
                 </div>
-                <div class="enter blue"><div id="animateEnter"></div><p>Войти</p></div>
+                <div class="enter blue"><div class="animateEnter"></div><p>Войти</p></div>
+                <div class="loggedEnter blue"><div class="animateEnter"></div><img src="assets/all/user.svg" /></div>
             </div>
 
             <div id="hamburger"></div>

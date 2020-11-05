@@ -651,6 +651,15 @@ h4 {
 
     .aboutCarText {
         font-size: 14px;
+        margin-bottom: 55px;
+    }
+
+    .carMap {
+        margin-bottom: 55px;
+    }
+
+    .aboutCar {
+        margin-top: 35px;
     }
 
     .mapHint {

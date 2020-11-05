@@ -461,7 +461,7 @@
     }
 
     #selectMain {
-        width: 276px;
+        width: 312px;
         margin: auto;
         margin-top: 60px;
     }
@@ -470,6 +470,15 @@
         width: 312px !important;
         height: 348px;
         margin-left: 0px;
+    }
+
+    .swiperSlideImage {
+        height: 176px;
+        background-size: cover;
+    }
+
+    .swiperSlideImage:hover {
+        height: 166px;
     }
 
     .selectFiltration {

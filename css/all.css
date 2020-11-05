@@ -65,6 +65,39 @@ h3 {
 
 /* navigation */
 
+.loggedEnter {
+    display: none;
+}
+
+.logged .loggedEnter {
+    display: flex;
+    width: 40px;
+    border-left: 2px solid #E1E3EC;
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+    clear: right;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.loggedEnter img{
+    z-index: 1;
+}
+
+.logged .loggedEnter:hover .animateEnter{
+    width: 100%;
+    transition: .3s;
+}
+
+.logged .enter {
+    display: none;
+}
 
 #absolutedHamburger {
     width: 100%;
@@ -254,13 +287,13 @@ h3 {
     position: relative;
 }
 
-.enter:hover  #animateEnter{
+.enter:hover  .animateEnter{
     width: 100%;
     transition: .3s;
     z-index: 0;
 }
 
-#animateEnter {
+.animateEnter {
     position: absolute;
     top: 0;
     left: 0;
@@ -1375,6 +1408,10 @@ h3 {
     .enter {
         margin-left: 25px !important;
     }
+
+    /* .logged .loggedEnter {
+        margin-right: 80px !important;
+    } */
 }
 
 
@@ -1387,6 +1424,10 @@ h3 {
 
 
 @media screen and (max-width: 1259px) {
+
+    .logged .loggedEnter {
+        margin-right: 110px;
+    }
 
     h3 {
         font-size: 24px;
@@ -1728,6 +1769,10 @@ h3 {
 
 @media screen and (max-width: 767px) {
 
+    .logged .loggedEnter {
+        margin-right: 80px;
+    }
+
     h3 {
         max-width: 360px;
         margin: auto;
@@ -2035,7 +2080,7 @@ h3 {
 
     #footer {
         position: relative;
-        width: 360px;
+        width: 336px;
         margin: auto;
         margin-top: 100px;
         margin-bottom: 100px;
@@ -2059,7 +2104,7 @@ h3 {
         position: absolute;
         top: 40px;
         right: 0;
-        width: 360px;
+        width: 336px;
         height: max-content;
     
         font-weight: 600;
@@ -2075,8 +2120,8 @@ h3 {
     
     #footerContent p{
         margin-top: 25px;
-        margin-left: 00px;
-        width: 180px;
+        margin-left: 0px;
+        width: 150px;
         cursor: pointer;
         transition: .2s;
     }

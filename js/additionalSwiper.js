@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', () => {
             (() => {
                 gallerySlides[elem].addEventListener('click', () => {
                     // console.log(gallerySlides[elem].style.backgroundImage)
-                    document.getElementsByClassName('galleryMain')[0].style.opacity = 0.7;
+                    document.getElementsByClassName('galleryMain')[0].style.opacity = 0;
                     setTimeout(() => {
                         document.getElementsByClassName('galleryMain')[0].style.opacity = 1;
                         document.getElementsByClassName('galleryMain')[0].style.backgroundImage = gallerySlides[elem].style.backgroundImage + "";
