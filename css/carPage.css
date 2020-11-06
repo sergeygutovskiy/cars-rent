@@ -10,6 +10,10 @@
     flex-wrap: wrap;
 }
 
+.submitButton {
+    margin-left: 12px;
+}
+
 .carPageCarGallery {
     width: 500px;
     height: max-content;
@@ -607,13 +611,23 @@ h4 {
     }
 
     #mainInputBlock {
-        padding-top: 4px;
-        padding-bottom: 4px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 0px;
     }
 
-    #mainInputBlock .submitButton {
-        margin-right: 16px;
-        margin-top: -64px;
+    #allPageContent #mainInputBlock {
+        width: 660px;
+    }
+
+    #allPageContent #inputFixerBlock {
+        width: 648px;
+        margin-right: 0px;
+    }
+
+    #allPageContent #mainInputBlock .submitButton {
+        margin-right: 0px;
+        margin-top: 0px;
     }
 
     #inputFixerBlock {
@@ -657,6 +671,17 @@ h4 {
 
 
 @media screen and (max-width: 767px) {
+
+    #allPageContent #mainInputBlock .submitButton {
+        margin-right: 12px;
+        margin-top: 12px;
+    }
+
+    #mainInputBlock {
+        padding-top: 2px;
+        padding-bottom: 12px;
+        padding-right: 0px;
+    }
 
     #allPageContent {
         width: 312px;
@@ -705,10 +730,17 @@ h4 {
         width: 312px;
     }
 
+    #allPageContent #inputFixerBlock {
+        margin-top: unset;
+        width: 336px;
+        height: 232px;
+        margin-left: 0px;
+    }
+
     #allPageContent #mainInputBlock {
         margin-top: unset;
         width: 336px;
-        height: 210px;
+        height: 232px;
         margin-left: -12px;
     }
 

@@ -63,6 +63,155 @@ h3 {
 }
 
 
+/* mainInput */
+
+#mainInputBlock .categoryInputContainer {
+    /* margin: auto; */
+    margin-left: 10px;
+    width: 213px;
+    max-height: 64px;
+    overflow: hidden;
+    /* margin-bottom: 16px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    transition: .3s;
+}
+
+.activeCategoryInputContainer {
+    transition: .8s;
+    max-height: 300px;
+    /* overflow: visible; */
+}
+
+.activeCategoryInputContainer .categoryInput{
+    border: 2px solid #2997EE;
+    transition: .5s;
+}
+
+#mainInputBlock .categoryInput {
+    margin: auto;
+    width: 213px;
+    height: 64px;
+    border: 2px solid #EFF0F6;
+    background: #EFF0F6;
+    border-radius: 8px;
+    transition: .3s;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 13px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.categoryInput:hover {
+    border: 2px solid #2997EE;
+    transition: .3s;
+}
+
+#mainInputBlock .categoryInputText {
+    width: 173px;
+    height: 20px;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* dark grey */
+
+    color: #7993AF;
+}
+
+#mainInputBlock .categoryInputContainer {
+    margin-bottom: 0px;
+}
+
+
+#mainInputBlock .activeCategoryInputContainer .categoryInputText {
+    color: #07273F;
+}
+
+.categoryInputMarker {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    width: 9px;
+    height: 5px;
+}
+
+#mainInputBlock .categoryInputMarker {
+    top: 28px;
+}
+
+.categoryInputMarker img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#mainInputBlock .categoryInputContent {
+    position: absolute;
+    /* margin-left: -22px; */
+    margin: auto;
+    margin-top: 4px;
+    width: 213px;
+    height: 0;
+    max-height: 0;
+    padding: 0px;
+    overflow: hidden;
+    background: #EFF0F6;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+#mainInputBlock .activeCategoryInputContainer .categoryInputContent {
+    height: unset;
+    max-height: 300px;
+    padding: 24px;
+    overflow: hidden;
+    transition: .3s;
+    z-index: 1;
+}
+
+.categoryInputContentItem:nth-child(1) {
+    margin-top: 0px;
+}
+
+.categoryInputContentItem {
+    margin-top: 20px;
+    width: 192px;
+    height: 20px;
+
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.categoryInputContentItem:hover {
+    color: #07273F;
+    transition: .3s;
+}
+
+
 /* navigation */
 
 .loggedEnter {
@@ -400,8 +549,38 @@ h3 {
     position: relative;
 }
 
+#mainInputBlock .datepicker .inputLogo {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 22px;
+    right: 17px;
+}
+
+#mainInputBlock .customServisInput {
+    margin-left: 0px;
+    width: 213px;
+    height: 64px;
+    margin-bottom: 0px;
+    background: #EFF0F6;
+    border-radius: 8px;
+    /* padding-left: 24px; */
+}
+
+#mainInputBlock .datepicker:nth-child(2) {
+    margin-left: 10px;
+}
+
+#mainInputBlock input {
+    width: 150px;
+ }
+
+#mainInputBlock .customServisInput.activeState .formLabel {
+   /* padding-left: ; */
+}
+
 #mainInputBlock .input .inputContent {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 5px;
     width: 215px;
     height: 65px;
@@ -1585,8 +1764,8 @@ h3 {
         align-items: center;
         justify-content: left;
         flex-wrap: wrap;
-        width: 470px;
-        padding-left: 18px;
+        width: 480px;
+        padding-left: 26px;
     }
 
     #mainInputBlock {
@@ -1594,8 +1773,8 @@ h3 {
         width: 768px;
         height: max-content;
         display: block;
-        padding-top: 12px;
-        padding-bottom: 20px;
+        padding-top: 24px;
+        padding-bottom: 24px;
         position: relative;
         margin-top: 42px;
     }
@@ -1603,14 +1782,26 @@ h3 {
     #mainInputBlock .input {
         position: relative;
     }
+
+    .categoryInputMarker {
+        right: 24px;
+    }
+
+    #mainInputBlock .categoryInputContainer {
+        margin-left: 0px;
+    }
     
     #mainInputBlock .input .inputContent {
-        margin-left: 6px;
+        /* margin-left: 6px; */
         margin-right: 6px;
         width: 213px;
         height: 64px;
         margin-top: 8px;
         font-size: 14px;
+    }
+
+    #mainInputBlock .categoryInputContainer {
+        margin-top: 8px;
     }
     
     #mainInputBlock .input .inputContent::placeholder {
@@ -1745,6 +1936,8 @@ h3 {
     
         color: #7993AF;
     }
+
+    
 
 }
 
@@ -2016,8 +2209,8 @@ h3 {
     }
 
     .inputLogo {
-        top: 22px;
-        right: 22px;
+        /* top: 22px; */
+        right: 30px;
     }
 
     .typeInputLogo {
@@ -2030,6 +2223,27 @@ h3 {
 
     .inactiveContent {
         font-size: 14px;
+    }
+
+    #mainInputBlock .datepicker:nth-child(2) {
+        margin-left: 0px;
+    }
+
+    #mainInputBlock .datepicker .customServisInput {
+        margin-top: 8px;
+        width: 312px;
+        /* margin: auto; */
+        margin-left: 12px;
+    }
+
+    #mainInputBlock .categoryInputContainer {
+        margin-top: 8px;
+        width: 312px;
+        margin-left: 12px;
+    }
+
+    #mainInputBlock .categoryInput {
+        width: 312px;
     }
 
 

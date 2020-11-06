@@ -37,19 +37,20 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     let activeCategory = -1;
-    let categories = document.getElementsByClassName('categoryInputContainer');
+    let categories = document.getElementById('selectContent').getElementsByClassName('categoryInputContainer');
     let categoriesNames = ["Цена", "Марка", "Класс", "Категория", "Коробка", "Двигатель"];
-    let categoriesText = document.getElementsByClassName('categoryInputText');
-    let categoriesMarkers = document.getElementsByClassName('categoryInputMarker');
+    let categoriesText = document.getElementById('selectContent').getElementsByClassName('categoryInputText');
+    let categoriesMarkers = document.getElementById('selectContent').getElementsByClassName('categoryInputMarker');
     let activatedCategories = 0;
 
-    let categoriesContent = document.getElementsByClassName('categoryInputContentItem');
+    let categoriesContent = document.getElementById('selectContent').getElementsByClassName('categoryInputContentItem');
 
 
     try {
         for (let elem in categories) {
             (() => {
                     categories[elem].addEventListener('click', () => {
+                        // console.log(elem)
                         categories[elem].classList.toggle('activeCategoryInputContainer');
                         if (activeCategory == -1) {
                             activeCategory = elem;

@@ -17,6 +17,8 @@
     <script src="js/mainInput.js"></script>
     <script src="js/login_registration.js"></script>
 
+    <link rel="stylesheet" href="datepicker/dist/css/datepicker.material.css">
+    <script src="datepicker/dist/datepicker.js"></script>
 </head>
 <body>
 
@@ -480,7 +482,7 @@
 
     <div id="main">
 
-        <div id="nav" class="logged">
+        <div id="nav" >
             <div id="navLogo">
                 <div id="navLogoImage"></div>
                 <div id="navLogoContent" class="grey"><i class="fas fa-map-marker-alt"></i> <span id="geolocation">&nbsp;Санкт-петербург</span></div>
@@ -514,33 +516,74 @@
         <div id="mainInputBlock">
 
             <div id="inputFixerBlock">
-                <div class="input dateInput">
-                    <div class="inputContent">
-                        <div class="inactiveContent">
-                            <p>Начало аренды</p>
-                        </div>
-                        <div class="activeContent"></div>
+                
+                
+
+
+
+
+                <div class="form-block-rcl default-field datepicker customServisInput emptyState" id="startDateBlock">
+
+                    <div class="formLabel">Начало аренды</div>
+
+                    <!-- <div class="formContentReset">
+                        <div class="formContentResetContent"></div>
+                        <div class="formContentResetContent"></div>
+                    </div> -->
+
+
+
+                    <input required type="text" name="start_date" class="customServisInputMain" id="startDate">
+
+                    <img src="assets/all/Calandar.svg" class="inputLogo">
+                    <!-- <i class="rcli fa-user"></i>
+                    <span class="required">*</span> -->
+                </div>
+
+
+
+
+
+
+                <div class="form-block-rcl default-field datepicker customServisInput emptyState" id="endDateBlock">
+
+                    <div class="formLabel">Конец аренды</div>
+
+                    <!-- <div class="formContentReset">
+                        <div class="formContentResetContent"></div>
+                        <div class="formContentResetContent"></div>
+                    </div> -->
+
+
+
+                    <input required type="text" name="end_date" class="customServisInputMain" id="endDate">
+
+                    <img src="assets/all/Calandar.svg" class="inputLogo">
+                    <!-- <i class="rcli fa-user"></i>
+                    <span class="required">*</span> -->
+                </div>
+
+
+                
+
+                <div class="categoryInputContainer">
+                    <div class="categoryInput">
+                        <div class="categoryInputText">Тип</div>
+                        <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
                     </div>
-                    <img src="assets/all/Calandar.svg" class="inputLogo"/>
-                </div>
-                <div class="input dateInput">
-                    <div class="inputContent">
-                        <div class="inactiveContent">
-                            <!-- <p>Начало аренды</p> -->
-                        </div>
-                        <div class="activeContent">
-                            <p class="activeContentPlaceholder">Конец аренды</p>
-                            <p class="activeContentText">20.12.2020</p>
-                        </div>
+
+                    <div class="categoryInputContent">
+                        <div class="categoryInputContentItem">Автомобили</div>
+                        <div class="categoryInputContentItem">Мототехника</div>
+                        <div class="categoryInputContentItem">Водный транспорт</div>
                     </div>
-                    <img src="assets/all/Calandar.svg" class="inputLogo"/>
                 </div>
-                <div class="input typeInput">
-                    <div class="inputContent"></div>
-                    <img src="assets/all/Arrow.svg" class="inputLogo typeInputLogo"/>
-                </div>
+
+
+
+                
                 <div class="input textInput">
-                    <input class="inputContent" type="text" id="city" placeholder="Введите город"/>
+                    <input class="inputContent" type="text" id="city" placeholder="Укажите город"/>
                     <img src="assets/all/Search.svg" class="inputLogo"/>
                 </div>
             </div>
