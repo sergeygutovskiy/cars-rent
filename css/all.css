@@ -588,7 +588,7 @@ h3 {
     background-color: #EFF0F6;
     outline: none;
     border: none;
-    padding-left: 20px;
+    padding-left: 24px;
     color: #07273F;
     letter-spacing: .02em;
     font-size: 16px;
@@ -597,6 +597,7 @@ h3 {
 }
 
 #mainInputBlock .input .inputContent::placeholder {
+    font-family: 'Commissioner', sans-serif;
     /* padding-left: 20px; */
     font-weight: normal;
     font-size: 16px;
@@ -1805,6 +1806,7 @@ h3 {
     }
     
     #mainInputBlock .input .inputContent::placeholder {
+        font-family: 'Commissioner', sans-serif;
         font-size: 14px;
     }
 
@@ -2197,6 +2199,7 @@ h3 {
     }
     
     #mainInputBlock .input .inputContent::placeholder {
+        font-family: 'Commissioner', sans-serif;
         font-size: 14px;
     }
 
