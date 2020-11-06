@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', () => {
             document.getElementById('startDate').value = "";
         }
 
-        if (document.getElementById('endDate').value) {
+        if (document.getElementById('startDate').value && document.getElementById('endDate').value) {
             let me = document.getElementById('startDate').value.split('.');
             let it = document.getElementById('endDate').value.split('.');
 
@@ -84,7 +84,7 @@ window.addEventListener('DOMContentLoaded', () => {
             document.getElementById('endDate').value = "";
         }
 
-        if (document.getElementById('startDate').value) {
+        if (document.getElementById('startDate').value && document.getElementById('endDate').value) {
             let it = document.getElementById('startDate').value.split('.');
             let me = document.getElementById('endDate').value.split('.');
 
