@@ -135,10 +135,32 @@
                     <p class="galleryNameAdd"><span class="galleryNameAddPrice">2 000 ₽</span>/сутки</p>
                 </div>
                 <div class="carGallery">
-                    <div class="galleryMain" style="background-image: url('assets/main/swiperCar.png');">
-                        <!-- <img src="assets/main/swiperCar.png" /> -->
-                        <div class="galleryMainController"><i class="fas fa-chevron-left"></i></div>
-                        <div class="galleryMainController"><i class="fas fa-chevron-right"></i></div>
+                    <div class="galleryMain">
+                    <!-- style="background-image: url('assets/main/swiperCar.png');" -->
+                   
+
+                        <div class="gallery-main-swiper-container">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide" style="background-image: url('assets/main/swiperCar.png');"></div>
+                                <div class="swiper-slide" style="background-image: url('assets/main/minivan.png');"></div>
+                                <div class="swiper-slide" style="background-image: url('assets/main/swiperCar.png');"></div>
+                                <div class="swiper-slide" style="background-image: url('assets/main/minivan.png');"></div>
+                                <div class="swiper-slide" style="background-image: url('assets/main/swiperCar.png');"></div>
+                                <div class="swiper-slide" style="background-image: url('assets/main/minivan.png');"></div>
+                                
+                            </div>
+                            
+                            
+                
+                        </div>
+                        
+
+
+
+
+                        <div class="galleryMainController galleryMainControllerPrev"><i class="fas fa-chevron-left"></i></div>
+                        <div class="galleryMainController galleryMainControllerNext"><i class="fas fa-chevron-right"></i></div>
                     </div>
 
 

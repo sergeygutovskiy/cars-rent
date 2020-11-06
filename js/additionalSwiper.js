@@ -4,6 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
         direction: 'horizontal',
         slidesPerView: 'auto',
         spaceBetween: 12,
+        slideToClickedSlide: true,
       
         // If we need pagination
         // pagination: {
@@ -11,10 +12,10 @@ window.addEventListener('DOMContentLoaded', () => {
         // },
       
         // Navigation arrows
-        // navigation: {
-        //   nextEl: '.swiper-button-next',
-        //   prevEl: '.swiper-button-prev',
-        // },
+        navigation: {
+          nextEl: '.galleryMainControllerNext',
+          prevEl: '.galleryMainControllerPrev',
+        },
 
         // autoplay: {
         //   delay: 4000,
@@ -40,7 +41,49 @@ window.addEventListener('DOMContentLoaded', () => {
 
       });
 
+      var swiperMain = new Swiper('.gallery-main-swiper-container', {
+        direction: 'horizontal',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        // effect: 'fade',
+      
+        // If we need pagination
+        // pagination: {
+        //   el: '.swiper-pagination',
+        // },
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.galleryMainControllerNext',
+          prevEl: '.galleryMainControllerPrev',
+        },
+
+        // autoplay: {
+        //   delay: 4000,
+        // },
+      
+        // breakpoints: {
+        //   // when window width is >= 320px
+        //   360: {
+        //     slidesPerView: 5,
+        //     spaceBetween: 7
+        //   },
+        //   // when window width is >= 480px
+        // //   768: {
+        // //     slidesPerView: 3,
+        // //     spaceBetween: 16
+        // //   },
+        //   // when window width is >= 640px
+        //   1260: {
+        //     slidesPerView: 5,
+        //     spaceBetween: 12
+        //   }
+        // }
+
+      });
+
       let gallerySlides = document.getElementsByClassName('gallerySwiper')[0].getElementsByClassName('swiper-slide');
+      let mainViewSlides = document.getElementsByClassName('gallery-main-swiper-container')[0].getElementsByClassName('swiper-slide');
 
       try {
         for (let elem in gallerySlides) {
@@ -50,7 +93,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     document.getElementsByClassName('galleryMain')[0].style.opacity = 0;
                     setTimeout(() => {
                         document.getElementsByClassName('galleryMain')[0].style.opacity = 1;
-                        document.getElementsByClassName('galleryMain')[0].style.backgroundImage = gallerySlides[elem].style.backgroundImage + "";
+                        swiperMain.slideTo(elem);
                     }, 200);
                 });
             })()
@@ -64,25 +107,25 @@ window.addEventListener('DOMContentLoaded', () => {
 
     let galleryControllers = document.getElementsByClassName('galleryMainController');
 
-    galleryControllers[0].addEventListener('click', () => {
-        if (!activeSlide) {
-            activeSlide = slidesCount - 1; 
-            // for (let i = 0; i < slidesCount; i++) {
-            //     swiper.slideNext();
-            // }
-        } else activeSlide--;
-        gallerySlides[activeSlide].click();
-        swiper.slidePrev();
-    });
+    // galleryControllers[0].addEventListener('click', () => {
+    //     if (!activeSlide) {
+    //         activeSlide = slidesCount - 1; 
+    //         // for (let i = 0; i < slidesCount; i++) {
+    //         //     swiper.slideNext();
+    //         // }
+    //     } else activeSlide--;
+    //     gallerySlides[activeSlide].click();
+    //     swiper.slidePrev();
+    // });
 
-    galleryControllers[1].addEventListener('click', () => {
-        if (activeSlide + 1 == slidesCount) {
-            activeSlide = 0; 
-            // for (let i = 0; i < slidesCount; i++) {
-            //     swiper.slidePrev();
-            // }
-        } else activeSlide++;
-        gallerySlides[activeSlide].click();
-        swiper.slideNext();
-    });
+    // galleryControllers[1].addEventListener('click', () => {
+    //     if (activeSlide + 1 == slidesCount) {
+    //         activeSlide = 0; 
+    //         // for (let i = 0; i < slidesCount; i++) {
+    //         //     swiper.slidePrev();
+    //         // }
+    //     } else activeSlide++;
+    //     gallerySlides[activeSlide].click();
+    //     swiper.slideNext();
+    // });
 });

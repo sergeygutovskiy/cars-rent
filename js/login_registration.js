@@ -232,15 +232,17 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('regBackClose').addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[1].style.opacity = '0';
         setTimeout(() => {document.getElementsByClassName('absoluted')[1].style.display = 'none';}, 300)
-        document.body.style.overflowY = "auto";
+        document.body.style.overflowY = "unset";
         document.body.style.height = "max-content";
+        document.body.style.width = "unset";
     });
 
     document.getElementById('enterBackClose').addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[0].style.opacity = '0';
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.display = 'none';}, 300)
-        document.body.style.overflowY = "auto";
+        document.body.style.overflowY = "unset";
         document.body.style.height = "max-content";
+        document.body.style.width = "unset";
     });
 
     document.getElementsByClassName('enter')[0].addEventListener('click', () => {
@@ -248,6 +250,7 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.opacity = '1';}, 300)
         document.body.style.overflowY = "hidden";
         document.body.style.height = "100vh";
+        document.body.style.width = window.innerWidth - 20 + "px";
     });
 
     document.getElementsByClassName('enter')[1].addEventListener('click', () => {
@@ -255,6 +258,7 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.opacity = '1';}, 300)
         document.body.style.overflowY = "hidden";
         document.body.style.height = "100vh";
+        document.body.style.width = window.innerWidth - 20 + "px";
     });
 
 });

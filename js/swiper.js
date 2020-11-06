@@ -25,6 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
           // when window width is >= 320px
           360: {
             slidesPerView: 'auto',
+            centeredSlides: true,
             spaceBetween: 20
           },
           // when window width is >= 480px
