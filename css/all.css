@@ -724,6 +724,30 @@ h3 {
     transition: .3s !important;
 }
 
+.slideModify {
+    width: 155px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* blue */
+
+    color: #2997EE;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+    transition: .2s;
+}
+
+.slideModify:hover {
+    transform: translateY(-3px);
+    transition: .2s;
+}
+
 .swiper-slide:hover .swiperSlideImage{
     /* background-color: rgb(235, 235, 235); */
     height: 150px;
@@ -747,6 +771,8 @@ h3 {
     line-height: 28px;
     margin-left: 20px;
     margin-right: 20px;
+    height: 54px;
+    overflow: hidden;
 }
 
 .swiperSlidePrice {
@@ -785,6 +811,12 @@ h3 {
     margin-right: 3px;
     font-size: 10px;
     letter-spacing: .03em;
+    transition: .2s;
+}
+
+.swiperFeature:hover {
+    transform: translateY(-3px);
+    transition: .2s;
 }
 
 .swiper-container {
@@ -1589,16 +1621,38 @@ h3 {
     transition: .2s;
     cursor: pointer;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(225, 226, 236, 0);
+    border-bottom: 4px solid rgba(225, 226, 236, 0);
     height: 30px;
     padding-left: 14px;
     padding-right: 14px;
+    position: relative;
 }
 
 .accountNavElem:hover {
     transition: .2s;
     color: #2997EE;
-    border-bottom: 1px solid #2997EE;
+    border-bottom: 4px solid #2997EE;
+}
+
+.activeAccountNavElem {
+    transition: .2s;
+    color: #2997EE;
+    border-bottom: 4px solid #2997EE;
+}
+
+.activeAccountNavElemHint {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00BA88;
+}
+
+.uncheckedUpdates .activeAccountNavElemHint {
+    display: block;
 }
 
 .accountNavElem:nth-child(1) {
@@ -2125,17 +2179,19 @@ h3 {
         font-size: 24px;
     }
 
+    /* .chat .accountCarName {
+        display: block;
+    }
+
+    .bookingContent .accountCarName {
+        display: none;
+    } */
+
     .chat {
         width: 312px;
         height: max-content;
         position: relative;
-        margin-top: 20px;
-    }
-    
-    .chat .accountCarName {
-        margin-top: 40px;
-        margin-bottom: 24px;
-        display: none;
+        margin-top: 0px;
     }
     
     .chatContent {

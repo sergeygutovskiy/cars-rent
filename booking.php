@@ -577,29 +577,29 @@
                     <div class="bookingBlock bookingTariffs">
                         <div class="bookingMainHint">Тарифный план</div>
                         <div class="bookingTariff">
-                            <div class="bookingTariffName">1-3 дня</div>
-                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
+                            <div class="bookingTariffName"><span>1-3</span> дня</div>
+                            <div class="bookingTariffPrice"><span>4000</span> ₽/в день</div>
+                        </div>
+                        <div class="bookingTariff activeBookingTariff">
+                            <div class="bookingTariffName"><span>4-7</span> дней</div>
+                            <div class="bookingTariffPrice"><span>4000</span> ₽/в день</div>
                         </div>
                         <div class="bookingTariff">
-                            <div class="bookingTariffName">4-7 дней</div>
-                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
+                            <div class="bookingTariffName"><span>8-14</span> дней</div>
+                            <div class="bookingTariffPrice"><span>4000</span> ₽/в день</div>
                         </div>
                         <div class="bookingTariff">
-                            <div class="bookingTariffName">8-14 дней</div>
-                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
+                            <div class="bookingTariffName"><span>15-30</span> дней</div>
+                            <div class="bookingTariffPrice"><span>4000</span> ₽/в день</div>
                         </div>
                         <div class="bookingTariff">
-                            <div class="bookingTariffName">15-30 дней</div>
-                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
-                        </div>
-                        <div class="bookingTariff">
-                            <div class="bookingTariffName">Более 30 дней</div>
-                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
+                            <div class="bookingTariffName"><span>более 30</span> дней</div>
+                            <div class="bookingTariffPrice"><span>4000</span> ₽/в день</div>
                         </div>
                     </div>
                     <div class="bookingBlock bookingCounting">
                         <div class="bookingMainHint">Стоимость</div>
-                        <div class="bookingCalculatedPrice">4000 р</div>
+                        <div class="bookingCalculatedPrice">4000 ₽</div>
                     </div>
                     <div class="bookingBlock bookingSubmit">
                         <div class="submitButton">Забронировать</div>

@@ -138,6 +138,10 @@
     letter-spacing: 0.04em;
 }
 
+.activeBookingTariff {
+    color: #2997EE;
+}
+
 .bookingTariffPrice {
     position: absolute;
     top: 0;
