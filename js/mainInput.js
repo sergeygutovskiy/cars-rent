@@ -103,7 +103,14 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    let startDater = new Datepicker('#startDateBlock');
+    let startDater = new Datepicker('#startDateBlock', {
+        min: (function(){
+            var date = new Date();
+            date.setDate(date.getDate() - 1);
+            return date;
+          })(),
+        weekStart: 1
+    });
 
     let observer = new MutationObserver(mutationRecords => {
         // console.log(mutationRecords[0].target.dataset.value)
@@ -114,7 +121,14 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    let endDater = new Datepicker('#endDateBlock');
+    let endDater = new Datepicker('#endDateBlock', {
+        min: (function(){
+            var date = new Date();
+            date.setDate(date.getDate() - 1);
+            return date;
+          })(),
+        weekStart: 1
+    });
 
     let observerEnder = new MutationObserver(mutationRecords => {
         // console.log(mutationRecords[0].target.dataset.value)

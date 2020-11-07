@@ -148,7 +148,7 @@
     font-weight: 600;
 }
 
-.bookingDateInput:nth-child(2) {
+.datepicker:nth-child(2) {
     margin-left: 70px;
 }
 
@@ -220,6 +220,10 @@
         justify-content: left;
     }
 
+    .accountNavBlock {
+        margin-left: 20px;
+    }
+
     .bookingContent {
         margin-top: 40px;
         margin-left: 0;
@@ -228,4 +232,50 @@
 
 @media screen and (max-width: 767px) {
 
+    #bookingAddBlock {
+        width: 312px;
+    }
+
+    .bookingFlexBox {
+        width: 312px;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .accountNavBlock {
+        margin-left: 0px;
+    }
+
+    .bookingBlock {
+        width: 312px !important;
+    }
+
+    .bookingMainHint {
+        font-size: 16px;
+    }
+
+    .bookingTariff {
+        font-size: 12px;
+    }
+
+    .bookingCalculatedPrice {
+        font-size: 18px;
+    }
+
+    .bookingDateInput {
+        width: 100px;
+    }
+
+    .bookingContent {
+        margin-top: 20px;
+    }
+
+    .bookingDateInput input {
+        font-size: 14px;
+        width: 80px;
+    }
+
+    .datepicker:nth-child(2) {
+        margin-left: 40px;
+    }
 }

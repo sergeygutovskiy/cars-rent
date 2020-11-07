@@ -556,7 +556,7 @@
                 <div class="chat">
                     <div class="accountCarName">Mercedes-Benz E</div>
                     <div class="chatContent"></div>
-                    <div class="chatHint">Общение вне сервиса запрещено</div>
+                    <!-- <div class="chatHint">Общение вне сервиса запрещено</div> -->
                 </div>
 
                 <div class="bookingContent">
@@ -564,33 +564,37 @@
                     <div class="bookingBlock bookingDates">
                         <div class="bookingMainHint">Период аренды</div>
                         <div class="bookingDateInputs">
-                            <div class="bookingDateInput">
+                            <div class="bookingDateInput" id="startDateI">
                                 <img src="assets/all/Calandar.svg" alt="" srcset="">
-                                <input type="text" id="startDate" placeholder="12.12.2020">
+                                <input type="text" id="startDate" value="12.11.2020" />
                             </div>
-                            <div class="bookingDateInput">
+                            <div class="bookingDateInput" id="endDateI">
                                 <img src="assets/all/Calandar.svg" alt="" srcset="">
-                                <input type="text" id="endDate" placeholder="15.11.2021">
+                                <input type="text" id="endDate" value="15.11.2020" />
                             </div>
                         </div>
                     </div>
                     <div class="bookingBlock bookingTariffs">
                         <div class="bookingMainHint">Тарифный план</div>
                         <div class="bookingTariff">
-                            <div class="bookingTariffName">От суток до 3</div>
-                            <div class="bookingTariffPrice"><span>4000</span> р/сутки</div>
+                            <div class="bookingTariffName">1-3 дня</div>
+                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
                         </div>
                         <div class="bookingTariff">
-                            <div class="bookingTariffName">От суток до 3</div>
-                            <div class="bookingTariffPrice"><span>4000</span> р/сутки</div>
+                            <div class="bookingTariffName">4-7 дней</div>
+                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
                         </div>
                         <div class="bookingTariff">
-                            <div class="bookingTariffName">От суток до 3</div>
-                            <div class="bookingTariffPrice"><span>4000</span> р/сутки</div>
+                            <div class="bookingTariffName">8-14 дней</div>
+                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
                         </div>
                         <div class="bookingTariff">
-                            <div class="bookingTariffName">От суток до 3</div>
-                            <div class="bookingTariffPrice"><span>4000</span> р/сутки</div>
+                            <div class="bookingTariffName">15-30 дней</div>
+                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
+                        </div>
+                        <div class="bookingTariff">
+                            <div class="bookingTariffName">Более 30 дней</div>
+                            <div class="bookingTariffPrice"><span>4000</span> р/в день</div>
                         </div>
                     </div>
                     <div class="bookingBlock bookingCounting">
@@ -680,6 +684,21 @@
                     
 
                     <div class="carDescriptionMain">
+                        <div class="carDescriptionMainBlock">
+                            <div class="carDescriptionMainBlockImg"></div>
+                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
+                            <div class="carDescriptionMainBlockMain">Седан</div>
+                        </div>
+                        <div class="carDescriptionMainBlock">
+                            <div class="carDescriptionMainBlockImg"></div>
+                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
+                            <div class="carDescriptionMainBlockMain">Седан</div>
+                        </div>
+                        <div class="carDescriptionMainBlock">
+                            <div class="carDescriptionMainBlockImg"></div>
+                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
+                            <div class="carDescriptionMainBlockMain">Седан</div>
+                        </div>
                         <div class="carDescriptionMainBlock">
                             <div class="carDescriptionMainBlockImg"></div>
                             <div class="carDescriptionMainBlockDesc">Тип кузова</div>
