@@ -53,7 +53,7 @@
 .gallery-main-swiper-container .swiper-slide{
     width: 100% !important;
     height: 100% !important;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -606,7 +606,7 @@ h4 {
 
 @media screen and (max-width: 1259px) {
     #allPageContent {
-        width: 768px;
+        width: 728px;
         margin-top: 40px;
     }
 

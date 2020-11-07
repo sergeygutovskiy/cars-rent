@@ -1,0 +1,231 @@
+.carDescription {
+    margin-top: 0px;
+}
+
+#bookingAddBlock {
+    width: 1204px;
+    margin-top: 0px;
+    height: max-content;
+    margin: auto;
+}
+
+.bookingFlexBox {
+    width: 1204px;
+    height: max-content;
+    padding-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.bookingBlock {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.bookingContent {
+    margin-left: 40px;
+}
+
+.bookingDates {
+    margin-top: 32px;
+    width: 390px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.bookingTariffs {
+    margin-top: 8px;
+    width: 390px;
+    height: max-content;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.bookingCounting {
+    margin-top: 8px;
+    width: 390px;
+    height: max-content;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.bookingMainHint {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.bookingDateInputs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bookingDateInput {
+    position: relative;
+    width: 120px;
+    height: 22px;
+}
+
+.bookingDateInput img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.bookingDateInput input {
+    width: 100px;
+    height: 20px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.bookingDateInput input::placeholder {
+    width: 100px;
+    height: 20px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.bookingTariff {
+    color: #4E4B66;
+    width: 100%;
+    margin-top: 14px;
+    position: relative;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
+    letter-spacing: 0.04em;
+}
+
+.bookingTariffPrice {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bookingTariffPrice span{
+    font-weight: 600;
+}
+
+.bookingDateInput:nth-child(2) {
+    margin-left: 70px;
+}
+
+.bookingCalculatedPrice {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.bookingSubmit {
+    width: 390px;
+    padding: 0;
+    padding-top: 32px;
+}
+
+.printText {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* grey */
+
+    color: #4E4B66;
+    transition: .2s;
+    cursor: pointer;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.printText:hover {
+
+    color: #2997EE;
+    transition: .2s;
+}
+
+#bookingAddBlock .submitButton {
+    width: 325px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1259px) {
+    #bookingAddBlock {
+        width: 728px;
+        margin-top: 0px;
+        height: max-content;
+        margin: auto;
+    }
+    
+    .bookingFlexBox {
+        width: 728px;
+        height: max-content;
+        padding-left: 40px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .bookingContent {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+}
