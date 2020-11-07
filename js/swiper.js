@@ -23,10 +23,11 @@ window.addEventListener('DOMContentLoaded', () => {
       
         breakpoints: {
           // when window width is >= 320px
-          360: {
+          100: {
             slidesPerView: 'auto',
             centeredSlides: true,
-            spaceBetween: 20
+            // loop: false,
+            spaceBetween: 0
           },
           // when window width is >= 480px
           768: {

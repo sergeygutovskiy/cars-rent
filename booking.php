@@ -566,11 +566,11 @@
                         <div class="bookingDateInputs">
                             <div class="bookingDateInput" id="startDateI">
                                 <img src="assets/all/Calandar.svg" alt="" srcset="">
-                                <input type="text" id="startDate" value="12.11.2020" />
+                                <input type="text" id="startDate" readonly value="12.11.2020" />
                             </div>
                             <div class="bookingDateInput" id="endDateI">
                                 <img src="assets/all/Calandar.svg" alt="" srcset="">
-                                <input type="text" id="endDate" value="15.11.2020" />
+                                <input type="text" id="endDate" readonly value="15.11.2020" />
                             </div>
                         </div>
                     </div>
