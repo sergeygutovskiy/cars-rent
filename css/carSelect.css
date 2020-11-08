@@ -228,7 +228,7 @@
 .categoryInputMarker {
     position: absolute;
     top: 22px;
-    right: 20px;
+    /* right: 20px; */
     width: 9px;
     height: 5px;
 }
@@ -411,10 +411,12 @@
     }
 
     #selectMainContainer {
-        width: 768px;
+        
+        width: 728px;
         height: max-content;
         position: relative;
         margin-left: unset;
+        margin: auto;
     }
 
     #stickyBlock {
@@ -429,7 +431,7 @@
     }
 
     #selectMain .swiper-slide{
-        width: 245px;
+        width: 232px;
     }
 
     .selectFiltration {
@@ -445,10 +447,11 @@
     }
 
     #selectMainContainer {
-        width: 336px;
+        width: 312px;
         height: max-content;
         position: relative;
         margin-left: unset;
+        margin: auto;
     }
 
     #selectMain {
@@ -477,8 +480,9 @@
     }
 
     #stickyBlock {
+        margin: auto;
         position: relative;
-        width: 336px;
+        width: 312px;
         margin-top: -60px;
         margin-bottom: 100px;
     }

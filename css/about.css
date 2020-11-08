@@ -264,7 +264,7 @@
 
 .question {
     width: 500px;
-    height: 68px;
+    max-height: 68px;
     background: #EAEBF4;
     border-radius: 10px;
     border: 2px solid #EAEBF4;
@@ -289,7 +289,7 @@
     background: #F7F7FC;
     border: 2px solid #07273F;
     transition: .5s;
-    height: 200px;
+    max-height: 500px;
 }
 
 .questionMain {
@@ -352,10 +352,15 @@
 
 @media screen and (max-width: 1259px) {
 
+    .exampleAllWorks {
+        width: 354px;
+    }
+
     #aboutBlock {
+        margin: auto;
         position: relative;
         margin-top: 90px;
-        width: 100%;
+        width: 728px;
         height: max-content;
         min-height: 450px;
         display: flex;
@@ -364,7 +369,7 @@
     }
     
     #aboutPluses {
-        width: 768px;
+        width: 728px;
         height: 450px;
         margin-right: 0px;
         float: unset;
@@ -374,7 +379,7 @@
     }
 
     .aboutPlusesBlock {
-        width: 360px;
+        width: 340px;
         height: max-content;
         margin-left: 0px;
         margin-bottom: 65px;
@@ -397,7 +402,7 @@
     }
     
     .aboutPlusesBlockText {
-        width: 290px;
+        width: 270px;
     }
 
     #aboutBack {
@@ -414,6 +419,8 @@
     }
 
     .howAllWorksExampleBlock {
+        width: 728px;
+        margin: auto;
         padding-left: 0px;
     }
 
@@ -422,7 +429,10 @@
     }
 
     #questions {
+        margin: auto;
+        margin-top: 150px;
         display: block;
+        width: 728px;
     }
 
     #popularQuestions {
@@ -443,6 +453,14 @@
 
 
 @media screen and (max-width: 767px) {
+
+    .howAllWorksExampleBlock {
+        width: 312px;
+    }
+
+    .exampleAllWorks {
+        width: 312px;
+    }
 
     #popularQuestions p {
         line-height: 22px;
@@ -529,7 +547,7 @@
     #howAllWorks {
         margin: auto;
         position: relative;
-        margin-top: 50px;
+        margin-top: 20px;
         width: 312px;
         height: max-content;
         /* background-color: violet; */
@@ -566,7 +584,7 @@
     }
 
     .activeQuestion {
-        height: max-content;
+        max-height: 500px;
     }
 
     .questionMain {

@@ -605,6 +605,18 @@ h4 {
 
 
 @media screen and (max-width: 1259px) {
+
+    .ratesContent {
+        padding-bottom: 30px;
+    }
+
+    #swiperHints h4 {
+        width: 728px;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 12px;
+    }
+
     #allPageContent {
         width: 728px;
         margin-top: 40px;
@@ -852,5 +864,6 @@ h4 {
     .gallery-swiper-fix {
         margin-right: 0px;
         margin-left: 0px;
+    }
 
 }

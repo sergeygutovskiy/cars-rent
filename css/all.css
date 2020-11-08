@@ -183,6 +183,7 @@ h3 {
     overflow: hidden;
     transition: .3s;
     z-index: 1;
+    box-shadow: 0px 32px 64px rgba(17, 17, 17, 0.08);
 }
 
 .categoryInputContentItem:nth-child(1) {
@@ -584,6 +585,7 @@ h3 {
 }
 
 #mainInputBlock .input .inputContent {
+    font-family: 'Commissioner', sans-serif;
     margin-left: 10px;
     margin-right: 5px;
     width: 215px;
@@ -645,7 +647,7 @@ h3 {
     height: 20px;
     position: absolute;
     top: 22px;
-    right: 22px;
+    right: 25px;
 }
 
 .typeInputLogo {
@@ -1387,6 +1389,7 @@ h3 {
 }
 
 .customServisInputMain {
+    font-family: 'Commissioner', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1919,7 +1922,7 @@ h3 {
     }
 
     .swiper-container {
-        width: 768px;
+        width: 728px;
         height: 400px;
         margin-top: 20px;
         /* overflow: visible !important;
@@ -1935,7 +1938,7 @@ h3 {
     }
 
     .swiper-slide {
-        width: 245px;
+        width: 232px;
         box-shadow: 0px 8px 16px rgba(51, 51, 98, 0.04);
         background-color: #fff;
         border-radius: 16px;
@@ -1953,16 +1956,16 @@ h3 {
         justify-content: left;
         flex-wrap: wrap;
         width: 480px;
-        padding-left: 26px;
+        padding-left: 10px;
     }
 
     #mainInputBlock {
         margin: auto;
-        width: 768px;
+        width: 728px;
         height: max-content;
         display: block;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         position: relative;
         margin-top: 42px;
     }
@@ -1994,7 +1997,7 @@ h3 {
     
     #mainInputBlock .input .inputContent::placeholder {
         font-family: 'Commissioner', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #mainInputBlock .submitButton {
@@ -2003,7 +2006,7 @@ h3 {
         width: 256px;
         height: 64px;
         float: right;
-        margin-right: 26px;
+        margin-right: 10px;
         margin-top: -100px;
     }
 
@@ -2026,7 +2029,7 @@ h3 {
     }
 
     #allBlocksHelp {
-        width: 768px;
+        width: 728px;
         display: block;
         align-items: unset;
         justify-content: unset;
@@ -2060,8 +2063,8 @@ h3 {
     }
     
     #allBlocksHelp img {
-        width: 460px;
-        height: 200px;
+        width: 430px;
+        height: 190px;
         position: absolute;
         right: -16px;
         top: unset;
@@ -2152,6 +2155,10 @@ h3 {
 
 @media screen and (max-width: 767px) {
 
+    #mainInputBlock .categoryInputContent {
+        width: 288px;
+    }
+
     
     .accountNavBlock {
         margin-top: 30px;
@@ -2174,8 +2181,8 @@ h3 {
     
     .accountNavElem {
         font-size: 14px;
-        padding-left: 6px;
-        padding-right: 6px;
+        padding-left: 4px;
+        padding-right: 4px;
         margin-left: 13px;
     }
     
@@ -2226,7 +2233,7 @@ h3 {
     }
 
     h3 {
-        max-width: 360px;
+        max-width: 312px;
         margin: auto;
     }
 
@@ -2427,7 +2434,7 @@ h3 {
     #mainInputBlock {
         margin: auto;
         margin-top: 20px;
-        width: 336px;
+        width: 312px;
         height: max-content;
         display: block;
         padding-top: 12px;
@@ -2448,23 +2455,24 @@ h3 {
     }
     
     #mainInputBlock .input .inputContent {
+        position: relative;
         margin-left: 12px;
         margin-right: 12px;
-        width: 312px;
-        height: 56px;
+        width: 288px;
+        height: 64px;
         margin-top: 8px;
         font-size: 14px;
     }
     
     #mainInputBlock .input .inputContent::placeholder {
         font-family: 'Commissioner', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #mainInputBlock .submitButton {
         margin: auto;
         margin-top: 16px;
-        width: 312px;
+        width: 288px;
         height: 56px;
         float: unset;
     }
@@ -2492,7 +2500,7 @@ h3 {
 
     #mainInputBlock .datepicker .customServisInput {
         margin-top: 8px;
-        width: 312px;
+        width: 288px;
         /* margin: auto; */
         margin-left: 12px;
     }
@@ -2504,7 +2512,8 @@ h3 {
     }
 
     #mainInputBlock .categoryInput {
-        width: 312px;
+        width: 288px;
+        margin: unset;
     }
 
 

@@ -250,7 +250,7 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.opacity = '1';}, 300)
         document.body.style.overflowY = "hidden";
         document.body.style.height = "100vh";
-        if (window.innerWidth > 1259) document.body.style.width = window.innerWidth - 20 + "px";
+        if (window.innerWidth > 1259) document.body.style.width = window.innerWidth - 17 + "px";
     });
 
     document.getElementsByClassName('enter')[1].addEventListener('click', () => {
@@ -258,7 +258,7 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.opacity = '1';}, 300)
         document.body.style.overflowY = "hidden";
         document.body.style.height = "100vh";
-        if (window.innerWidth > 1259) document.body.style.width = window.innerWidth - 20 + "px";
+        if (window.innerWidth > 1259) document.body.style.width = window.innerWidth - 17 + "px";
     });
 
 });

@@ -420,7 +420,7 @@
 @media screen and (max-width: 1259px) {
 
     #together {
-        width: 768px;
+        width: 728px;
         margin-top: 60px;
     }
     
@@ -453,7 +453,7 @@
     }
 
     #popularCars {
-        width: 768px;
+        width: 728px;
     }
 
     
@@ -618,6 +618,11 @@
 
 @media screen and (max-width: 767px) {
 
+    #togetherContent .submitButton{
+        margin: auto;
+        margin-top: 30px;
+    }
+
     #together {
         width: 360px;
         margin-top: 0px;
@@ -660,22 +665,24 @@
 
     #togetherChat {
         top: unset;
-        margin-top: 25px;
         position: relative;
-        width: 360px;
+        margin: auto;
+        margin-top: 25px;
+        width: 312px;
     }
 
     #togetherContent {
+        margin: auto;
         top: unset;
-        margin-top: 25px;
+        margin-top: 40px;
         position: relative;
-        width: 360px;
+        width: 312px;
     }
 
     #howItWorks {
         width: 360px;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 80px;
     }
 
     #howItWorksContent {

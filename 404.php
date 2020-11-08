@@ -18,7 +18,7 @@
 
     <style>
         .submitButton {
-            width: 330px;
+            width: 312px;
             height: 65px;
             margin: auto;
             margin-top: 54px;
@@ -52,7 +52,9 @@
         @media only screen and (max-width: 767px) {
 
             .soldTextMain  h1{
-                font-size: 24px;
+                margin: auto;
+                width: 312px;
+                font-size: 22px;
             }
 
             #unfinedBack {

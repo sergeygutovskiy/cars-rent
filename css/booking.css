@@ -231,7 +231,7 @@
     }
 
     .bookingContent {
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 0;
     }
 }
@@ -283,5 +283,10 @@
 
     .datepicker:nth-child(2) {
         margin-left: 40px;
+    }
+
+    #bookingAddBlock .submitButton {
+        width: 312px;
+        margin: auto;
     }
 }
