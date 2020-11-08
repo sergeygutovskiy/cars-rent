@@ -556,12 +556,12 @@
                         <div class="gallery-main-swiper-container">
                             <div class="swiper-wrapper">
 
-                                <div class="swiper-slide" style="background-image: url('assets/main/swiperCar.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/minivan.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/swiperCar.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/minivan.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/swiperCar.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/minivan.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/swiperCar.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/minivan.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/swiperCar.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/minivan.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/swiperCar.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/minivan.png');"></div>
                                 
                             </div>
                             
@@ -586,12 +586,12 @@
                         <div class="gallery-swiper-container">
                             <div class="swiper-wrapper">
 
-                                <div class="swiper-slide" style="background-image: url('assets/main/swiperCar.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/minivan.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/swiperCar.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/minivan.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/swiperCar.png');"></div>
-                                <div class="swiper-slide" style="background-image: url('assets/main/minivan.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/swiperCar.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/minivan.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/swiperCar.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/minivan.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/swiperCar.png');"></div>
+                                <div class="swiper-slide gallery-swiper-fix" style="background-image: url('assets/main/minivan.png');"></div>
                                 
                             </div>
                             

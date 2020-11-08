@@ -24,6 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
                             categories[activeCategory].classList.toggle('activeCategoryInputContainer');
                             activeCategory = elem;
                         }
+                        if (categoriesText[elem].innerHTML == categoriesNames[elem]) categoriesText[elem].classList.toggle('selectedCategory');
                         if (categories[elem].classList.contains('activeCategoryInputContainer')) {
                             categoriesText[elem].innerHTML = categoriesNames[elem];
                             categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
@@ -44,6 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
             (() => {
                     categoriesContent[elem].addEventListener('click', () => {
                         categoriesText[activeCategory].innerHTML = categoriesContent[elem].innerHTML;
+                        // categoriesText[activeCategory].classList.toggle('selectedCategory');
                     });
             })()
         }

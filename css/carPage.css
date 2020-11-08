@@ -849,4 +849,8 @@ h4 {
         margin-left: calc(50% - 156px);
     }
 
+    .gallery-swiper-fix {
+        margin-right: 0px;
+        margin-left: 0px;
+
 }

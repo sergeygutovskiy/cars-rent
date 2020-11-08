@@ -65,6 +65,10 @@ h3 {
 
 /* mainInput */
 
+#mainInputBlock .selectedCategory {
+    color: #07273F !important;
+}
+
 #mainInputBlock .categoryInputContainer {
     /* margin: auto; */
     margin-left: 10px;
