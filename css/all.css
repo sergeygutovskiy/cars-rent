@@ -191,7 +191,7 @@ h3 {
 }
 
 .categoryInputContentItem {
-    margin-top: 20px;
+    margin-top: 24px;
     width: 192px;
     height: 20px;
 
@@ -552,6 +552,15 @@ h3 {
 
 #mainInputBlock .input {
     position: relative;
+    height: 65px;
+    
+}
+
+#mainInputBlock .textInput {
+    width: 220px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: #EFF0F6;
 }
 
 #mainInputBlock .datepicker .inputLogo {
@@ -586,9 +595,9 @@ h3 {
 
 #mainInputBlock .input .inputContent {
     font-family: 'Commissioner', sans-serif;
-    margin-left: 10px;
+    
     margin-right: 5px;
-    width: 215px;
+    width: 165px;
     height: 65px;
     border-radius: 8px;
     background-color: #EFF0F6;
@@ -627,8 +636,8 @@ h3 {
     align-items: center;
     justify-content: center;
     letter-spacing: .02em;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 0px;
     cursor: pointer;
     border-radius: 16px;
     transition: .3s;
@@ -1719,6 +1728,105 @@ h3 {
     color: #7993AF;
 }
 
+/* cities */
+
+.textInput input:focus ~ .citiesContent{
+    max-height: 400px;
+    transition: .3s;
+}
+
+.citiesContent {
+    width: calc(100%);
+    max-width: calc(100%);
+    height: max-content;
+    /* max-height: 200px; */
+    max-height: 0px;
+    margin-top: 4px;
+    background: #EFF0F6;
+    border-radius: 16px;
+    /* padding: 24px; */
+    /* margin-left: 10px; */
+    /* margin-right: 5px; */
+    position: relative;
+    overflow: auto;
+    overflow-y: hidden;
+    box-shadow: 0px 32px 64px rgba(17, 17, 17, 0.08);
+    transition: .3s;
+}
+
+.citiesContentFixer {
+    position: relative;
+    overflow: auto;
+    width: calc(100% - 6px);
+    height: 200px;
+    max-height: 200px;
+    margin-right: 6px;
+    overflow-y: auto;
+}
+
+.citiesContentFixer::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+
+  .citiesContentFixer::-webkit-scrollbar-track {
+    border-radius: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+  
+  .citiesContentFixer::-webkit-scrollbar-thumb {
+      cursor: pointer;
+    background-color: #B7C0CC;
+    border-radius: 20px;
+    transition: .2s;
+  }
+  
+  .citiesContentFixer::-webkit-scrollbar-thumb:hover { 
+    cursor: pointer;
+    background-color: #A0A3BD;
+    border-radius: 20px;
+    transition: .2s;
+  }
+
+.citiesContentElem {
+    cursor: pointer;
+    width: calc(100% - 48px);
+    height: max-content;
+    /* margin-top: 12px; */
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+    transition: .2s;
+}
+
+.citiesContentElem:hover {
+    transition: .2s;
+    color: #07273F;
+}
+
+.citiesContentElem:first-child {
+    margin-top: 24px;
+}
+
+.citiesContentElem:last-child {
+    margin-bottom: 24px;
+}
+
 /* vars */
 
 .blue {
@@ -1787,6 +1895,12 @@ h3 {
 
 
 @media screen and (max-width: 1259px) {
+
+    #mainInputBlock .textInput {
+        margin-right: 6px;
+        margin-top: 5px;
+        width: 213px;
+    }
 
     .logged .loggedEnter {
         margin-right: 110px;
@@ -1984,10 +2098,10 @@ h3 {
     
     #mainInputBlock .input .inputContent {
         /* margin-left: 6px; */
-        margin-right: 6px;
-        width: 213px;
+        /* margin-right: 6px; */
+        /* width: 213px; */
         height: 64px;
-        margin-top: 8px;
+        /* margin-top: 5px; */
         font-size: 14px;
     }
 
@@ -2011,8 +2125,8 @@ h3 {
     }
 
     .inputLogo {
-        /* right: 12px; */
-        top: 28px;
+        right: 18px;
+        /* top: 28px; */
     }
 
     .typeInputLogo {
@@ -2451,16 +2565,25 @@ h3 {
     }
     
     #mainInputBlock .input {
+        width: calc(100% - 20px);
         position: relative;
+        width: unset;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+
+    #mainInputBlock .textInput {
+        margin-top: 8px;
     }
     
     #mainInputBlock .input .inputContent {
         position: relative;
-        margin-left: 12px;
-        margin-right: 12px;
-        width: 288px;
+        margin-left: 2px;
+        /* margin-right: 12px; */
+        width: 230px;
         height: 64px;
-        margin-top: 8px;
+        /* margin-top: 8px; */
         font-size: 14px;
     }
     
@@ -2479,7 +2602,7 @@ h3 {
 
     .inputLogo {
         /* top: 22px; */
-        right: 30px;
+        right: 22px;
     }
 
     .typeInputLogo {

@@ -400,6 +400,10 @@
     top: calc(50% + 40px);
 }
 
+#mainInputBlock .activeCategoryInputContainer .categoryInputContent {
+    border-radius: 16px;
+}
+
 
 
 
