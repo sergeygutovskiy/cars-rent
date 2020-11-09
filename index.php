@@ -23,6 +23,19 @@
 </head>
 <body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="absoluted">
         <div class="enterBack">
             <div id="enterBackClose" class="enterBackClose"><i class="fas fa-times"></i></div>
@@ -348,7 +361,7 @@
                             <!-- <i class="rcli fa-user"></i>
                             <span class="required">*</span> -->
                         </div>
-                        <div class="inputHint">Пароли совпадают</div>
+                        <div class="inputHint">Пароли не совпадают!</div>
 
 
 
@@ -426,10 +439,357 @@
 
             </div>
 
-            <div class="submitButton">Зарегистрироваться</div>
+            <div class="submitButton toPhoneConfirmation">Зарегистрироваться</div>
         </div>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+    <div class="absoluted rePassword">
+        <div class="enterBack">
+            <div id="rePasswordBackClose" class="enterBackClose"><i class="fas fa-times"></i></div>
+
+
+            <div class="enterBackContentBox">
+
+
+
+                <div class="enterBackMain">Восстановить пароль</div>
+
+            <!-- <div id="enterBackContent">
+                <div class="normalisedInput">
+                    <input type="text" id="enterEmail" />
+                    <div class="inactiveNormalisedText">Телефон или e-mail</div>
+                </div>
+
+                <div class="normalisedInput"></div>
+            </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="form-tab-rcl" id="login-form-rcl"> 
+                 <!-- внутри -->
+                    <div class="form_head">
+                        <div class="form_auth form_active">
+                        </div>
+                            <div class="form_reg">
+                            </div>
+                    </div>
+
+                    <div class="form-block-rcl">
+                    </div>
+
+
+
+
+
+
+
+                    <form action="#" method="post">
+
+
+                        <div class="form-block-rcl default-field customServisInput emptyState">
+
+                            <div class="formLabel">Телефон</div>
+
+                            <div class="formContentReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+
+                        <div class="form-block-rcl default-field customServisInput connectedPass emptyState">
+
+                            <div class="formLabel">Пароль</div>
+
+                            <div class="formContentReset passReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+
+                        <div class="form-block-rcl default-field customServisInput connectedPass emptyState">
+
+                            <div class="formLabel">Подтвердите пароль</div>
+
+                            <div class="formContentReset passReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+                        <div class="inputHint">Пароли не совпадают!</div>
+
+
+
+
+
+
+
+
+
+
+                        
+                        <!-- <div class="form-block-rcl default-field">
+                            <input required type="password" name="user_pass">
+                            <i class="rcli fa-lock"></i>
+                            <span class="required">*</span>
+                        </div> -->
+
+
+
+
+
+                        
+                        <!-- <div class="form-block-rcl">
+
+                            <div class="default-field rcl-field-input type-checkbox-input">
+                                <div class="rcl-checkbox-box">
+                                    <input type="checkbox" id="chck_remember" class="checkbox-custom" value="1" name="rememberme">
+                                    <label class="block-label" for="chck_remember">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-block-rcl">
+                            
+                            <a href="#" class="link-remember-rcl link-tab-rcl ">
+                            </a>
+                        </div> -->
+
+
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="enterBackSubmit">
+                <div class="submitButton toPhoneConfirmation">Продолжить</div>
+                <!-- <div id="enterBackSubmitForget">Забыли пароль?</div>
+                <div id="enterBackSubmitReg">Регистрация</div> -->
+            </div>
+
+
+
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="absoluted rePassword confirmPassword">
+        <div class="enterBack">
+            <div id="confirmPasswordBackClose" class="enterBackClose"><i class="fas fa-times"></i></div>
+
+
+            <div class="enterBackContentBox">
+
+
+
+                <div class="enterBackMain">Подтверждение телефона</div>
+
+            <!-- <div id="enterBackContent">
+                <div class="normalisedInput">
+                    <input type="text" id="enterEmail" />
+                    <div class="inactiveNormalisedText">Телефон или e-mail</div>
+                </div>
+
+                <div class="normalisedInput"></div>
+            </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="form-tab-rcl" id="login-form-rcl"> 
+                 <!-- внутри -->
+                    <div class="form_head">
+                        <div class="form_auth form_active">
+                        </div>
+                            <div class="form_reg">
+                            </div>
+                    </div>
+
+                    <div class="form-block-rcl">
+                    </div>
+
+
+
+
+
+
+
+                    <form action="#" method="post">
+
+
+                        <div class="form-block-rcl default-field customServisInput emptyState">
+
+                            <div class="formLabel">Введите код из СМС</div>
+
+                            <div class="formContentReset">
+                                <div class="formContentResetContent"></div>
+                                <div class="formContentResetContent"></div>
+                            </div>
+
+
+
+                            <input required type="text" name="user_login" class="customServisInputMain">
+                            <!-- <i class="rcli fa-user"></i>
+                            <span class="required">*</span> -->
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                        
+                        <!-- <div class="form-block-rcl default-field">
+                            <input required type="password" name="user_pass">
+                            <i class="rcli fa-lock"></i>
+                            <span class="required">*</span>
+                        </div> -->
+
+
+
+
+
+                        
+                        <!-- <div class="form-block-rcl">
+
+                            <div class="default-field rcl-field-input type-checkbox-input">
+                                <div class="rcl-checkbox-box">
+                                    <input type="checkbox" id="chck_remember" class="checkbox-custom" value="1" name="rememberme">
+                                    <label class="block-label" for="chck_remember">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-block-rcl">
+                            
+                            <a href="#" class="link-remember-rcl link-tab-rcl ">
+                            </a>
+                        </div> -->
+
+
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="enterBackSubmit">
+                <div class="submitButton">Подтвердить</div>
+                <!-- <div id="enterBackSubmitForget">Забыли пароль?</div>
+                <div id="enterBackSubmitReg">Регистрация</div> -->
+            </div>
+
+
+
+            </div>
+
+            
+        </div>
+    </div>
 
 
 

@@ -1190,6 +1190,35 @@ h3 {
     letter-spacing: 0.02em;
 
     color: #6E7191;
+    transition: .2s;
+}
+
+#enterBackSubmitForget:hover {
+
+    color: #4E4B66;
+    transition: .2s;
+}
+
+.rePassword .enterBackMain {
+    left: 0;
+    font-size: 20px;
+}
+
+.rePassword .enterBack {
+    height: 500px;
+}
+
+.rePassword .enterBack .submitButton{
+    top: 420px;
+    width: 290px;
+}
+
+.confirmPassword .enterBack {
+    height: 340px;
+}
+
+.confirmPassword .enterBack .submitButton{
+    top: 240px;
 }
 
 #enterBackSubmitReg {

@@ -218,6 +218,79 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     })
 
+    passCheck[2].addEventListener('input', () => {
+        if (passCheck[3].getElementsByTagName('input')[0].value != passCheck[2].getElementsByTagName('input')[0].value) {
+            if (passCheck[3].classList.contains('correctPassword')) {
+                passCheck[3].classList.remove('correctPassword');
+                document.getElementsByClassName('inputHint')[1].classList.remove('correctInputHint');
+                document.getElementsByClassName('inputHint')[1].innerHTML = "Пароли не совпадают!";
+            }
+            passCheck[3].classList.add('incorrectPassword');
+            document.getElementsByClassName('inputHint')[1].classList.add('incorrectInputHint');
+        } else if (!passCheck[3].getElementsByTagName('input')[0].value || !passCheck[2].getElementsByTagName('input')[0].value) {
+            passCheck[3].classList.remove('incorrectPassword');
+            document.getElementsByClassName('inputHint')[1].classList.remove('incorrectInputHint');
+            passCheck[3].classList.remove('correctPassword');
+            document.getElementsByClassName('inputHint')[1].classList.remove('correctInputHint');
+        } else {
+            if (passCheck[3].classList.contains('incorrectPassword')) {
+                passCheck[3].classList.remove('incorrectPassword');
+                document.getElementsByClassName('inputHint')[1].classList.remove('incorrectInputHint');
+                document.getElementsByClassName('inputHint')[1].innerHTML = "Пароли совпадают!";
+            }
+            passCheck[3].classList.add('correctPassword');
+            document.getElementsByClassName('inputHint')[1].classList.add('correctInputHint');
+        }
+    })
+
+    passCheck[3].addEventListener('input', () => {
+        if (passCheck[3].getElementsByTagName('input')[0].value != passCheck[2].getElementsByTagName('input')[0].value) {
+            if (passCheck[3].classList.contains('correctPassword')) {
+                passCheck[3].classList.remove('correctPassword');
+                document.getElementsByClassName('inputHint')[1].classList.remove('correctInputHint');
+                document.getElementsByClassName('inputHint')[1].innerHTML = "Пароли не совпадают!";
+            }
+            passCheck[3].classList.add('incorrectPassword');
+            document.getElementsByClassName('inputHint')[1].classList.add('incorrectInputHint');
+        } else if (!passCheck[3].getElementsByTagName('input')[0].value || !passCheck[2].getElementsByTagName('input')[0].value) {
+            passCheck[3].classList.remove('incorrectPassword');
+            document.getElementsByClassName('inputHint')[1].classList.remove('incorrectInputHint');
+            passCheck[3].classList.remove('correctPassword');
+            document.getElementsByClassName('inputHint')[1].classList.remove('correctInputHint');
+        } else {
+            if (passCheck[3].classList.contains('incorrectPassword')) {
+                passCheck[3].classList.remove('incorrectPassword');
+                document.getElementsByClassName('inputHint')[1].classList.remove('incorrectInputHint');
+                document.getElementsByClassName('inputHint')[1].innerHTML = "Пароли совпадают!";
+            }
+            passCheck[3].classList.add('correctPassword');
+            document.getElementsByClassName('inputHint')[1].classList.add('correctInputHint');
+        }
+    })
+
+
+
+
+
+    let toPhoneConfirmationButtons = document.getElementsByClassName('toPhoneConfirmation');
+
+    toPhoneConfirmationButtons[0].addEventListener('click', () => {
+        document.getElementsByClassName('absoluted')[1].style.opacity = '0';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[1].style.display = 'none';}, 300)
+
+        document.getElementsByClassName('absoluted')[3].style.display = 'flex';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[3].style.opacity = '1';}, 300)
+    });
+
+    toPhoneConfirmationButtons[1].addEventListener('click', () => {
+        document.getElementsByClassName('absoluted')[2].style.opacity = '0';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[2].style.display = 'none';}, 300)
+
+        document.getElementsByClassName('absoluted')[3].style.display = 'flex';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[3].style.opacity = '1';}, 300)
+    });
+
+
 
 
     
@@ -227,6 +300,30 @@ window.addEventListener('DOMContentLoaded', () => {
 
         document.getElementsByClassName('absoluted')[1].style.display = 'flex';
         setTimeout(() => {document.getElementsByClassName('absoluted')[1].style.opacity = '1';}, 300)
+    });
+
+    document.getElementById('enterBackSubmitForget').addEventListener('click', () => {
+        document.getElementsByClassName('absoluted')[0].style.opacity = '0';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.display = 'none';}, 300)
+
+        document.getElementsByClassName('absoluted')[2].style.display = 'flex';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[2].style.opacity = '1';}, 300)
+    });
+
+    document.getElementById('confirmPasswordBackClose').addEventListener('click', () => {
+        document.getElementsByClassName('absoluted')[3].style.opacity = '0';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[3].style.display = 'none';}, 300)
+        document.body.style.overflowY = "unset";
+        document.body.style.height = "max-content";
+        document.body.style.width = "unset";
+    });
+
+    document.getElementById('rePasswordBackClose').addEventListener('click', () => {
+        document.getElementsByClassName('absoluted')[2].style.opacity = '0';
+        setTimeout(() => {document.getElementsByClassName('absoluted')[2].style.display = 'none';}, 300)
+        document.body.style.overflowY = "unset";
+        document.body.style.height = "max-content";
+        document.body.style.width = "unset";
     });
 
     document.getElementById('regBackClose').addEventListener('click', () => {
