@@ -13,25 +13,26 @@ window.addEventListener('DOMContentLoaded', () => {
     try {
         for (let elem in categories) {
             (() => {
-                    categories[elem].addEventListener('click', () => {
-                        // console.log(elem)
-                        categories[elem].classList.toggle('activeCategoryInputContainer');
-                        if (activeCategory == -1) {
-                            activeCategory = elem;
-                        } else if (activeCategory == elem) {
-                            activeCategory = -1;
-                        } else {
-                            categories[activeCategory].classList.toggle('activeCategoryInputContainer');
-                            activeCategory = elem;
-                        }
-                        if (categoriesText[elem].innerHTML == categoriesNames[elem]) categoriesText[elem].classList.toggle('selectedCategory');
-                        if (categories[elem].classList.contains('activeCategoryInputContainer')) {
-                            categoriesText[elem].innerHTML = categoriesNames[elem];
-                            categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
-                            categoriesMarkers[elem].style.top="24px";
-                        } else {
-                            categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
-                            categoriesMarkers[elem].style.top="28px";
+                    categories[elem].addEventListener('click', (e) => {
+                        if (e.target.classList.contains('categoryInput') || e.target.classList.contains('categoryInputText') || e.target.tagName.toLowerCase() == 'img') {
+                            categories[elem].classList.toggle('activeCategoryInputContainer');
+                            if (activeCategory == -1) {
+                                activeCategory = elem;
+                            } else if (activeCategory == elem) {
+                                activeCategory = -1;
+                            } else {
+                                categories[activeCategory].classList.toggle('activeCategoryInputContainer');
+                                activeCategory = elem;
+                            }
+                            if (categoriesText[elem].innerHTML == categoriesNames[elem]) categoriesText[elem].classList.toggle('selectedCategory');
+                            if (categories[elem].classList.contains('activeCategoryInputContainer')) {
+                                categoriesText[elem].innerHTML = categoriesNames[elem];
+                                categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
+                                categoriesMarkers[elem].style.top="24px";
+                            } else {
+                                categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+                                categoriesMarkers[elem].style.top="28px";
+                            }
                         }
                     });
             })()
@@ -45,6 +46,8 @@ window.addEventListener('DOMContentLoaded', () => {
             (() => {
                     categoriesContent[elem].addEventListener('click', () => {
                         categoriesText[activeCategory].innerHTML = categoriesContent[elem].innerHTML;
+                        categories[activeCategory].classList.toggle('activeCategoryInputContainer');
+                        activeCategory = -1;
                         // categoriesText[activeCategory].classList.toggle('selectedCategory');
                     });
             })()

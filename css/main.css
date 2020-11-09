@@ -126,7 +126,7 @@
 }
 
 #howItWorks {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 #howItWorksContent {
@@ -609,6 +609,10 @@
 
     #tenantFirst {
         left: 20px;
+    }
+
+    #howItWorks {
+        margin-top: 80px;
     }
 
 }
