@@ -469,9 +469,9 @@ window.addEventListener('DOMContentLoaded', () => {
         _list.forEach(i=>{
           let new_el = document.createElement('div')
           new_el.className = 'citiesContentElem';
-          i = i.replace(spanner, "<span>" + spanner + "</span>")
+          if (spanner) i = i.toLowerCase().replace(spanner.toLowerCase(), "<span>" + spanner + "</span>")
           new_el.innerHTML = i;
-          console.log(i +  " " + spanner + "\n\n");
+          // console.log(i +  " " + spanner + "\n\n");
           el.appendChild(new_el)
         })
 
@@ -497,9 +497,14 @@ window.addEventListener('DOMContentLoaded', () => {
       input.addEventListener('input', (e) => {
           parent.innerHTML = "";
 
-        let tmp = filter(e.target.value, cities);
-        // console.log(tmp);
-        renderList(tmp, parent, e.target.value)
+        if (input) {
+          e.target.value = e.target.value[0].toUpperCase() + e.target.value.slice(1);
+          let tmp = filter(e.target.value, cities);
+          // console.log(tmp);
+          renderList(tmp, parent, e.target.value)
+        } else {
+          renderList(cities, parent, "")
+        }
 
       });
 
