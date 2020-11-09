@@ -51,7 +51,7 @@
 
 .flexFiltrarionMarkersBlock {
     width: 300px;
-    height: 242px;
+    height: max-content;
     padding: 32px 24px 32px 24px;
     background: #FFFFFF;
     border-radius: 16px;
@@ -85,6 +85,10 @@
 
     color: #07273F;
     /* margin-left: 35px; */
+  }
+  
+  .container:last-child {
+    margin-bottom: 0px;
   }
   
   .container p {

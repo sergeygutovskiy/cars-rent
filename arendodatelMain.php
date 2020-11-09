@@ -508,9 +508,9 @@
             <div class="accountNavBlock">
                 <div class="accountNavMain"><p>Личный кабинет</p></div>
                 <div class="accountNavContent">
-                    <div class="accountNavElem">Профиль</div>
+                    <div class="accountNavElem">Профиль <div class="activeAccountNavElemHint"></div></div>
                     <div class="accountNavElem activeAccountNavElem uncheckedUpdates">Заявки и объявления <div class="activeAccountNavElemHint"></div> </div>
-                    <div class="accountNavElem">Сделки</div>
+                    <div class="accountNavElem">Сделки <div class="activeAccountNavElemHint"></div></div>
                 </div>
             </div>
 
