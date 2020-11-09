@@ -442,7 +442,7 @@ window.addEventListener('DOMContentLoaded', () => {
             ( () => {
                 citiesNames[i].addEventListener('click', () => {
                   if (document.getElementsByClassName('textInput')[0].classList.contains('activeTextInput')) document.getElementsByClassName('textInput')[0].classList.remove('activeTextInput');
-                    input.value = citiesNames[i].innerHTML;
+                    input.value = citiesNames[i].innerHTML.replace("<span>", "").replace("</span>", "");
                 })
                 }
             )();
@@ -471,6 +471,7 @@ window.addEventListener('DOMContentLoaded', () => {
           new_el.className = 'citiesContentElem';
           if (spanner) i = i.toLowerCase().replace(spanner.toLowerCase(), "<span>" + spanner + "</span>")
           new_el.innerHTML = i;
+          if (i.city) new_el.innerHTML = i.city;
           // console.log(i +  " " + spanner + "\n\n");
           el.appendChild(new_el)
         })
@@ -482,7 +483,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 ( () => {
                     citiesNames[i].addEventListener('click', () => {
                       if (document.getElementsByClassName('textInput')[0].classList.contains('activeTextInput')) document.getElementsByClassName('textInput')[0].classList.remove('activeTextInput');
-                        input.value = citiesNames[i].innerHTML;
+                        input.value = citiesNames[i].innerHTML.replace("<span>", "").replace("</span>", "");
                     })
                     }
                 )();
@@ -517,6 +518,11 @@ window.addEventListener('DOMContentLoaded', () => {
       });
 
       input.addEventListener('focus', (e) => {
+        if (e.target.value) {
+          e.target.value = "";
+          parent.innerHTML = "";
+          renderList(cities, parent, "")
+        }
         document.getElementsByClassName('textInput')[0].classList.add('normalisedActiveState');
       });
 

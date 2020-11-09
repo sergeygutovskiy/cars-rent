@@ -583,12 +583,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -622,12 +622,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -660,12 +660,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -698,12 +698,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -736,12 +736,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -779,12 +779,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -818,12 +818,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -856,12 +856,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -894,12 +894,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -932,12 +932,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -975,12 +975,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1014,12 +1014,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1052,12 +1052,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1090,12 +1090,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1128,12 +1128,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1171,12 +1171,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1210,12 +1210,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1248,12 +1248,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1286,12 +1286,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1324,12 +1324,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1367,12 +1367,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1406,12 +1406,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1444,12 +1444,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1482,12 +1482,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 
@@ -1520,12 +1520,12 @@
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">стоимость</div>
-                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
-                                    </div>
-                                    <div class="flexDealBlockMainInfoBlock">
                                         <div class="infoBlockHint">конец аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
                                     </div>
                                 </div>
 

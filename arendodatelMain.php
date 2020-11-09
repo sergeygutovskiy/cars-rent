@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="js/arendodatelSwiper.js"></script>
+    <script src="js/swiper.js"></script>
     <!-- <script src="js/additionalSwiper.js"></script> -->
     <script src="js/hamburger.js"></script>
     <!-- <script src="js/carSelect.js"></script> -->
@@ -615,7 +615,7 @@
 
 
             <div class="arendodatelFlexBlock">
-                <div class="accountSwiperMain">Мои сделки</div>
+                <h5 class="accountSwiperMain">Мои сделки</h5>
 
                 <div class="arendodatelFlexContent">
                     <div class="flexFiltrarionMarkersBlock">
@@ -623,18 +623,694 @@
                             <input class="filterRadio" name="filters" type="radio">
                             <span class="checkmark"></span>
                         </label>
-                        <label class="container"><p>На подтверждении<span class="containerCountHint">10</span></p>
+                        <label class="container"><p>Ожидает подтверждения<span class="containerCountHint">10</span></p>
                             <input class="filterRadio" name="filters" type="radio">
                             <span class="checkmark"></span>
                         </label>
-                        <label class="container"><p>Активные<span class="containerCountHint">10</span></p>
+                        <label class="container"><p>Ожидает оплаты<span class="containerCountHint">10</span></p>
                             <input class="filterRadio" name="filters" type="radio">
                             <span class="checkmark"></span>
                         </label>
-                        <label class="container"><p>Завершенные<span class="containerCountHint">10</span></p>
+                        <label class="container"><p>Оплачено<span class="containerCountHint">10</span></p>
                             <input class="filterRadio" name="filters" type="radio">
                             <span class="checkmark"></span>
                         </label>
+                        <label class="container"><p>Завершено<span class="containerCountHint">10</span></p>
+                            <input class="filterRadio" name="filters" type="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+
+
+                    <div class="flexArendodatelBlock">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                        <div class="flexDeal waitForConfirmationState">
+
+                            <div class="flexDealBlock waitForConfirmation">
+
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Ожидает подтверждения</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+
+                            </div>
+
+                            <div class="flexDealBlock awaitingPayment">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Ожидает оплаты</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                            <div class="flexDealBlock paid">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Оплачено</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                            <div class="flexDealBlock ended">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Завершено</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="flexDeal awaitingPaymentState">
+
+                            <div class="flexDealBlock waitForConfirmation">
+
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Ожидает подтверждения</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+
+                            </div>
+
+                            <div class="flexDealBlock awaitingPayment">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Ожидает оплаты</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                            <div class="flexDealBlock paid">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Оплачено</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                            <div class="flexDealBlock ended">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Завершено</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="flexDeal paidState">
+
+                            <div class="flexDealBlock waitForConfirmation">
+
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Ожидает подтверждения</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+
+                            </div>
+
+                            <div class="flexDealBlock awaitingPayment">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Ожидает оплаты</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                            <div class="flexDealBlock paid">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Оплачено</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                            <div class="flexDealBlock ended">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Завершено</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="flexDeal endedState">
+
+                            <div class="flexDealBlock waitForConfirmation">
+
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Ожидает подтверждения</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+
+                            </div>
+
+                            <div class="flexDealBlock awaitingPayment">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Ожидает оплаты</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                            <div class="flexDealBlock paid">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Оплачено</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                            <div class="flexDealBlock ended">
+                                <div class="flexDealBlockPersonal">
+                                    <div class="flexDealBlockPersonalStatus">
+                                        <div class="statusPoint"></div>
+                                        <div class="statusText">Завершено</div>
+                                        <div class="statusDate">24.10.2020</div>
+                                    </div>
+
+                                    <div class="flexDealBlockPersonalInfo">
+                                        <div class="infoImg"></div>
+                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoCar">Mercedes-Benz E</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainInfo">
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockContent">09.11.2020</div>
+                                    </div>
+                                    <div class="flexDealBlockMainInfoBlock">
+                                        <div class="infoBlockHint">стоимость</div>
+                                        <div class="infoBlockContent"><span>2000</span> ₽</div>
+                                    </div>
+                                </div>
+
+                                <div class="flexDealBlockMainSubmit">
+                                    <!-- <div class="submitContainer"> -->
+                                        <div class="submitButton">К сделке</div>
+                                        <div class="submitText">Отменить</div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     </div>
                 </div>
             </div>
