@@ -553,7 +553,8 @@ h3 {
 #mainInputBlock .input {
     position: relative;
     height: 65px;
-    
+    border: 2px solid rgba(0,0,0,0);
+    transition: .2s;
 }
 
 #mainInputBlock .textInput {
@@ -585,8 +586,9 @@ h3 {
     margin-left: 10px;
 }
 
-#mainInputBlock input {
+#mainInputBlock input:read-only {
     width: 150px;
+    cursor: pointer;
  }
 
 #mainInputBlock .customServisInput.activeState .formLabel {
@@ -598,7 +600,7 @@ h3 {
     
     margin-right: 5px;
     width: 165px;
-    height: 65px;
+    height: 60px;
     border-radius: 8px;
     background-color: #EFF0F6;
     outline: none;
@@ -1735,13 +1737,18 @@ h3 {
     transition: .3s;
 }
 
+#mainInputBlock .textInput:hover {
+    border: 2px solid #2A97F0;
+    transition: .2s;
+}
+
 .citiesContent {
     width: calc(100%);
     max-width: calc(100%);
     height: max-content;
     /* max-height: 200px; */
     max-height: 0px;
-    margin-top: 4px;
+    margin-top: 7px;
     background: #EFF0F6;
     border-radius: 16px;
     /* padding: 24px; */
@@ -1825,6 +1832,11 @@ h3 {
 
 .citiesContentElem:last-child {
     margin-bottom: 24px;
+}
+
+#mainInputBlock .input.normalisedActiveState {
+    border: 2px solid #2A97F0;
+    transition: .2s;
 }
 
 /* vars */
@@ -2100,7 +2112,7 @@ h3 {
         /* margin-left: 6px; */
         /* margin-right: 6px; */
         /* width: 213px; */
-        height: 64px;
+        height: 60px;
         /* margin-top: 5px; */
         font-size: 14px;
     }
@@ -2582,7 +2594,7 @@ h3 {
         margin-left: 2px;
         /* margin-right: 12px; */
         width: 230px;
-        height: 64px;
+        height: 60px;
         /* margin-top: 8px; */
         font-size: 14px;
     }
@@ -2619,6 +2631,10 @@ h3 {
 
     #mainInputBlock .datepicker:nth-child(2) {
         margin-left: 0px;
+    }
+
+    .customDateInput {
+        /* cursor: pointer; */
     }
 
     #mainInputBlock .datepicker .customServisInput {

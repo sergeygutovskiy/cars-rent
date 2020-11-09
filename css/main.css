@@ -400,6 +400,16 @@
     top: calc(50% + 40px);
 }
 
+#mainInputBlock .categoryInputContainer:hover .categoryInput{
+    transition: .2s;
+    border: 2px solid #2997EE;
+}
+
+#mainInputBlock .activeCategoryInputContainer .categoryInput{
+    transition: .2s;
+    border: 2px solid #2997EE;
+}
+
 #mainInputBlock .activeCategoryInputContainer .categoryInputContent {
     border-radius: 16px;
 }

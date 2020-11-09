@@ -534,7 +534,7 @@
 
 
 
-                    <input required type="text" readonly name="start_date" class="customServisInputMain" id="startDate">
+                    <input required type="text" readonly name="start_date" class="customServisInputMain customDateInput" id="startDate">
 
                     <img src="assets/all/Calandar.svg" class="inputLogo">
                     <!-- <i class="rcli fa-user"></i>
@@ -557,7 +557,7 @@
 
 
 
-                    <input required type="text" readonly name="end_date" class="customServisInputMain" id="endDate">
+                    <input required type="text" readonly name="end_date" class="customServisInputMain customDateInput" id="endDate">
 
                     <img src="assets/all/Calandar.svg" class="inputLogo">
                     <!-- <i class="rcli fa-user"></i>

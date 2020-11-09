@@ -499,4 +499,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
       });
 
+      input.addEventListener('focus', (e) => {
+        document.getElementsByClassName('textInput')[0].classList.add('normalisedActiveState');
+      });
+
+      input.addEventListener('blur', (e) => {
+        document.getElementsByClassName('textInput')[0].classList.remove('normalisedActiveState');
+      });
 });
