@@ -589,6 +589,7 @@
 
                     <div class="citiesContent">
                         <div class="citiesContentFixer">
+                            <!-- <div class="citiesContentElem"><span>Сан</span>кт</div> -->
                         </div>
                     </div>
                 </div>

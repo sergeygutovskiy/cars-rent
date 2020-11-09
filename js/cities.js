@@ -441,6 +441,7 @@ window.addEventListener('DOMContentLoaded', () => {
         for (let i = 0; i < citiesNames.length; i++) {
             ( () => {
                 citiesNames[i].addEventListener('click', () => {
+                  if (document.getElementsByClassName('textInput')[0].classList.contains('activeTextInput')) document.getElementsByClassName('textInput')[0].classList.remove('activeTextInput');
                     input.value = citiesNames[i].innerHTML;
                 })
                 }
@@ -464,11 +465,13 @@ window.addEventListener('DOMContentLoaded', () => {
         return result;
       }
 
-      function renderList(_list=[],el=document.body){
+      function renderList(_list=[],el=document.body, spanner){
         _list.forEach(i=>{
           let new_el = document.createElement('div')
           new_el.className = 'citiesContentElem';
+          i = i.replace(spanner, "<span>" + spanner + "</span>")
           new_el.innerHTML = i;
+          console.log(i +  " " + spanner + "\n\n");
           el.appendChild(new_el)
         })
 
@@ -478,6 +481,7 @@ window.addEventListener('DOMContentLoaded', () => {
             for (let i = 0; i < citiesNames.length; i++) {
                 ( () => {
                     citiesNames[i].addEventListener('click', () => {
+                      if (document.getElementsByClassName('textInput')[0].classList.contains('activeTextInput')) document.getElementsByClassName('textInput')[0].classList.remove('activeTextInput');
                         input.value = citiesNames[i].innerHTML;
                     })
                     }
@@ -495,8 +499,16 @@ window.addEventListener('DOMContentLoaded', () => {
 
         let tmp = filter(e.target.value, cities);
         // console.log(tmp);
-        renderList(tmp, parent)
+        renderList(tmp, parent, e.target.value)
 
+      });
+
+      document.getElementsByClassName('textInput')[0].addEventListener('click', (e) => {
+        document.getElementsByClassName('textInput')[0].classList.toggle('activeTextInput');
+      });
+
+      document.getElementsByClassName('citiesContent')[0].addEventListener('click', (e) => {
+        document.getElementsByClassName('textInput')[0].classList.toggle('activeTextInput');
       });
 
       input.addEventListener('focus', (e) => {
@@ -506,4 +518,8 @@ window.addEventListener('DOMContentLoaded', () => {
       input.addEventListener('blur', (e) => {
         document.getElementsByClassName('textInput')[0].classList.remove('normalisedActiveState');
       });
+
+      input.addEventListener('input', () => {
+        document.getElementsByClassName('textInput')[0].classList.add('activeTextInput');
+      })
 });

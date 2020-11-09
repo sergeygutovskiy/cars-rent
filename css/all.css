@@ -1732,7 +1732,7 @@ h3 {
 
 /* cities */
 
-.textInput input:focus ~ .citiesContent{
+#mainInputBlock .textInput.activeTextInput .citiesContent{
     max-height: 400px;
     transition: .3s;
 }
@@ -1765,7 +1765,7 @@ h3 {
     position: relative;
     overflow: auto;
     width: calc(100% - 6px);
-    height: 200px;
+    height: max-content;
     max-height: 200px;
     margin-right: 6px;
     overflow-y: auto;
@@ -1818,6 +1818,11 @@ h3 {
     /* light grey */
 
     color: #7993AF;
+    transition: .2s;
+}
+
+.citiesContentElem span{
+    color: #07273F;
     transition: .2s;
 }
 
