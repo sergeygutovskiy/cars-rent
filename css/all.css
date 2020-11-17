@@ -265,6 +265,7 @@ h3 {
     z-index: 100;
     transition: .5s;
     overflow: hidden;
+    overflow-y: hidden;
 }
 
 #absolutedHamburger #lang {
@@ -1986,7 +1987,7 @@ h3 {
         height: 100%;
         /* min-height: 600px; */
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: hidden;
     }
 
     #hamburger {
@@ -2602,7 +2603,7 @@ h3 {
 
 
     .soldText {
-        max-width: 360px;
+        max-width: 312px;
     }
     
     .soldTextMain h1 {
