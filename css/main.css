@@ -548,13 +548,13 @@
 .tenantBlock:nth-child(2) {
     position: absolute;
     right: calc(50px + 180px + 200px - 91px);
-    top: 50px;
+    top: 30px;
 }
 
 .tenantBlock:nth-child(3) {
     position: absolute;
     right: calc(50px + 180px + 200px - 91px + 200px);
-    top: 50px;
+    top: 30px;
 }
 
 .tenantBlock:nth-child(4) {
@@ -620,7 +620,7 @@
 .lessorBlock:nth-child(3) {
     position: absolute;
     right: calc(50px + 180px + 200px - 91px + 200px);
-    bottom: 50px;
+    bottom: 30px;
 }
 
 .lessorBlock:nth-child(4) {
@@ -638,8 +638,8 @@
 
 #forFour {
     position: absolute;
-    width: 100px;
-    right: 185px;
+    width: 150px;
+    right: 160px;
     top: calc(50% + 40px);
 }
 
@@ -828,10 +828,14 @@
 
     .tenantBlockText {
         max-width: 105px;
+        font-size: 14px;
+        line-height: 20px;
     }
 
     .lessorBlockText {
         max-width: 105px;
+        font-size: 14px;
+        line-height: 20px;
     }
 
     .tenantBlock:nth-child(2) {
@@ -849,7 +853,7 @@
     .tenantBlock:nth-child(4) {
         position: absolute;
         right: calc(50px + 89px + 60px - 91px + 200px + 200px);
-        top: 50px;
+        top: 30px;
     }
 
     .lessorBlock:nth-child(2) {
@@ -861,13 +865,13 @@
     .lessorBlock:nth-child(3) {
         position: absolute;
         right: calc(50px + 89px + 130px - 91px + 200px);
-        bottom: 50px;
+        bottom: 30px;
     }
     
     .lessorBlock:nth-child(4) {
         position: absolute;
         right: calc(50px + 89px + 60px - 91px + 200px + 200px);
-        bottom: 50px;
+        bottom: 30px;
     }
 
     #lessorFirst {
@@ -1144,7 +1148,7 @@
     #lessorFirst {
         font-size: 18px;
         top: 30px;
-        right: calc(50% - 28px - 110px);
+        right: calc(50% - 28px - 95px);
         bottom: unset;
         left: unset;
     }
