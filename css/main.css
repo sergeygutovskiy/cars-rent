@@ -1,11 +1,253 @@
 
 #together {
-    width: 1000px;
+    width: 1204px;
     height: max-content;
     min-height: 400px;
     margin: auto;
-    margin-top: 60px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+
+.togetherChatTextBlock {
+    margin-top: 170px;
+    width: 400px;
+    z-index: 1;
+    position: relative;
+}
+
+.togetherChatTextBlock .submitButton {
+    width: 256px;
+    margin: 0;
+}
+
+.togetherChatTextBlockMain {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.togetherChatTextBlockContent {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+}
+
+#togetherChatMainBlock {
+    margin-top: 50px;
+    width: 285px;
+    height: 505px;
+    background: #FFFFFF;
+    box-shadow: 6.17684px 12.3537px 30.8842px rgba(8, 24, 81, 0.1);
+    border-radius: 18px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#chatHeader {
+    height: 52px;
+    width: 100%;
+    border-bottom: .5px solid #EFF0F6;
+    display: flex;
+    align-items: center;
+}
+
+#chatHeaderLogo {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    margin-left: 20px;
+}
+
+#chatHeaderText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height, or 138% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(7, 39, 63, 0.8);
+    margin-left: 10px;
+}
+
+#chatFooter {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#chatFooterInput {
+    width: 205px;
+    height: 36px;
+    border: none;
+    background: #EFF0F6;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+
+    color: #4E4B66;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding-left: 16px;
+}
+
+#chatFooterInput::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    margin-left: 16px;
+    color: #A0A3BD;
+}
+
+#chatFooterButton {
+    width: 54px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2997EE;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#chatFooterButton:hover {
+    background-color: #2179BE;
+    transition: .2s;
+}
+
+#chatFooterButton img {
+    width: 10px;
+    height: auto;
+}
+
+#chatContent {
+    /* background-color: red; */
+    width: 100%;
+    height: calc(100% - 60px - 52px);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#chatContentFixer {
+    height: max-content;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.chatMessage {
+    width: 100%;
+    position: relative;
+    padding-bottom: 14px;
+    transition: max-height .1s, opacity .5s;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.inMessage {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.outMessage {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.messageContent {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: max-content;
+    max-width: 182px;
+    background: #EFF0F6;
+    border-radius: 20px 20px 0px 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height, or 160% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+}
+
+.outMessage .messageTime{
+    right: unset;
+    left: 0;
+}
+
+.outMessage .messageContent{
+    background: #C3E1FB;
+    border-radius: 20px 20px 20px 0px;
+}
+
+.messageTime {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 13px;
+    /* identical to box height, or 217% */
+    
+    letter-spacing: 0.03em;
+    
+    /* light grey */
+    
+    color: #7993AF;
+}
+
+#togetherChatMainBlockBack {
+    top: 50px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #EBEEF9;
+    border-radius: 50%;
+    left: calc(50% - 250px);
+    z-index: 0;
 }
 
 #togetherChat {
@@ -471,7 +713,32 @@
         width: 728px;
     }
 
-    
+
+    #together {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    #togetherChatMainBlock {
+        position: absolute;
+        left: 0;
+    }
+
+    .togetherChatTextBlock:first-child {
+        margin-top: 0px;
+    }
+
+    .togetherChatTextBlock {
+        margin-top: 60px;
+    }
+
+    #togetherChatMainBlockBack {
+        width: 400px;
+        height: 400px;
+        left: -57px;
+        top: 81px;
+    }
 
     #togetherChat {
         width: 340px;
@@ -637,6 +904,32 @@
 
 @media screen and (max-width: 767px) {
 
+    .togetherChatTextBlockMain {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .togetherChatTextBlockContent {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .togetherChatTextBlock .submitButton {
+        width: 236px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #togetherChatMainBlock {
+        position: relative;
+        left: unset;
+    }
+
+    #togetherChatMainBlockBack {
+        top: calc(50% - 200px);
+        left: calc(50% - 200px);
+    }
+
     #togetherContent .submitButton{
         margin: auto;
         margin-top: 30px;
@@ -645,6 +938,7 @@
     #together {
         width: 312px;
         margin-top: 0px;
+        justify-content: center;
     }
     
     #mainPhoto {

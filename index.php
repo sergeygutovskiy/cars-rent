@@ -17,6 +17,7 @@
     <script src="js/mainInput.js"></script>
     <script src="js/login_registration.js"></script>
     <script src="js/cities.js"></script>
+    <script src="js/chat.js"></script>
 
     <link rel="stylesheet" href="datepicker/dist/css/datepicker.material.css">
     <script src="datepicker/dist/datepicker.js"></script>
@@ -1045,19 +1046,50 @@
         </div>
 
         <div id="together">
-            <h3>Зарабатывай с нами</h3>
-
-            <div id="togetherChat">
-                <div class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-                <div class="message greyMessage">Lorem ipsum dolor sit amet</div>
-                <div class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit  consectetur adipiscing eli</div>
+            <div class="togetherChatTextBlock">
+                <div class="togetherChatTextBlockMain">Арендуйте желаемый транспорт</div>
+                <div class="togetherChatTextBlockContent">Подбирайте транспорт для любого случая в жизни и используйте его для экономии ваших средств. Вы можете выбрать подходящий транспорт, который отвечает вашим ожиданиям и требованиям, а также гибкие условия аренды. </div>
+                <div class="submitButton">Арендовать транспорт</div>
             </div>
 
-            <div id="togetherContent">
-                <div id="togetherContentMain">Сдай в аренду свой транспорт уже сегодня</div>
-                <div id="togetherContentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                <div class="submitButton">Сдать</div>
+            <div id="togetherChatMainBlock">
+                <div id="chatHeader">
+                    <div id="chatHeaderLogo"></div>
+                    <div id="chatHeaderText">Joy</div>
+                </div>
+                <div id="chatContent">
+                    <div id="chatContentFixer">
+                        <!-- <div class="chatMessage outMessage">
+                            <div class="messageContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit  adipiscing elit </div>
+                            <div class="messageTime">23:04</div>
+                        </div>
+                        <div class="chatMessage inMessage">
+                            <div class="messageContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit  adipiscing elit </div>
+                            <div class="messageTime">23:04</div>
+                        </div>
+                        <div class="chatMessage outMessage">
+                            <div class="messageContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit  adipiscing elit </div>
+                            <div class="messageTime">23:04</div>
+                        </div>
+                        <div class="chatMessage inMessage">
+                            <div class="messageContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit  adipiscing elit </div>
+                            <div class="messageTime">23:04</div>
+                        </div> -->
+                    </div>
+                </div>
+                <div id="chatFooter">
+                    <input type="text" placeholder="Напишите сообщение..." id="chatFooterInput" />
+                    <div id="chatFooterButton"><img src="assets/all/chatArrow.svg" /></div>
+                </div>
             </div>
+
+            <div class="togetherChatTextBlock">
+                <div class="togetherChatTextBlockMain">У вас уже есть транспорт?</div>
+                <div class="togetherChatTextBlockContent">Поделитесь им и заработайте!<br/> Используйте свой транспорт как средство заработка - сдавайте его в аренду, когда Вы им не пользуетесь. Вы сами устанавливаете условия аренды, а также требования к арендатору.</div>
+                <div class="submitButton">Сдать в аренду</div>
+            </div>
+
+            <div id="togetherChatMainBlockBack"></div>
         </div>
 
         <div id="howItWorks">
