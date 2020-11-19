@@ -1,0 +1,442 @@
+
+#accountMainBlock {
+    width: 1204px;
+    margin: auto;
+}
+
+.accountFlexBlock {
+    width: 1050px;
+    padding-bottom: 48px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 52px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.accountPhotoColumn {
+    margin-left: 40px;
+    width: 250px;
+    height: auto;
+    position: relative;
+}
+
+.photoContainer {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.photoContainer img{
+    width: 100%;
+    height: auto;
+}
+
+.photoContainer:hover ~  .photoContainerHint{
+    color: #2997EE;
+    transition: .2s;
+}
+
+.photoContainerHint:hover{
+    color: #2997EE;
+    transition: .2s;
+}
+
+.photoContainerHint {
+    position: absolute;
+    top: 210px;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
+    letter-spacing: 0.04em;
+
+    /* light grey */
+
+    color: #7993AF;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.passwordChanger {
+    width: 130px;
+    margin-left: calc(50% - 65px);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.passwordChanger:hover {
+    color: #2997EE;
+    transition: .2s;
+}
+
+.accountInputColumn {
+    margin-left: 30px;
+    width: 325px;
+    height: auto;
+}
+
+.accountInputColumn .form-block-rcl {
+    width: 325px;
+    margin-bottom: 10px;
+}
+
+.accountInputColumn .submitButton {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 16px;
+    width: 325px;
+    height: 56px;
+    border-radius: 8px;
+}
+
+.accountDocsFlex {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin-top: 25px;
+    width: 1050px;
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+#docsMainText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: max-content;
+    letter-spacing: 0.02em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.docsText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 8px;
+    /* identical to box height, or 162% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+}
+
+.accountDocsContentFlex {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.accountDocsContentFlexBox {
+    width: 330px;
+    height: auto;
+    position: relative;
+}
+
+.accountFlexMain {
+    width: 95%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 137% */
+
+    letter-spacing: 0.02em;
+
+    /* blue */
+
+    color: #2997EE;
+    margin-bottom: 10px;
+}
+
+.shortBlockText {
+    width: 70%;
+}
+
+.middleBlockText {
+    width: 90%;
+}
+
+.accountFlexBoxPhotoBlock {
+    width: 210px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.accountFlexBoxPhotoBlock:hover ~ .accountFlexBoxPhotoBlockContentHint {
+    color: #2997EE;
+    transition: .2s;
+}
+
+.accountFlexBoxPhotoBlockContent {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.accountFlexBoxPhotoBlockContent img{
+    width: 100%;
+    height: 100%;
+}
+
+.accountFlexBoxPhotoBlockContentHint {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    letter-spacing: 0.04em;
+
+    /* grey */
+
+    color: #4E4B66;
+    transition: .2s;
+}
+
+.accountFlexBoxPhotoBlockContentHintAdvice {
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+    letter-spacing: 0.04em;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
+.accountDocsContentFlexSubmit {
+    width: 250px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    border: 2px solid #2997EE;
+    color: #2997EE;
+    border-radius: 8px;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.accountDocsContentFlexSubmit:hover {
+    background-color: #2997EE;
+    border: 2px solid #2997EE;
+    color: white;
+    transition: .2s;
+}
+
+#accountSubmitFlexBox {
+    margin-left: 120px;
+    margin-top: 25px;
+    display: flex;
+    width: 325px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#accountSubmitFlexBox .submitButton {
+    margin-left: 0;
+    margin-bottom: 0;
+    height: 56px;
+    width: 158px;
+    border-radius: 8px;
+}
+
+#accountSubmitFlexBox .submitButton:first-child {
+   margin-right: 9px;
+}
+
+#accountSubmitFlexBoxText {
+    margin-top: 25px;
+    width: 158px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+    cursor: pointer;
+    transition: .2s;
+}
+#accountSubmitFlexBoxText:hover {
+    color: #2997EE;
+    transition: .2s;
+}
+
+@media screen and (max-width: 1259px) {
+
+    #accountMainBlock {
+        width: 728px;
+    }
+
+    .accountFlexBlock {
+        width: 728px;
+    }
+
+    .accountDocsFlex {
+        width: 728px;
+    }
+
+    .accountDocsContentFlexSubmit {
+        position: absolute;
+        bottom: 0;
+        right: 83px;
+    }
+
+    #accountSubmitFlexBox {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #accountMainBlock {
+        width: 312px;
+    }
+
+    .accountFlexBlock {
+        width: 312px;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .accountPhotoColumn {
+        margin-left: 31px;
+        margin-bottom: 40px;
+    }
+
+    .accountDocsFlex {
+        width: 312px;
+    }
+
+    .accountDocsContentFlexSubmit {
+        position: absolute;
+        bottom: 0;
+        right: 83px;
+    }
+
+    #accountSubmitFlexBox {
+        margin-left: 40px;
+    }
+
+    .accountInputColumn {
+        margin-left: 12px;
+        width: 288px;
+        height: auto;
+    }
+
+    .accountInputColumn .form-block-rcl {
+        width: 288px;
+        /* height: 56px; */
+        margin-bottom: 8px;
+    }
+
+    .accountInputColumn .submitButton {
+        width: 288px;
+        border-radius: 16px;
+    }
+
+    .accountDocsContentFlexBox {
+        width: calc(330px - 40px);
+        margin-left: 20px;
+        margin-bottom: 40px;
+        height: auto;
+        position: relative;
+    }
+
+    .accountDocsFlex {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .accountDocsContentFlexSubmit {
+        position: relative;
+        width: 250px;
+        bottom: unset;
+        right: unset;
+        margin: auto;
+    }
+
+    #docsMainText {
+        margin-left: 30px;
+    }
+
+    .docsText {
+        margin-left: 30px;
+    }
+
+    #accountSubmitFlexBox {
+        width: 312px;
+        margin-left: 0px;
+    }
+    
+    #accountSubmitFlexBox .submitButton {
+        width: 152px;
+    }
+
+    #accountSubmitFlexBox .submitButton:first-child {
+        margin-right: 8px;
+    }
+
+    #accountSubmitFlexBoxText {
+        width: 152px;
+    }
+
+}
