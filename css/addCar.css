@@ -261,7 +261,7 @@
 
 #textarea:focus {
     border: 2px solid #2997EE;
-    transition: .2s;
+    /* transition: .2s; */
 }
 
 #textarea {
@@ -289,7 +289,7 @@
 
     color: #14142B;
     border: 2px solid #EFF0F6;
-    transition: .2s;
+    /* transition: .2s; */
 }
 
 #textarea::placeholder {
@@ -304,10 +304,9 @@
     color: #A0A3BD;
 }
 
-/* 
-#textarea::-webkit-resizer {
-    margin-bottom: 4px;
-    margin-right: 4px;
+
+/* #textarea::-webkit-resizer {
+    color: #14142B;
 } */
 
 #thirdStepBlock {
@@ -394,6 +393,12 @@
 
     color: #14142B;
     transition: .2s;
+}
+
+.stepContentBlockInputFlexElemContent:hover {
+    border: 2px solid #2997EE;
+    transition: .2s;
+    
 }
 
 .stepContentBlockInputFlexElemContent:focus {
@@ -583,6 +588,11 @@ input::-webkit-inner-spin-button {
     letter-spacing: 0.02em;
 
     color: #14142B;
+}
+
+.cardInput:hover {
+    border: 2px solid #2997EE;
+    transition: .2s;
 }
 
 .cardInput:focus {

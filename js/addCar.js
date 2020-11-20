@@ -55,7 +55,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     for (let i = 0; i < inputs.length; i++) {
         inputs[i].addEventListener('input', () => {
-            values[i].innerHTML = inputs[i].value * .9;
+            values[i].innerHTML = (inputs[i].value * .9).toFixed(2);
         });
     }
 
