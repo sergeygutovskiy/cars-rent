@@ -9,6 +9,25 @@
     margin: auto;
 }
 
+.descriptionContent {
+    display: none;
+}
+
+.auto .autoCarDescriptionMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.water .waterCarDescriptionMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.moto .motoCarDescriptionMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .bookingFlexBox {
     width: 1204px;
     height: max-content;

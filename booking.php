@@ -683,51 +683,119 @@
 
                     
 
-                    <div class="carDescriptionMain">
-                        <div class="carDescriptionMainBlock">
-                            <div class="carDescriptionMainBlockImg"></div>
-                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
-                            <div class="carDescriptionMainBlockMain">Седан</div>
+                    <div class="carDescriptionMain auto">
+                        <div class="descriptionContent  autoCarDescriptionMain">
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Коробка передач</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Тип кузова</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Пробег</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Привод</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Двигатель</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Год</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Вместимость</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Кол-во дверей</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Цвет</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
                         </div>
-                        <div class="carDescriptionMainBlock">
-                            <div class="carDescriptionMainBlockImg"></div>
-                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
-                            <div class="carDescriptionMainBlockMain">Седан</div>
+
+                        <div class="descriptionContent  waterCarDescriptionMain">
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Ширина</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Длина</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">осадка</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Вместимость</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Макс. скорость</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
                         </div>
-                        <div class="carDescriptionMainBlock">
-                            <div class="carDescriptionMainBlockImg"></div>
-                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
-                            <div class="carDescriptionMainBlockMain">Седан</div>
-                        </div>
-                        <div class="carDescriptionMainBlock">
-                            <div class="carDescriptionMainBlockImg"></div>
-                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
-                            <div class="carDescriptionMainBlockMain">Седан</div>
-                        </div>
-                        <div class="carDescriptionMainBlock">
-                            <div class="carDescriptionMainBlockImg"></div>
-                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
-                            <div class="carDescriptionMainBlockMain">Седан</div>
-                        </div>
-                        <div class="carDescriptionMainBlock">
-                            <div class="carDescriptionMainBlockImg"></div>
-                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
-                            <div class="carDescriptionMainBlockMain">Седан</div>
-                        </div>
-                        <div class="carDescriptionMainBlock">
-                            <div class="carDescriptionMainBlockImg"></div>
-                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
-                            <div class="carDescriptionMainBlockMain">Седан</div>
-                        </div>
-                        <div class="carDescriptionMainBlock">
-                            <div class="carDescriptionMainBlockImg"></div>
-                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
-                            <div class="carDescriptionMainBlockMain">Седан</div>
-                        </div>
-                        <div class="carDescriptionMainBlock">
-                            <div class="carDescriptionMainBlockImg"></div>
-                            <div class="carDescriptionMainBlockDesc">Тип кузова</div>
-                            <div class="carDescriptionMainBlockMain">Седан</div>
+
+                        <div class="descriptionContent  motoCarDescriptionMain">
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Макс. скорость</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Объем двигателя</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Мощность</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Объем бака</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Вес</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Пробег</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
+                            <div class="carDescriptionMainBlock">
+                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockDesc">Тип</div>
+                                <div class="carDescriptionMainBlockMain">Седан</div>
+                            </div>
                         </div>
                     </div>
 

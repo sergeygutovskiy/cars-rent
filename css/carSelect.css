@@ -26,6 +26,22 @@
     border-radius: 32px;
 }
 
+.stickyContent {
+    display: none;
+}
+
+.auto .autoStickyContent {
+    display: block;
+}
+
+.water .waterStickyContent {
+    display: block;
+}
+
+.moto .motoStickyContent {
+    display: block;
+}
+
 #selectMainContainer {
     width: 860px;
     height: max-content;
@@ -157,7 +173,7 @@
     position: absolute;
     width: 8px;
     height: 8px;
-    left: calc(50% - 8px);
+    left: calc(18% - 8px);
     bottom: 0;
     border-radius: 4px;
 

@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     let pointChoice = document.getElementsByClassName('pointChoiceText');
-    let activePoint = 1;
+    let activePoint = 0;
     let pointMarker = document.getElementsByClassName('pointChoiceMarker')[0];
     let positions = ["calc(18% - 8px)","calc(50% - 8px)","calc(84% - 8px)"];
 
@@ -24,6 +24,23 @@ window.addEventListener('DOMContentLoaded', () => {
                     pointChoice[elem].addEventListener('click', () => {
                         document.getElementsByClassName('resetCategories')[0].click();
                         if (elem != activePoint) {
+
+                            if (elem == 0) {
+                                document.getElementById('stickyBlock').classList.add('auto');
+                                document.getElementById('stickyBlock').classList.remove('water');
+                                document.getElementById('stickyBlock').classList.remove('moto');
+                            }
+                            if (elem == 1) {
+                                document.getElementById('stickyBlock').classList.remove('auto');
+                                document.getElementById('stickyBlock').classList.add('water');
+                                document.getElementById('stickyBlock').classList.remove('moto');
+                            }
+                            if (elem == 2) {
+                                document.getElementById('stickyBlock').classList.remove('auto');
+                                document.getElementById('stickyBlock').classList.remove('water');
+                                document.getElementById('stickyBlock').classList.add('moto');
+                            }
+                            
                             pointChoice[elem].classList.toggle('activePoint');
                             pointChoice[activePoint].classList.toggle('activePoint');
                             activePoint = elem;

@@ -32,6 +32,25 @@
     position: relative;
 }
 
+.descriptionContent {
+    display: none;
+}
+
+.auto .autoCarDescriptionMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.water .waterCarDescriptionMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.moto .motoCarDescriptionMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .galleryMain {
     width: 500px;
     height: 320px;
