@@ -55,7 +55,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     let activeCategory = -1;
     let categories = document.getElementById('selectContent').getElementsByClassName('categoryInputContainer');
-    let categoriesNames = ["Цена", "Марка", "Класс", "Категория", "Коробка", "Двигатель"];
+    let categoriesNames = ["Цена", "Марка", "Класс", "Категория", "Коробка", "Двигатель",         "Тип", "Ширина", "Длина", "Осадка", "Вместимость", "Макс. скорость",       "Тип", "Макс. скорость", "Объем двигателя", "Мощность", "Объем бака", "Вес", "Пробег"];
     let categoriesText = document.getElementById('selectContent').getElementsByClassName('categoryInputText');
     let categoriesMarkers = document.getElementById('selectContent').getElementsByClassName('categoryInputMarker');
     let activatedCategories = 0;
