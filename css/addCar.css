@@ -22,7 +22,7 @@
 .stepConfirm {
     position: absolute;
     top: 10px;
-    right: 0px;
+    right: 15px;
     color: #2997EE;
     display: none;
 }
@@ -46,7 +46,7 @@
     letter-spacing: 0.04em;
 
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -259,7 +259,14 @@
     position: relative;
 }
 
+#textarea:focus {
+    border: 2px solid #2997EE;
+    transition: .2s;
+}
+
 #textarea {
+
+    font-family: Commissioner;
     border: none;
     width: 100%;
     max-width: 100%;
@@ -281,6 +288,8 @@
     letter-spacing: 0.02em;
 
     color: #14142B;
+    border: 2px solid #EFF0F6;
+    transition: .2s;
 }
 
 #textarea::placeholder {
@@ -379,6 +388,7 @@
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
+    font-family: Commissioner;
 
     letter-spacing: 0.02em;
 
@@ -541,9 +551,17 @@ input::-webkit-inner-spin-button {
     margin-top: 18px;
 }
 
-.cardBlock .stepContentBlockText{
+.cardBlock .stepContentBlockMain {
+    margin-left: 0px;
+}
+
+.cardBlock .stepContentBlockText {
+    margin-left: 0px;
     width: unset;
-    margin-left: 16px;
+}
+
+.cardBlock .cardInput {
+    margin-left: 0px;
 }
 
 .cardInput {
@@ -558,6 +576,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
+    margin-left: 16px;
     line-height: 20px;
     /* identical to box height */
 
