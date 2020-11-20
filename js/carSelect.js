@@ -3,15 +3,19 @@ window.addEventListener('DOMContentLoaded', () => {
     let sortersMarkers = document.getElementsByClassName('selectSortElemMarker');
     let price = 0;
     
-    sorters[0].addEventListener('click', () => {
-        price = !price;
-        sortersMarkers[0].classList.toggle('fa-angle-up');
-        sortersMarkers[0].classList.toggle('fa-angle-down');
-    });
-
-    document.getElementsByClassName('selectFiltration')[0].addEventListener('click', () => {
-        document.getElementById('stickyBlock').classList.toggle('selectedStickyBlock');
-    });
+    try {
+        sorters[0].addEventListener('click', () => {
+            price = !price;
+            sortersMarkers[0].classList.toggle('fa-angle-up');
+            sortersMarkers[0].classList.toggle('fa-angle-down');
+        });
+    
+        document.getElementsByClassName('selectFiltration')[0].addEventListener('click', () => {
+            document.getElementById('stickyBlock').classList.toggle('selectedStickyBlock');
+        });
+    } catch (e) {
+        console.log(e);
+    }
 
     let pointChoice = document.getElementsByClassName('pointChoiceText');
     let activePoint = 0;
@@ -22,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
         for (let elem in pointChoice) {
             (() => {
                     pointChoice[elem].addEventListener('click', () => {
-                        document.getElementsByClassName('resetCategories')[0].click();
+                        try {document.getElementsByClassName('resetCategories')[0].click();} catch(e) {console.log(e)}
                         if (elem != activePoint) {
 
                             if (elem == 0) {
@@ -54,13 +58,19 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     let activeCategory = -1;
-    let categories = document.getElementById('selectContent').getElementsByClassName('categoryInputContainer');
+    let categories;
+    try {categories = document.getElementById('selectContent').getElementsByClassName('categoryInputContainer');} catch (e) {console.log(e)};
+    console.log(categories)
+    console.log(document.getElementById('selectContent'))
     let categoriesNames = ["Цена", "Марка", "Класс", "Категория", "Коробка", "Двигатель",         "Тип", "Ширина", "Длина", "Осадка", "Вместимость", "Макс. скорость",       "Тип", "Макс. скорость", "Объем двигателя", "Мощность", "Объем бака", "Вес", "Пробег"];
-    let categoriesText = document.getElementById('selectContent').getElementsByClassName('categoryInputText');
-    let categoriesMarkers = document.getElementById('selectContent').getElementsByClassName('categoryInputMarker');
+    let categoriesText;
+    try {categoriesText = document.getElementById('selectContent').getElementsByClassName('categoryInputText');} catch (e) {console.log(e)};
+    let categoriesMarkers;
+    try {categoriesMarkers = document.getElementById('selectContent').getElementsByClassName('categoryInputMarker');} catch (e) {console.log(e)};
     let activatedCategories = 0;
 
-    let categoriesContent = document.getElementById('selectContent').getElementsByClassName('categoryInputContentItem');
+    let categoriesContent;
+    try {categoriesContent = document.getElementById('selectContent').getElementsByClassName('categoryInputContentItem');} catch (e) {console.log(e)};
 
 
     try {
@@ -106,35 +116,44 @@ window.addEventListener('DOMContentLoaded', () => {
 
     let filterRadio = document.getElementsByClassName('filterRadio');
 
-    document.getElementById('selectContent').addEventListener('click', () => {
-        activatedCategories = 0;
-        for (let i = 0; i < categoriesNames.length; i++) {
-            if (categoriesText[i].innerHTML != categoriesNames[i]) activatedCategories++;
-        }
-        for (let i = 0; i < filterRadio.length; i++) {
-            if (filterRadio[i].checked) activatedCategories++;
-        }
-        document.getElementsByClassName('resetCategoriesCount')[0].innerHTML = activatedCategories;
-        document.getElementsByClassName('filtersCount')[0].innerHTML = activatedCategories;
-    });
+    try {
+        document.getElementById('selectContent').addEventListener('click', () => {
+            activatedCategories = 0;
+            for (let i = 0; i < categoriesNames.length; i++) {
+                if (categoriesText[i].innerHTML != categoriesNames[i]) activatedCategories++;
+            }
+            for (let i = 0; i < filterRadio.length; i++) {
+                if (filterRadio[i].checked) activatedCategories++;
+            }
+            document.getElementsByClassName('resetCategoriesCount')[0].innerHTML = activatedCategories;
+            document.getElementsByClassName('filtersCount')[0].innerHTML = activatedCategories;
+        });
+    } catch (e) {
+        console.log(e);
+    }
 
-    document.getElementsByClassName('resetCategories')[0].addEventListener('click', () => {
-        activeCategory = -1;
-        activatedCategories = 0;
-        for (let i = 0; i < filterRadio.length; i++) {
-            filterRadio[i].checked = false;
-        }
-        for (let i = 0; i < categoriesNames.length; i++) {
-            if (categoriesText[i].innerHTML != categoriesNames[i]) {
-                categoriesText[i].innerHTML = categoriesNames[i];
+    try {
+        document.getElementsByClassName('resetCategories')[0].addEventListener('click', () => {
+            activeCategory = -1;
+            activatedCategories = 0;
+            for (let i = 0; i < filterRadio.length; i++) {
+                filterRadio[i].checked = false;
             }
-            if (categories[i].classList.contains('activeCategoryInputContainer')) {
-                categories[i].classList.toggle('activeCategoryInputContainer');
-                categoriesMarkers[i].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
-                categoriesMarkers[i].style.top="22px";
+            for (let i = 0; i < categoriesNames.length; i++) {
+                if (categoriesText[i].innerHTML != categoriesNames[i]) {
+                    categoriesText[i].innerHTML = categoriesNames[i];
+                }
+                if (categories[i].classList.contains('activeCategoryInputContainer')) {
+                    categories[i].classList.toggle('activeCategoryInputContainer');
+                    categoriesMarkers[i].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+                    categoriesMarkers[i].style.top="22px";
+                }
             }
-        }
-    });
+        });
+    } catch (e) {
+        console.log(e);
+    }
+    
 
 
 });

@@ -1,0 +1,593 @@
+
+#newCarMainBlock {
+    width: 1204px;
+    margin: auto;
+}
+
+.newCarMainFlex {
+    display: flex;
+    justify-content: left;
+}
+
+.newCarStepsFlex {
+    width: 336px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 50px;
+    height: max-content;
+}
+
+.stepConfirm {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    color: #2997EE;
+    display: none;
+}
+
+.acceptedStep .stepConfirm {
+    display: block;
+}
+
+.step {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    margin-bottom: 16px;
+    width: max-content;
+    height: max-content;
+    position: relative;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /* dark grey */
+
+    color: #07273F;
+    
+    cursor: pointer;
+    transition: .2s;
+}
+
+.step:hover {
+    background: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.activeStep {
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #2997EE;
+}
+
+.newCarContentFlex {
+    width: max-content;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.newCarContentStepContent {
+    position: relative;
+    display: none;
+    opacity: 0;
+    transition: .2s;
+}
+
+.activeStepContent {
+    display: block;
+    transition: .2s;
+    opacity: 1;
+}
+
+.stepContentBlock {
+   
+    background: #FFFFFF;
+    border-radius: 16px;
+
+    transition: .2s;
+}
+
+.stepContentBlock:hover ~ .addPhotoText {
+    color: #2997EE;
+
+    transition: .2s;
+}
+
+.addPhotoText:hover {
+    color: #2997EE;
+
+    transition: .2s;
+}
+
+#firstStepBlock {
+    cursor: pointer;
+    padding: 20px;
+    width: 497px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.stepMain {
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.nextStep {
+    width: 220px;
+    height: 56px;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.nextStep i{
+    height: 12px;
+}
+
+.photo {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 83px;
+    height: 83px;
+}
+
+.mainPhoto {
+    margin-bottom: 10px;
+    width: 457px;
+    height: 320px;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .mainPhoto img {
+    width: 100%;
+    height: auto;
+} */
+
+.addPhotoText {
+    cursor: pointer;
+    transition: .2s;
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
+    letter-spacing: 0.04em;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
+#selectContent {
+    width: 616px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#stickyBlock {
+    position: relative;
+    box-shadow: none;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.container {
+    width: 260px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.container:nth-child(8) {
+    margin-top: 0px;
+}
+
+.categoryInputContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.auto .autoStickyContent {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.water .waterStickyContent {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.moto .motoStickyContent {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.moto .container:nth-last-child(1) {
+    width: 370px;
+}
+
+.descFlex {
+    margin-top: 18px;
+    width: 616px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    position: relative;
+}
+
+#textarea {
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 140px;
+    height: max-content;
+    background: #EFF0F6;
+    border-radius: 16px;
+    padding-top: 21px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #14142B;
+}
+
+#textarea::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #A0A3BD;
+}
+
+/* 
+#textarea::-webkit-resizer {
+    margin-bottom: 4px;
+    margin-right: 4px;
+} */
+
+#thirdStepBlock {
+    width: 616px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.stepContentBlockMain {
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+
+    letter-spacing: 0.04em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.stepContentBlockText {
+    margin: auto;
+    width: 536px;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.04em;
+
+    color: #4E4B66;
+    margin-bottom: 24px;
+}
+
+.stepContentBlockInputFlex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.stepContentBlockInputFlexElem {
+    width: 264px;
+    margin-bottom: 24px;
+}
+
+.inputContentLabel {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
+    letter-spacing: 0.04em;
+
+    color: #4E4B66;
+    margin-left: 16px;
+}
+
+.stepContentBlockInputFlexElemContent {
+    border: 2px solid #F7F7FC;
+    background: #F7F7FC;
+    padding-left: 22px;
+    padding-right: 22px;
+    height: 50px;
+    border-radius: 8px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #14142B;
+    transition: .2s;
+}
+
+.stepContentBlockInputFlexElemContent:focus {
+    border: 2px solid #2997EE;
+    transition: .2s;
+    
+}
+
+.stepContentBlockInputFlexElemContent::placeholder {
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.stepContentBlockTableFlex {
+    margin-top: 18px;
+    width: 616px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.stepContentBlockHint {
+    margin-top: 2px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 17px;
+    /* identical to box height, or 155% */
+
+    letter-spacing: 0.04em;
+
+    /* light grey */
+
+    color: #7993AF;
+    margin-left: 16px;
+}
+
+.tableFlex {
+    margin-left: 16px;
+    width: calc(100% - 16px);
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.tableFlexElem {
+    width: max-content;
+    margin-right: 36px;
+    margin-bottom: 10px;
+}
+
+.tableFlexElemMain {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    /* light grey */
+    
+    color: #7993AF;
+    margin-bottom: 5px;
+}
+
+.tableFlexElemContent {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    /* dark grey */
+    
+    color: #07273F;
+}
+
+.photo:hover {
+    cursor: pointer;
+}
+
+#fourthStepBlock {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 537px;
+}
+
+#fourthStepBlock .stepContentBlockText {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.stepContentBlockBlueMain {
+    width: 275px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 137% */
+
+    letter-spacing: 0.02em;
+
+    /* blue */
+
+    color: #2997EE;
+}
+
+.stepContentBlockPhotoFlex {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.stepContentBlockPhotoFlex .photo {
+    width: 100px;
+    height: 100px;
+}
+
+.cardBlock {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 537px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 18px;
+}
+
+.cardBlock .stepContentBlockText{
+    width: unset;
+    margin-left: 16px;
+}
+
+.cardInput {
+    width: 325px;
+    height: 64px;
+    background: #EFF0F6;
+    border-radius: 16px;
+    border: 2px solid #EFF0F6;
+    transition: .2s;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #14142B;
+}
+
+.cardInput:focus {
+    border: 2px solid #2997EE;
+    transition: .2s;
+}
+
+.cardInput::placeholder {
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #A0A3BD;
+}
+
+#fifthStepBlock {
+    width: 793px;
+    height: 535px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
