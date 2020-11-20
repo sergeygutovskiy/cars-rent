@@ -345,17 +345,21 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementsByClassName('enter')[0].addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[0].style.display = 'flex';
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.opacity = '1';}, 300)
+        let scrW = document.body.offsetWidth;
         document.body.style.overflowY = "hidden";
         document.body.style.height = "100vh";
-        document.body.style.width = window.innerWidth - 17 + "px";
+        scrW = document.body.offsetWidth - scrW;
+        document.body.style.width =  document.body.offsetWidth - scrW + "px";
     });
 
     document.getElementsByClassName('enter')[1].addEventListener('click', () => {
         document.getElementsByClassName('absoluted')[0].style.display = 'flex';
         setTimeout(() => {document.getElementsByClassName('absoluted')[0].style.opacity = '1';}, 300)
+        let scrW = document.body.offsetWidth;
         document.body.style.overflowY = "hidden";
         document.body.style.height = "100vh";
-        document.body.style.width = window.innerWidth - 17 + "px";
+        scrW = document.body.offsetWidth - scrW;
+        document.body.style.width =  document.body.offsetWidth - scrW + "px";
     });
 
 });

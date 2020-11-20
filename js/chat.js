@@ -9,8 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let outMessage = '<div class="chatMessage outMessage"><div class="messageContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit  adipiscing elit </div><div class="messageTime">23:04</div></div>';
 
     window.addEventListener('scroll', () => {
-        // console.log(window.innerHeight/2)
-        if (animContainer.getBoundingClientRect().top < window.innerHeight) {
+        if ((animContainer.getBoundingClientRect().top < window.innerHeight && animContainer.getBoundingClientRect().top > 200) || (Math.abs(animContainer.getBoundingClientRect().top) > Math.abs(window.innerHeight) && animContainer.getBoundingClientRect().top <= 200)) {
             if (!ready) {
                 // console.log("asd")
                 setTimeout(addOutMessage, 4);
