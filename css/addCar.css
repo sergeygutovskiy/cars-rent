@@ -722,6 +722,49 @@ input::-webkit-inner-spin-button {
         width: 728px;
     }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    #newCarMainBlock {
+        width: 312px;
+    }
+
+    .stepConfirm {
+        font-size: 10px;
+    }
+
+    .newCarStepsFlex {
+        margin-top: 50px;
+    }
+
+    .step {
+        padding-right: 15px;
+        padding-left: 5px;
+    }
+
+    .step .stepContent{
+        width: 36px !important;
+    }
+
+    .step:nth-child(4) .stepContent{
+        width: 38px !important;
+    }
+
+    
     #firstStep {
         width: 312px;
     }
@@ -843,46 +886,5 @@ input::-webkit-inner-spin-button {
     #fifthStepBlock {
         width: 312px;
         height: 336px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 767px) {
-    #newCarMainBlock {
-        width: 312px;
-    }
-
-    .stepConfirm {
-        font-size: 10px;
-    }
-
-    .newCarStepsFlex {
-        margin-top: 50px;
-    }
-
-    .step {
-        padding-right: 15px;
-        padding-left: 5px;
-    }
-
-    .step .stepContent{
-        width: 36px !important;
-    }
-
-    .step:nth-child(4) .stepContent{
-        width: 38px !important;
     }
 }
