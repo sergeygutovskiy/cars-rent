@@ -861,17 +861,17 @@ input::-webkit-inner-spin-button {
 
     .cardBlock {
         width: 312px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     #fourthStepBlock {
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     .cardInput {
@@ -894,5 +894,44 @@ input::-webkit-inner-spin-button {
 
     .cardInput {
         border-radius: 8px;
+    }
+
+    .tableFlexElem {
+        margin-bottom: 20px;
+    }
+
+    .container:last-child {
+        margin-bottom: 40px;
+    }
+
+    .container:nth-last-child(5) {
+        margin-top: 20px;
+    }
+
+    .container:last-child:nth-child(7) {
+        margin-top: 20px;
+    }
+
+    .container:last-child:nth-child(8) {
+        margin-top: 20px;
+    }
+
+    .pointChoice {
+        margin-top: 20px;
+    }
+    
+    .stepContentBlockTableFlex {
+        padding: 24px;
+    }
+
+    .categoryInputContainerFixer {
+        width: 312px;
+    }
+
+    .categoryInputContainer {
+        margin-left: unset;
+        margin-right: unset;
+        margin: auto;
+        margin-bottom: 16px;
     }
 }
