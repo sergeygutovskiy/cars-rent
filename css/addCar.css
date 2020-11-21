@@ -887,4 +887,12 @@ input::-webkit-inner-spin-button {
         width: 312px;
         height: 336px;
     }
+
+    #selectContent {
+        margin-top: 10px;
+    }
+
+    .cardInput {
+        border-radius: 8px;
+    }
 }
