@@ -620,3 +620,269 @@ input::-webkit-inner-spin-button {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1259px) {
+
+    #newCarMainBlock {
+        width: 728px;
+    }
+
+    .newCarStepsFlex {
+        margin-left: 0px;
+    }
+
+    .step {
+        /* max-width: 210px; */
+        margin-right: 6px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .stepContent {
+        width: max-content;
+        max-width: 130px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        /* or 133% */
+
+        letter-spacing: 0.04em;
+
+        /* dark grey */
+
+        color: #07273F;
+    }
+
+    .stepConfirm {
+        right: 2px;
+        top: calc(50% - 8px);
+    }
+
+    .step:nth-child(1) .stepContent{
+        width: 75px;
+    }
+
+    .step:nth-child(2) .stepContent{
+        width: 125px;
+    }
+
+    .step:nth-child(3) .stepContent{
+        width: 110px;
+    }
+
+    .step:nth-child(4) .stepContent{
+        width: 115px;
+    }
+
+    .step:nth-child(5) .stepContent{
+        width: 120px;
+    }
+
+    .newCarMainFlex {
+        flex-wrap: wrap;
+    }
+
+    .newCarStepsFlex {
+        width: 100%;
+    }
+
+    .newCarContentFlex {
+        margin-top: 40px;
+    }
+
+    #firstStep {
+        margin-top: 0px;
+    }
+
+    #stickyBlock {
+        max-height: unset;
+        top: unset;
+    }
+
+    .newCarContentFlex {
+        margin-left: 0px;
+    }
+
+    /* #fifthStep {
+        margin-left: -20px;
+    } */
+
+    #fifthStepBlock {
+        width: 728px;
+    }
+
+    #firstStep {
+        width: 312px;
+    }
+
+    #firstStepBlock {
+        width: 312px;
+    }
+
+    .photo.mainPhoto {
+        width: 272px;
+        height: 190px;
+    }
+
+    .photo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .addPhotoText {
+        top: 250px;
+    }
+
+    .nextStep {
+        width: 204px;
+        border-radius: 8px;
+    }
+
+    #secondStep {
+        width: 312px;
+    }
+
+    #selectContent {
+        margin-top: 50px;
+        width: 312px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #stickyBlock {
+        width: 312px;
+        margin-top: unset;
+        margin-bottom: unset;
+    }
+
+    .descFlex {
+        width: 312px;
+    }
+
+
+
+
+
+
+
+    #thirdStep {
+        width: 312px;
+    }
+
+    #thirdStepBlock {
+        width: 312px;
+    }
+
+    .stepContentBlockTableFlex {
+        width: 312px;
+    }
+
+    .stepContentBlockText {
+        width: 100%;
+    }
+
+    .stepContentBlockMain {
+        margin-left: 0px;
+    }
+
+    .stepContentBlockInputFlexElem:last-child {
+        margin-bottom: 0px;
+    }
+
+    .stepContentBlockHint {
+        margin-left: 0px;
+    }
+
+    .tableFlex {
+        margin-left: 0px;
+    }
+
+    #fourthStep {
+        width: 312px;
+    }
+
+    #fourthStepBlock {
+        width: 312px;
+    }
+
+    .cardBlock {
+        width: 312px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #fourthStepBlock {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .cardInput {
+        width: 272px;
+        height: 50px;
+    }
+
+    #fifthStep {
+        width: 312px;
+    }
+    
+    #fifthStepBlock {
+        width: 312px;
+        height: 336px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    #newCarMainBlock {
+        width: 312px;
+    }
+
+    .stepConfirm {
+        font-size: 10px;
+    }
+
+    .newCarStepsFlex {
+        margin-top: 50px;
+    }
+
+    .step {
+        padding-right: 15px;
+        padding-left: 5px;
+    }
+
+    .step .stepContent{
+        width: 36px !important;
+    }
+
+    .step:nth-child(4) .stepContent{
+        width: 38px !important;
+    }
+}

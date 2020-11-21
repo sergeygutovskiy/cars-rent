@@ -59,7 +59,31 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    
+    stepsContent = document.getElementsByClassName('stepContent');
+
+    if (document.body.clientWidth < 768) {
+        stepsContent[0].innerHTML = "Шаг 1";
+        stepsContent[1].innerHTML = "Шаг 2";
+        stepsContent[2].innerHTML = "Шаг 3";
+        stepsContent[3].innerHTML = "Шаг 4";
+        stepsContent[4].innerHTML = "Шаг 5";
+    }
+
+    window.addEventListener('resize', () => {
+        if (document.body.clientWidth < 768) {
+            stepsContent[0].innerHTML = "Шаг 1";
+            stepsContent[1].innerHTML = "Шаг 2";
+            stepsContent[2].innerHTML = "Шаг 3";
+            stepsContent[3].innerHTML = "Шаг 4";
+            stepsContent[4].innerHTML = "Шаг 5";
+        } else {
+            stepsContent[0].innerHTML = "Шаг 1: Фото транспорта";
+            stepsContent[1].innerHTML = "Шаг 2: Информация об автомобиле";
+            stepsContent[2].innerHTML = "Шаг 3: Стоимость";
+            stepsContent[3].innerHTML = "Шаг 4: Документы";
+            stepsContent[4].innerHTML = "Шаг 5: Местонахождение транспорта";
+        }
+    });
 
 });
 
