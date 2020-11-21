@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
 function addIn1Message() {
     let animContainer = document.getElementById('chatContentFixer');
 
-    let inMessage = '<div class="chatMessage inMessage"><div class="messageContent">Добрый день, как я могу получить ключи от автомобиля?</div><div class="messageTime">23:04</div></div>';
+    let inMessage = '<div class="chatMessage inMessage"><div class="messageContent">Добрый день, как я могу получить ключи от автомобиля?</div><div class="messageTime">12:04</div></div>';
 
     animContainer.innerHTML += inMessage;
     // console.log (animContainer.getElementsByClassName('chatMessage').length - 1)
@@ -42,7 +42,7 @@ function addIn1Message() {
 function addOut1Message() {
     let animContainer = document.getElementById('chatContentFixer');
 
-    let outMessage = '<div class="chatMessage outMessage"><div class="messageContent">Здравствуйте, при личной встрече. Перед началом аренды я передам вам ключи и автомобиль.</div><div class="messageTime">23:04</div></div>';
+    let outMessage = '<div class="chatMessage outMessage"><div class="messageContent">Здравствуйте, при личной встрече. Перед началом аренды я передам вам ключи и автомобиль.</div><div class="messageTime">12:06</div></div>';
 
     animContainer.innerHTML += outMessage;
     setTimeout(() => {
@@ -54,7 +54,7 @@ function addOut1Message() {
 function addIn2Message() {
     let animContainer = document.getElementById('chatContentFixer');
 
-    let inMessage = '<div class="chatMessage inMessage"><div class="messageContent">Отлично. Где и когда мы можем встретиться?</div><div class="messageTime">23:04</div></div>';
+    let inMessage = '<div class="chatMessage inMessage"><div class="messageContent">Отлично. Где и когда мы можем встретиться?</div><div class="messageTime">12:07</div></div>';
 
     animContainer.innerHTML += inMessage;
     // console.log (animContainer.getElementsByClassName('chatMessage').length - 1)
@@ -68,7 +68,7 @@ function addIn2Message() {
 function addOut2Message() {
     let animContainer = document.getElementById('chatContentFixer');
 
-    let outMessage = '<div class="chatMessage outMessage"><div class="messageContent">Давайте мы с вами встретимся завтра в 10:00 возле дома 5 на набережной реки Карповки.</div><div class="messageTime">23:04</div></div>';
+    let outMessage = '<div class="chatMessage outMessage"><div class="messageContent">Давайте мы с вами встретимся завтра в 10:00 возле дома 5 на набережной реки Карповки.</div><div class="messageTime">12:10</div></div>';
 
     animContainer.innerHTML += outMessage;
     setTimeout(() => {
@@ -80,7 +80,7 @@ function addOut2Message() {
 function addIn3Message() {
     let animContainer = document.getElementById('chatContentFixer');
 
-    let inMessage = '<div class="chatMessage inMessage"><div class="messageContent">Хорошо, тогда до встречи!</div><div class="messageTime">23:04</div></div>';
+    let inMessage = '<div class="chatMessage inMessage"><div class="messageContent">Хорошо, тогда до встречи!</div><div class="messageTime">12:11</div></div>';
 
     animContainer.innerHTML += inMessage;
     // console.log (animContainer.getElementsByClassName('chatMessage').length - 1)

@@ -1,0 +1,369 @@
+
+.backFromDeal {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+    /* text-decoration-line: underline; */
+
+    /* light grey */
+
+    color: #7993AF;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.backFromDeal:hover {
+    color: #2997EE;
+    transition: .2s;
+}
+
+.bookingFlexBox {
+    margin-top: 80px;
+}
+
+.accountCarName {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.dealDates {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bookingTariff {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(7, 39, 63, 0.8);
+}
+
+.bookingTariff:nth-child(1) {
+    margin-top: 0px;
+}
+
+.pricePointer {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    /* dark grey */
+
+    color: #07273F;
+}
+
+.dealPhoneHint {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+    
+    letter-spacing: 0.04em;
+    
+    /* light grey */
+    
+    color: #7993AF;
+}
+
+#bookingAddBlock .submitButton {
+    width: 244px;
+    height: 64px;
+    margin: unset;
+}
+
+.onConfirmation .submitButton{
+    opacity: 0.4;
+}
+
+.confirmed .submitButton{
+    opacity: 1;
+}
+
+.denied .submitButton{
+    opacity: 0.4;
+}
+
+.paidButton {
+    display: none;
+    opacity: 0.4;
+    background-color: #00BA88;
+    border: 2px solid #00BA88;
+}
+
+.paidButton:hover {
+    display: none;
+    opacity: 0.4;
+    color: white;
+    background-color: #00BA88;
+    border: 2px solid #00BA88;
+}
+
+.paid .submitButton {
+    display: none;
+}
+
+.paid .paidButton {
+    display: flex;
+}
+
+.process .submitButton {
+    display: none;
+}
+
+.process .paidButton {
+    display: flex;
+}
+
+.bookingSubmit {
+    padding-top: 24px;
+    position: relative;
+}
+
+.submitTextHint {
+    width: max-content;
+    top: 49px;
+    left: 266px;
+    position: absolute;
+}
+
+.onConfirmation .onConfirmationSubmitHint {
+    display: block;
+}
+
+.onConfirmationSubmitHint {
+    display: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+
+    color: #F4B740;
+}
+
+.paid .confirmedSubmitHint {
+    display: block;
+}
+
+.confirmed .confirmedSubmitHint {
+    display: block;
+}
+
+.confirmedSubmitHint {
+    display: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+
+    color: #00BA88;
+}
+
+.denied .deniedSubmitHint {
+    display: block;
+}
+
+.deniedSubmitHint {
+    display: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    
+    color: #ED2E7E;
+}
+
+.process .processSubmitHint {
+    display: block;
+}
+
+.processSubmitHint {
+    display: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+
+    color: #00BA88;
+}
+
+.endedSubmitHint {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+
+    color: #7E819E;
+}
+
+.endedDeal {
+    display: none;
+}
+
+.ended .endedDeal {
+    display: block;
+}
+
+.ended .notEndedDeal {
+    display: none;
+}
+
+.endedButton {
+    opacity: 0.4;
+    background: #7E819E;
+    border: 2px solid #7E819E;
+}
+
+.endedButton:hover {
+    opacity: 0.4;
+    color: white;
+    background: #7E819E;
+    border: 2px solid #7E819E;
+}
+
+#textarea:focus {
+    border: 2px solid #2997EE;
+    /* transition: .2s; */
+}
+
+#textarea {
+
+    font-family: Commissioner;
+    border: none;
+    margin-left: -20px;
+    width: calc(100% + 40px);
+    max-width: calc(100% + 40px);
+    min-width: calc(100% + 40px);
+    min-height: 120px;
+    height: max-content;
+    background: #EFF0F6;
+    border-radius: 16px;
+    padding-top: 21px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #14142B;
+    border: 2px solid #EFF0F6;
+    /* transition: .2s; */
+}
+
+#textarea::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #A0A3BD;
+}
+
+.newRating {
+    width: 160px;
+    height: 25px;
+    background: #C4C4C4;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 28px;
+}
+
+.textareaDeal {
+    position: relative;
+}
+
+#bookingAddBlock .textareaDeal .submitButton{
+    margin: unset;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1259px) {
+
+    .bookingFlexBox {
+        flex-direction: column-reverse;
+    }
+
+    .chat .accountCarName {
+        display: none;
+    }
+
+    .bookingContent .accountCarName {
+        display: block;
+    }
+
+    .chat {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #bookingAddBlock .submitButton {
+        width: 312px;
+        height: 64px;
+        margin: unset;
+    }
+
+    .submitTextHint {
+        margin-top: 14px;
+        width: 100%;
+        text-align: center;
+        top: unset;
+        left: unset;
+        position: relative;
+    }
+
+    .backFromDeal {
+        margin-left: 0px;
+    }
+
+    .dealDates {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .bookingFlexBox {
+        margin-top: 50px;
+    }
+
+    #textarea {
+        margin-left: 0px;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
