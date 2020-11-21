@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 setTimeout(addOut1Message, 2000);
                 setTimeout(addIn2Message, 4000);
                 setTimeout(addOut2Message, 6000);
-                setTimeout(addIn3Message, 4000);
+                setTimeout(addIn3Message, 8000);
                 ready = 1;
             }
         }
