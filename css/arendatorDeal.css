@@ -320,6 +320,17 @@
     width: 100%;
 }
 
+.bookingContent .accountCarName {
+    width: max-content;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.bookingContent .accountCarName:hover {
+    transition: .2s;
+    color: #2997EE;
+}
+
 
 @media screen and (max-width: 1259px) {
 
