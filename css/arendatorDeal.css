@@ -94,6 +94,18 @@
     opacity: 0.4;
 }
 
+.onConfirmation .submitButton:hover{
+    opacity: 0.4;
+    background-color: #2997EE;
+    color: white;
+}
+
+.denied .submitButton:hover{
+    opacity: 0.4;
+    background-color: #2997EE;
+    color: white;
+}
+
 .confirmed .submitButton{
     opacity: 1;
 }
