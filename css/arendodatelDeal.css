@@ -1,0 +1,158 @@
+
+.ratingSystem {
+    position: relative;
+    width: 600px;
+    margin-left: 30px;
+}
+
+.buttonsFlex {
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bookingAddBlock .buttonsFlex .submitButton {
+    width: 192px;
+    opacity: 1;
+}
+
+.acceptButton {
+    background-color: #00BA88;
+    border: 2px solid #00BA88;
+}
+
+.acceptButton:hover {
+    color: #00BA88 !important;
+    background-color:white !important;
+    border: 2px solid #00BA88 !important;
+}
+
+.denayButton {
+    background-color: #ED2E7E;
+    border: 2px solid #ED2E7E;
+}
+
+.denayButton:hover {
+    color: #ED2E7E !important;
+    background-color:white !important;
+    border: 2px solid #ED2E7E !important;
+}
+
+
+#bookingAddBlock .denied .buttonsFlex .submitButton {
+    width: 192px;
+    opacity: .4;
+}
+
+.denied .denayButton:hover {
+    color: white !important;
+    background-color: #ED2E7E !important;
+    border: 2px solid #ED2E7E !important;
+}
+
+.denied  .acceptButton:hover {
+    color: white !important;
+    background-color:#00BA88 !important;
+    border: 2px solid #00BA88 !important;
+}
+
+.submitLongTextHint {
+    left: 412px;
+}
+
+.waitingForPaymentSubmitHint {
+    display: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+
+    color: #F4B740;
+}
+
+.waitingForPayment .buttonsFlex {
+    display: none;
+}
+
+.waitingForPayment .waitingForPaymentSubmitHint {
+    display: block;
+}
+
+.waitingForPaymentButton {
+    display: none;
+    background-color: #00BA88;
+    opacity: .4;
+    border: 2px solid  #00BA88;
+}
+
+.waitingForPaymentButton:hover {
+    background-color: #00BA88;
+    opacity: .4;
+    border: 2px solid  #00BA88;
+    color: white;
+}
+
+.waitingForPayment .waitingForPaymentButton {
+    display: flex;
+}
+
+.processButton {
+    display: none;
+    background-color: #00BA88;
+    opacity: .4;
+    border: 2px solid  #00BA88;
+}
+
+.processButton:hover {
+    background-color: #00BA88;
+    opacity: .4;
+    border: 2px solid  #00BA88;
+    color: white;
+}
+
+.process .processButton {
+    display: flex;
+}
+
+.process .buttonsFlex {
+    display: none;
+}
+
+.closingSubmitHint {
+    display: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+
+    color: #ED2E7E;
+}
+
+.closing .buttonsFlex {
+    display: none;
+}
+
+.closing .closingSubmitHint {
+    display: block;
+}
+
+.closing .closingButton {
+    display: flex;
+}
+
+.closingButton {
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .buttonsFlex {
+        width: 312px;
+    }
+
+    #bookingAddBlock .buttonsFlex .submitButton {
+        width: 152px;
+    }
+}
