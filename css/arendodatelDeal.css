@@ -2,7 +2,7 @@
 .ratingSystem {
     position: relative;
     width: 100%;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 .buttonsFlex {
@@ -171,4 +171,8 @@
         left: 0px;
         position: relative;
     }
+
+    /* .ratingSystem {
+        margin-left: 0px;
+    } */
 }
