@@ -1,7 +1,7 @@
 
 .ratingSystem {
     position: relative;
-    width: 600px;
+    width: 100%;
     margin-left: 30px;
 }
 
@@ -146,6 +146,13 @@
     display: none;
 }
 
+/* .rateBlockText {
+    margin-top: 16px;
+}
+
+.rateBlockDate {
+    line-height: 16px;
+} */
 
 @media screen and (max-width: 767px) {
     .buttonsFlex {
@@ -154,5 +161,14 @@
 
     #bookingAddBlock .buttonsFlex .submitButton {
         width: 152px;
+    }
+
+    #bookingAddBlock .denied .buttonsFlex .submitButton {
+        width: 152px;
+    }
+
+    .submitLongTextHint {
+        left: 0px;
+        position: relative;
     }
 }

@@ -349,6 +349,20 @@
     margin-bottom: 24px;
 }
 
+.smallHint {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 17px;
+    /* identical to box height, or 155% */
+
+    letter-spacing: 0.04em;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
 .stepContentBlockInputFlex {
     width: 100%;
     display: flex;

@@ -979,7 +979,7 @@
                                 <div class="photo"><img src="assets/all/camera.svg" /></div>
                                 <div class="photo"><img src="assets/all/camera.svg" /></div>
                             </div>
-                            <div class="stepContentBlockText">Ваши документы не будут отображаться в профиле</div>
+                            <div class="stepContentBlockText smallHint">Ваши документы не будут отображаться в профиле</div>
                         </div>
 
                         <div class="cardBlock">
