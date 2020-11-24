@@ -438,7 +438,7 @@
         <div id="absolutedHamburgerContent">
             <div id="nav">
                 <div id="navLogo">
-                    <div id="navLogoImage"></div>
+                    <div id="navLogoImage"><img src="assets/all/logoMain.png" alt="" srcset=""></div>
                     <!-- <div id="navLogoContent" class="grey"><i class="fas fa-map-marker-alt"></i> <span id="geolocation">&nbsp;Санкт-петербург</span></div> -->
                 </div>
                 <!-- <div id="navContent">
@@ -480,7 +480,7 @@
 
         <div id="nav">
             <div id="navLogo">
-                <div id="navLogoImage"></div>
+                <div id="navLogoImage"><img src="assets/all/logoMain.png" alt="" srcset=""></div>
                 <div id="navLogoContent" class="grey"><i class="fas fa-map-marker-alt"></i> <span id="geolocation">&nbsp;Санкт-петербург</span></div>
             </div>
             <div id="navContent">
