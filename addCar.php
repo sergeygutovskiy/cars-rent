@@ -559,6 +559,8 @@
                         <div class="submitButton nextStep">Следующий шаг &nbsp;&nbsp;<i class="fas fa-angle-right"></i></div>
 
                         <div class="addPhotoText"><i class="fas fa-paperclip"></i>&nbsp; загрузить фото транспорта</div>
+
+                        <!-- <div class="prevStep">Предыдущий шаг</div> -->
                     
                     </div>
 
@@ -898,6 +900,8 @@
                         </div>
 
                         <div class="submitButton nextStep">Следующий шаг &nbsp;&nbsp;<i class="fas fa-angle-right"></i></div>
+
+                        <div class="prevStep">Предыдущий шаг</div>
                     
                     </div>
 
@@ -966,6 +970,8 @@
                         </div>
 
                         <div class="submitButton nextStep">Следующий шаг &nbsp;&nbsp;<i class="fas fa-angle-right"></i></div>
+
+                        <div class="prevStep">Предыдущий шаг</div>
                     
                     </div>
 
@@ -989,6 +995,8 @@
                         </div>
 
                         <div class="submitButton nextStep">Следующий шаг &nbsp;&nbsp;<i class="fas fa-angle-right"></i></div>
+
+                        <div class="prevStep">Предыдущий шаг</div>
                     
                     </div>
 
@@ -1001,6 +1009,8 @@
                         </div>
 
                         <div class="submitButton nextStep">Создать объявление</div>
+
+                        <div class="prevStep">Предыдущий шаг</div>
                     
                     </div>
 

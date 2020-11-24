@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     let steps = document.getElementsByClassName('step');
     let nextButtons = document.getElementsByClassName('nextStep');
+    let prevButtons = document.getElementsByClassName('prevStep');
     let contents = document.getElementsByClassName('newCarContentStepContent');
 
     for (let i = 0; i < nextButtons.length; i++) {
@@ -27,6 +28,16 @@ window.addEventListener('DOMContentLoaded', () => {
                 }
                 if (summ == 5) alert('Объявление создано!'); else alert('Не все шаги выполнены!');
             }
+        });
+    }
+
+    for (let i = 1; i < prevButtons.length + 1; i++) {
+        prevButtons[i - 1].addEventListener('click', () => {
+            // if (i+1 < nextButtons.length) {
+                // steps[i - 1].classList.add('acceptedStep');
+                stepManager[i - 1] = 0;
+                steps[i - 1].click();
+            // }
         });
     }
 

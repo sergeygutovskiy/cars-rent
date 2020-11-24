@@ -141,6 +141,31 @@
     color: #07273F;
 }
 
+.prevStep {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+    cursor: pointer;
+    transition: .2s;
+    position: relative;
+    margin-top: 10px;
+    width: 220px;
+    text-align: center;
+}
+
+.prevStep:hover {
+    color: #2997EE;
+    transition: .2s;
+}
+
 .nextStep {
     width: 220px;
     height: 56px;
