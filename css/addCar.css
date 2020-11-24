@@ -778,6 +778,11 @@ input::-webkit-inner-spin-button {
 
 
 @media screen and (max-width: 767px) {
+
+    .prevStep {
+        width: 204px;
+    }
+
     #newCarMainBlock {
         width: 312px;
     }
