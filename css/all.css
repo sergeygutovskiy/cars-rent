@@ -1476,7 +1476,7 @@ h3 {
 }
 
 .emptyState {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .emptyState .formContentReset, .emptyState .customServisInputMain {
@@ -1496,7 +1496,7 @@ h3 {
 }
 
 .notEmptyUnfocusedState {
-    overflow: hidden;
+    /* overflow: hidden; */
     border: 2px solid inherit;
     transition: .3s;
 }
@@ -1519,7 +1519,7 @@ h3 {
 }
 
 .activeState {
-    overflow: hidden;
+    /* overflow: hidden; */
     border: 2px solid #2A97F0;
     transition: .3s;
 }

@@ -457,6 +457,10 @@
 
 @media screen and (max-width: 767px) {
 
+    .container:hover input ~ .checkmark {
+        background-color: #D6D8E6;
+    }
+
     #selectContent {
         width: 336px;
         margin-top: 10px;
