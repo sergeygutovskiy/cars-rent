@@ -98,10 +98,10 @@
         </div>
         <div class="soldText">
             <div class="soldTextMain">
-                <h1>Lorem Ipsum</h1>
+                <h1>Joy</h1>
             </div>
             <div class="soldTextContent grey">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <p>— это онлайн-сервис, предоставляющий возможность выбора транспорта, отвечающего вашим ожиданиям, и гибкие условия аренды. Joy помогает владельцам зарабатывать на собственном транспорте, сдавая его на выгодных для вас условиях.</p>
             </div>
         </div>
         <div id="aboutBlock">
@@ -109,22 +109,22 @@
                 <div class="aboutPlusesBlock">
                     <div class="aboutPlusesBlockLogo"></div>
                     <div class="aboutPlusesBlockMain">Безопасная сделка</div>
-                    <div class="aboutPlusesBlockText">У нас не бывает случайных клиентов - служба безопасности тщательно проверяет каждого потенциального арендатора</div>
-                </div>
-                <div class="aboutPlusesBlock">
-                    <div class="aboutPlusesBlockLogo"></div>
-                    <div class="aboutPlusesBlockMain">Полное сопровождение сделки</div>
-                    <div class="aboutPlusesBlockText">Берём на себя решение таких вопросов, как выплата штрафов и компенсация повреждений</div>
+                    <div class="aboutPlusesBlockText">Наша служба безопасности тщательно проверяет каждого потенциального арендатора и владельца транспорта с помощью подробных профилей и подтвержденных отзывов.</div>
                 </div>
                 <div class="aboutPlusesBlock">
                     <div class="aboutPlusesBlockLogo"></div>
                     <div class="aboutPlusesBlockMain">Полный контроль над сделкой</div>
-                    <div class="aboutPlusesBlockText">Вы сами выбираете, на каких условиях сдавать свой автомобиль в аренду. Кроме того, решающее слово всегда за вами - сдавать авто предложенному клиенту или нет</div>
+                    <div class="aboutPlusesBlockText">Наш сервис предоставляет вам возможность выбора арендатора. Вы можете управлять заявками на аренду вашего транспортного средства, только вы определяете сдавать ли его в аренду.</div>
+                </div>
+                <div class="aboutPlusesBlock">
+                    <div class="aboutPlusesBlockLogo"></div>
+                    <div class="aboutPlusesBlockMain">Помощь & Поддержка</div>
+                    <div class="aboutPlusesBlockText">Наша служба поддержки всегда готова ответить на интересующие вас вопросы, помочь при возникновении ошибок, чтобы упростить вам работу с сервисом.</div>
                 </div>
                 <div class="aboutPlusesBlock">
                     <div class="aboutPlusesBlockLogo"></div>
                     <div class="aboutPlusesBlockMain">Гибкий источник дохода</div>
-                    <div class="aboutPlusesBlockText">Комфортный, безопасный и не требующий особых усилий способ обнулить расходы на содержание авто или даже полностью окупить его приобретение!</div>
+                    <div class="aboutPlusesBlockText">Наш сервис помогает владельцам автомобилей зарабатывать на собственных автомобилях, сдавая их на выгодных для вас условиях.</div>
                 </div>
             </div>
         </div>
@@ -132,73 +132,75 @@
             <h3>Как это работает?</h3>
             <div id="howAllWorksButtons">
                 <div class="allBlocksHelpButton howAllWorksButton activeHowAllWorksButton">Арендатору</div>
-                <div class="allBlocksHelpButton howAllWorksButton">Собственнику</div>
+                <div class="allBlocksHelpButton howAllWorksButton">Владельцу</div>
             </div>
-            <div class="howAllWorksExampleBlock">
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">1</div>
-                    <div class="exampleMain">Арендатору</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+            <div id="howAllWorksExampleBlockContainer">
+                <div class="howAllWorksExampleBlock">
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">1</div>
+                        <div class="exampleMain">Выберите параметры поиска</div>
+                        <div class="exampleText">Задавайте параметры для упрощения выбора желаемого транспорта из многообразия возможных вариантов. </div>
+                    </div>
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">2</div>
+                        <div class="exampleMain">Выберите транспорт</div>
+                        <div class="exampleText">Изучите список предложенного транспорта и выберите тот, который лучше всего подходит именно для вас.</div>
+                    </div>
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">3</div>
+                        <div class="exampleMain">Забронируйте транспорт</div>
+                        <div class="exampleText">После того, как вы найдете подходящий транспорт, заполните заявку на аренду. После отправки заявка будет направлена владельцу транспорта на одобрение.</div>
+                    </div>
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">4</div>
+                        <div class="exampleMain">Обсудите условия аренды</div>
+                        <div class="exampleText">После одобрения заявки вы сможете обсудить условия аренды с владельцем напрямую, используя чат в личном кабинете.</div>
+                    </div>
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">5</div>
+                        <div class="exampleMain">Заключайте сделку</div>
+                        <div class="exampleText">Прежде чем использовать транспорт, вы и его владелец должны подписать договор аренды, в котором вы соглашаетесь с условиями использования транспорта.</div>
+                    </div>
+                    <!-- <div class="exampleAllWorks">
+                        <div class="exampleNumber">6</div>
+                        <div class="exampleMain">Арендатору</div>
+                        <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                    </div> -->
                 </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">2</div>
-                    <div class="exampleMain">Арендатору</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                <div class="howAllWorksExampleBlock notDisplayExmapleBlock">
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">1</div>
+                        <div class="exampleMain">Добавляйте свой транспорт</div>
+                        <div class="exampleText">Заполняйте анкету о своем транспорте. Указывая более подробную информацию о вашем транспортном средстве вы можете повлиять на его популярность у арендаторов.</div>
+                    </div>
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">2</div>
+                        <div class="exampleMain">Устанавливайте условия аренды</div>
+                        <div class="exampleText">Определите необходимые требования к арендатору. Вы можете назначить стоимость аренды и подбирать тарифные планы для привлечения клиентов.</div>
+                    </div>
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">3</div>
+                        <div class="exampleMain">Получайте заявки</div>
+                        <div class="exampleText">После размещения объявления ваш транспорт станет доступным на сайте. Когда пользователь отправит заявку на аренду вашего транспорта, вы сможете рассмотреть её (одобрить/отклонить).</div>
+                    </div>
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">4</div>
+                        <div class="exampleMain">Обсудите условия аренды</div>
+                        <div class="exampleText">После одобрения заявки вы сможете обсудить условия аренды с арендатором напрямую, используя чат в личном кабинете.</div>
+                    </div>
+                    <div class="exampleAllWorks">
+                        <div class="exampleNumber">5</div>
+                        <div class="exampleMain">Заключайте сделку</div>
+                        <div class="exampleText">Прежде чем использовать транспорт, вы и арендатор должны подписать договор аренды, в котором вы соглашаетесь с условиями предоставления транспорта.</div>
+                    </div>
+                    <!-- <div class="exampleAllWorks">
+                        <div class="exampleNumber">6</div>
+                        <div class="exampleMain">Собственнику</div>
+                        <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                    </div> -->
                 </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">3</div>
-                    <div class="exampleMain">Арендатору</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">4</div>
-                    <div class="exampleMain">Арендатору</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">5</div>
-                    <div class="exampleMain">Арендатору</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">6</div>
-                    <div class="exampleMain">Арендатору</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
+                <div class="animatedButton blue"><div class="animatedButtonEnter"></div><p>Перейти к выбору автомобиля</p></div>
             </div>
-            <div class="howAllWorksExampleBlock notDisplayExmapleBlock">
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">1</div>
-                    <div class="exampleMain">Собственнику</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">2</div>
-                    <div class="exampleMain">Собственнику</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">3</div>
-                    <div class="exampleMain">Собственнику</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">4</div>
-                    <div class="exampleMain">Собственнику</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">5</div>
-                    <div class="exampleMain">Собственнику</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
-                <div class="exampleAllWorks">
-                    <div class="exampleNumber">6</div>
-                    <div class="exampleMain">Собственнику</div>
-                    <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                </div>
-            </div>
-            <div class="animatedButton blue"><div class="animatedButtonEnter"></div><p>Перейти к выбору автомобиля</p></div>
         </div>
         <div id="questions">
             <div id="popularQuestions">
@@ -230,7 +232,7 @@
         </div>
        
         <div id="allBlocksHelp">
-            <div class="allBlocksHelpButton">Я собственник</div>
+            <div class="allBlocksHelpButton">Я владелец</div>
             <div class="allBlocksHelpButton">Я арендатор</div>
             <img src="assets/all/helpCar.png" />
         </div>

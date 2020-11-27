@@ -647,9 +647,7 @@
 
 
 
-
-
-
+                        <div class="emptyBlockHint">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
 
 
 

@@ -65,6 +65,30 @@ h3 {
     transition: .5s;
 }
 
+/* empty page */
+
+.emptyBlockHint {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+    display: none;
+}
+
+.emptyBlockHint:first-child:last-child {
+    display: block;
+}
+
 
 /* mainInput */
 

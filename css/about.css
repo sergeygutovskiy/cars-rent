@@ -86,7 +86,7 @@
     margin: auto;
     position: relative;
     margin-top: 100px;
-    width: 1200px;
+    width: 1250px;
     height: max-content;
     /* background-color: violet; */
 }
@@ -136,19 +136,25 @@
     justify-content: left;
     flex-wrap: wrap;
     opacity: 1;
-    transition: .5s;
+    
+}
+
+#howAllWorksExampleBlockContainer {
+    opacity: 1;
+    transition: opacity .3s;
 }
 
 .exampleAllWorks {
     position: relative;
     margin-left: 0px;
-    width: 370px;
-    height: 200px;
+    width: 405px;
+    height: max-content;
+    padding-top: 100px;
     cursor: pointer;
 }
 
 .exampleAllWorks:nth-child(2n) {
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .exampleAllWorks:hover .exampleNumber{
@@ -159,7 +165,7 @@
 
 .exampleNumber {
     position: absolute;
-    bottom: -5px;
+    top: 0px;
     left: 0;
     color: rgba(234, 235, 244, .8);
     font-weight: 500;
@@ -174,9 +180,9 @@
 }
 
 .exampleMain {
-    position: absolute;
-    bottom: 64px;
-    left: 55px;
+    /* position: absolute; */
+    /* bottom: 64px; */
+    margin-left: 55px;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -188,13 +194,15 @@
     /* dark grey */
 
     color: #07273F;
+    position: relative;
 }
 
 .exampleText {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
-    left: 55px;
-    max-width: 300px;
+    margin-left: 55px;
+    margin-top: 12px;
+    max-width: 350px;
     font-style: normal;
     font-weight: normal;
     /* font-size: 16px; */
@@ -206,6 +214,7 @@
     /* grey */
 
     color: #4E4B66;
+    position: relative;
 }
 
 .notDisplayExmapleBlock {
@@ -215,7 +224,7 @@
 }
 
 #howAllWorks .animatedButton {
-    margin-top: 30px;
+    margin-top: -40px;
     margin-right: 80px;
 }
 
@@ -223,8 +232,8 @@
     margin-top: 150px;
     width: 100%;
     height: max-content;
-    display: flex;
-    justify-content: left;
+    /* display: flex;
+    justify-content: left; */
 }
 
 #popularQuestions {
@@ -257,7 +266,8 @@
 
 #questionsContent {
     position: relative;
-    margin-left: 160px;
+    margin-left: 80px;
+    margin-top: 32px;
     width: 500px;
     height: max-content;
 }
@@ -289,7 +299,7 @@
     background: #F7F7FC;
     border: 2px solid #07273F;
     transition: .5s;
-    max-height: 500px;
+    /* max-height: 500px; */
 }
 
 .questionMain {

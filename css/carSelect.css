@@ -4,6 +4,7 @@
     width: 1200px;
     height: max-content;
     /* height: 1500px; */
+    min-height: 900px;
     margin: auto;
     margin-top: 30px;
     /* background-color: teal; */
@@ -83,7 +84,7 @@
     margin-left: 16px;
 }
 
-#selectMain .swiper-slide:nth-child(3n+1){
+#selectMain .swiper-slide:nth-child(3n+2):nth-child(n+2){
     margin-left: 0px;
 }
 
@@ -460,6 +461,10 @@
     .container:hover input ~ .checkmark {
         background-color: #D6D8E6;
     }
+
+    .container:hover input:checked ~ .checkmark {
+        background-color: #2997EE;
+      }
 
     #selectContent {
         width: 336px;

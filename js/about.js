@@ -6,8 +6,13 @@ window.addEventListener('DOMContentLoaded', () => {
         if (!(workButton[0].classList.contains('activeHowAllWorksButton'))) {
             workButton[0].classList.add('activeHowAllWorksButton');
             workButton[1].classList.remove('activeHowAllWorksButton');
-            workBlock[0].classList.remove('notDisplayExmapleBlock');
-            workBlock[1].classList.add('notDisplayExmapleBlock');
+            
+            document.getElementById('howAllWorksExampleBlockContainer').style.opacity = '0';
+            setTimeout(()=>{
+                workBlock[0].classList.remove('notDisplayExmapleBlock');
+                workBlock[1].classList.add('notDisplayExmapleBlock');
+                document.getElementById('howAllWorksExampleBlockContainer').style.opacity = '1';
+            },300);
         }
     });
 
@@ -15,8 +20,13 @@ window.addEventListener('DOMContentLoaded', () => {
         if (!(workButton[1].classList.contains('activeHowAllWorksButton'))) {
             workButton[1].classList.add('activeHowAllWorksButton');
             workButton[0].classList.remove('activeHowAllWorksButton');
-            workBlock[1].classList.remove('notDisplayExmapleBlock');
-            workBlock[0].classList.add('notDisplayExmapleBlock');
+            
+            document.getElementById('howAllWorksExampleBlockContainer').style.opacity = '0';
+            setTimeout(()=>{
+                workBlock[1].classList.remove('notDisplayExmapleBlock');
+                workBlock[0].classList.add('notDisplayExmapleBlock');
+                document.getElementById('howAllWorksExampleBlockContainer').style.opacity = '1';
+            },300);
         }
     });
 
