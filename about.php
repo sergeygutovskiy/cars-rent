@@ -211,21 +211,32 @@
                 <div class="question">
                     <p class="questionMain">Lorem ipsum dolor sit</p>
                     <p class="questionIcon">+</p>
+                </div>
+                <div class="questionTextContainer">
                     <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 </div>
                 <div class="question">
                     <p class="questionMain">Lorem ipsum dolor sit</p>
                     <p class="questionIcon">+</p>
+                    <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                </div>
+                <div class="questionTextContainer">
                     <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 </div>
                 <div class="question">
                     <p class="questionMain">Lorem ipsum dolor sit</p>
                     <p class="questionIcon">+</p>
+                    <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                </div>
+                <div class="questionTextContainer">
                     <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 </div>
                 <div class="question">
                     <p class="questionMain">Lorem ipsum dolor sit</p>
                     <p class="questionIcon">+</p>
+                    <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                </div>
+                <div class="questionTextContainer">
                     <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 </div>
             </div>

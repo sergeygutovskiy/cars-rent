@@ -270,16 +270,26 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
+    let acceptedConfCheck = 0;
+
+    document.getElementById('confAcceptInput').addEventListener('change', () => {
+        acceptedConfCheck = !acceptedConfCheck;
+        toPhoneConfirmationButtons[0].classList.toggle('notAcceptedConf');
+    });
 
 
     let toPhoneConfirmationButtons = document.getElementsByClassName('toPhoneConfirmation');
 
     toPhoneConfirmationButtons[0].addEventListener('click', () => {
-        document.getElementsByClassName('absoluted')[1].style.opacity = '0';
-        setTimeout(() => {document.getElementsByClassName('absoluted')[1].style.display = 'none';}, 300)
+        if (!toPhoneConfirmationButtons[0].classList.contains('notAcceptedConf')) {
 
-        document.getElementsByClassName('absoluted')[3].style.display = 'flex';
-        setTimeout(() => {document.getElementsByClassName('absoluted')[3].style.opacity = '1';}, 300)
+            document.getElementsByClassName('absoluted')[1].style.opacity = '0';
+            setTimeout(() => {document.getElementsByClassName('absoluted')[1].style.display = 'none';}, 300)
+
+            document.getElementsByClassName('absoluted')[3].style.display = 'flex';
+            setTimeout(() => {document.getElementsByClassName('absoluted')[3].style.opacity = '1';}, 300)
+
+        }
     });
 
     toPhoneConfirmationButtons[1].addEventListener('click', () => {

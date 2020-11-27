@@ -1104,8 +1104,9 @@ h3 {
 
 #footerText {
     position: absolute;
-    left: calc(50% - 233px/2 - 375.5px);
-    bottom: 0;
+    /* left: calc(50% - 233px/2 - 375.5px); */
+    left: 0;
+    bottom: 30px;
 
     font-weight: 300;
     font-size: 12px;
@@ -1118,6 +1119,102 @@ h3 {
     /* light grey */
 
     color: #7993AF;
+}
+
+
+#footerConf {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #4E4B66;
+}
+
+
+#footerHelp {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height, or 160% */
+
+    letter-spacing: 0.04em;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
+
+#footerPhone {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    /* blue */
+
+    color: #2997EE;
+}
+
+/* reg checkbox */
+
+.confCheckbox {
+    position: absolute;
+    width: 290px;
+    height: max-content;
+    left: calc(50% - 145px);
+    bottom: 95px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    /* or 130% */
+
+    letter-spacing: 0.03em;
+
+    color: #4E4B66;
+}
+
+.confCheckbox input{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.regBack .submitButton.notAcceptedConf{
+    opacity: .7;
+}
+
+.regBack .submitButton.notAcceptedConf:hover{
+    opacity: .7;
+    background-color: #2A97F0;
+    color: white;
+}
+
+.confCheckbox a {
+    color: #2A97F0;
+    text-decoration: none;
 }
 
 /* absolute */
@@ -2328,7 +2425,7 @@ h3 {
     #footerText {
         position: absolute;
         left: 0;
-        bottom: 0;
+        /* bottom: 0; */
     
         font-weight: 300;
         font-size: 12px;
@@ -2887,6 +2984,18 @@ h3 {
         /* light grey */
     
         color: #7993AF;
+    }
+
+    #footerConf {
+        bottom: -85px;
+    }
+
+    #footerHelp {
+        bottom: -60px;
+    }
+
+    #footerPhone {
+        bottom: -85px;
     }
 
 }

@@ -337,7 +337,7 @@
 }
 
 .questionText {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 400px;
     font-style: normal;
     font-weight: normal;
@@ -352,6 +352,37 @@
     color: #4E4B66;
 }
 
+.questionText {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAEBF4;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.02);
+    border-radius: 35px 35px 35px 0px;
+}
+
+.questionTextContainer {
+    left: 524px;
+    top: 80px;
+    position: absolute;
+    width: 500px;
+    height: max-content;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.activeQuestionTextContainer {
+    opacity: 1;
+    transition: opacity .3s;
+}
 
 
 
@@ -452,6 +483,32 @@
     #questionsContent {
         margin-top: 40px;
         margin-left: 0px;
+    }
+
+    .questionTextContainer {
+        left: 0px;
+        top: 0px;
+        position: relative;
+        width: 500px;
+        height: unset;
+        max-height: 0px;
+        overflow: hidden;
+        opacity: 1;
+        transition: max-height .3s;
+        margin-bottom: 6px;
+    }
+
+    .questionText {
+        border-radius: 35px 0px 35px 35px;
+    }
+    
+    .activeQuestionTextContainer {
+        max-height: 300px;
+        transition: max-height .3s;
+    }
+
+    .question {
+        margin-bottom: 6px;
     }
 }
 
@@ -603,8 +660,34 @@
     }
 
     .questionText {
-        height: max-content;
-        width: 230px;
+        height: 100%;
+        width: 100%;
         font-size: 14px;
+    }
+
+    .questionTextContainer {
+        left: 0px;
+        top: 0px;
+        position: relative;
+        width: 312px;
+        height: unset;
+        max-height: 0px;
+        overflow: hidden;
+        opacity: 1;
+        transition: max-height .3s;
+        margin-bottom: 6px;
+    }
+
+    .activeQuestionTextContainer {
+        max-height: 300px;
+        transition: max-height .3s;
+    }
+
+    .question {
+        margin-bottom: 6px;
+    }
+
+    #howAllWorks .animatedButton {
+        margin-top: 30px;
     }
 }

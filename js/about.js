@@ -34,19 +34,23 @@ window.addEventListener('DOMContentLoaded', () => {
 
     let question = document.getElementsByClassName('question');
     let questionIcon = document.getElementsByClassName('questionIcon');
+    let answerBlocks = document.getElementsByClassName('questionTextContainer');
 
     for (let elem in question) {
         (() => {question[elem].addEventListener('click', () => {
             if (activeQuestion != -1) {
                 question[activeQuestion].classList.toggle('activeQuestion');
                 questionIcon[activeQuestion].innerHTML = "+";
+                answerBlocks[activeQuestion].classList.remove('activeQuestionTextContainer');
             }
             if (elem == activeQuestion) {
                 question[elem].classList.remove('activeQuestion');
                 questionIcon[elem].innerHTML = "+";
+                answerBlocks[elem].classList.remove('activeQuestionTextContainer');
             } else {
                 question[elem].classList.add('activeQuestion');
                 questionIcon[elem].innerHTML = "-";
+                answerBlocks[elem].classList.add('activeQuestionTextContainer');
             }
             if (question[elem].classList.contains('activeQuestion')) activeQuestion = elem; else activeQuestion = -1;
         })})();

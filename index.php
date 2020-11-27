@@ -440,7 +440,12 @@
 
             </div>
 
-            <div class="submitButton toPhoneConfirmation">Зарегистрироваться</div>
+            <div class="confCheckbox">
+                <input type="checkbox" name="confAccept" id="confAcceptInput"/>
+                <label for="confAccept">Я согласен(а) с <a href="javascript:0">правилами</a> и <a href="javascript:0">политикой конфиденциальности</a></label>
+            </div>
+
+            <div class="submitButton toPhoneConfirmation notAcceptedConf">Зарегистрироваться</div>
         </div>
     </div>
 
@@ -1183,6 +1188,9 @@
             </div>
             <div id="footerLine"></div>
             <div id="footerText">© 2020 Joy. All rights reserved.</div>
+            <div id="footerConf">Политика конфиденциальности</div>
+            <div id="footerHelp">Служба поддержки</div>
+            <div id="footerPhone">8 800 000 00 00</div>
         </div>
 
     </div>
