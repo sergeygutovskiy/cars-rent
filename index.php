@@ -1188,7 +1188,7 @@
             </div>
             <div id="footerLine"></div>
             <div id="footerText">© 2020 Joy. All rights reserved.</div>
-            <div id="footerConf">Политика конфиденциальности</div>
+            <div id="footerConf"><a href="#">Политика конфиденциальности</a></div>
             <div id="footerHelp">Служба поддержки</div>
             <div id="footerPhone">8 800 000 00 00</div>
         </div>
