@@ -722,7 +722,7 @@ h4 {
 
     .aboutCarText {
         font-size: 14px;
-        margin-bottom: 55px;
+        margin-bottom: 25px;
     }
 
     .carMap {
@@ -730,7 +730,7 @@ h4 {
     }
 
     .aboutCar {
-        margin-top: 35px;
+        margin-top: 15px;
     }
 
     .mapHint {

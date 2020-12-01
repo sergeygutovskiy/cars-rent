@@ -1138,6 +1138,42 @@ h3 {
     color: #4E4B66;
 }
 
+#footerTrash {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #4E4B66;
+}
+
+#footerTrash a{
+    color: #4E4B66;
+    transition: .3s;
+}
+
+#footerTrash a:hover{
+    color: #2997EE;
+    transition: .3s;
+}
+
+#footerConf a{
+    color: #4E4B66;
+    transition: .3s;
+}
+
+#footerConf a:hover{
+    color: #2997EE;
+    transition: .3s;
+}
+
 
 #footerHelp {
     position: absolute;
@@ -2453,7 +2489,25 @@ h3 {
         color: #7993AF;
     }
 
+    #footerConf a{
+        color: #4E4B66;
+        transition: .3s;
+    }
+
+    #footerConf a:hover{
+        color: #2997EE;
+        transition: .3s;
+    }
     
+    #footerTrash a{
+        color: #4E4B66;
+        transition: .3s;
+    }
+    
+    #footerTrash a:hover{
+        color: #2997EE;
+        transition: .3s;
+    }
 
 }
 
@@ -2909,10 +2963,10 @@ h3 {
 
     #footer {
         position: relative;
-        width: 336px;
+        width: 312px;
         margin: auto;
         margin-top: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
         height: 110px;
     }
     
@@ -2927,13 +2981,14 @@ h3 {
     }
     
     #footerContent {
+
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
         position: absolute;
         top: 40px;
         right: 0;
-        width: 336px;
+        width: 312px;
         height: max-content;
     
         font-weight: 600;
@@ -2974,7 +3029,7 @@ h3 {
     }
     
     #footerLine {
-        width: 360px;
+        width: 312px;
         height: 0.5px;
         position: absolute;
         top: 50px;
@@ -3004,11 +3059,40 @@ h3 {
     }
 
     #footerHelp {
-        bottom: -60px;
+        right: unset;
+        left: 0;
+        bottom: -130px;
     }
 
     #footerPhone {
-        bottom: -85px;
+        right: unset;
+        left: 0;
+        bottom: -160px;
     }
 
+    #footerTrash {
+        right: unset;
+        left: 0;
+        bottom: -185px;
+    }
+
+    #footerConf a{
+        color: #4E4B66;
+        transition: .3s;
+    }
+
+    #footerConf a:hover{
+        color: #2997EE;
+        transition: .3s;
+    }
+
+    #footerTrash a{
+        color: #4E4B66;
+        transition: .3s;
+    }
+    
+    #footerTrash a:hover{
+        color: #2997EE;
+        transition: .3s;
+    }
 }

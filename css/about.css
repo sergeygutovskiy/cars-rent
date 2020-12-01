@@ -237,14 +237,14 @@
 }
 
 #popularQuestions {
-    margin-left: 80px;
-    width: 400px;
+    /* margin-left: 80px; */
+    /* width: 400px; */
     height: max-content;
     position: relative;
 }
 
 #popularQuestions h3 {
-    text-align: left;
+    /* text-align: left; */
 }
 
 #popularQuestions p {
@@ -384,6 +384,26 @@
     transition: opacity .3s;
 }
 
+/* .forQuestionBlock {
+    display: none;
+    transition: .3s;
+    opacity: 0;
+} */
+
+.forQuestionBlock {
+    /* transition: opacity .5s; */
+} 
+
+.notDisplayedForQuestionBlock {
+    display: none;
+    transition: opacity .3s;
+    opacity: 0;
+}
+
+#questionsAnimationMainBlock {
+    transition: .3s;
+    opacity: 1;
+}
 
 
 

@@ -1191,6 +1191,7 @@
             <div id="footerConf"><a href="#">Политика конфиденциальности</a></div>
             <div id="footerHelp">Служба поддержки</div>
             <div id="footerPhone">8 800 000 00 00</div>
+            <div id="footerTrash"><a href="#">created by TEREXOV</a></div>
         </div>
 
     </div>

@@ -131,8 +131,8 @@
         <div id="howAllWorks">
             <h3>Как это работает?</h3>
             <div id="howAllWorksButtons">
-                <div class="allBlocksHelpButton howAllWorksButton activeHowAllWorksButton">Арендатору</div>
-                <div class="allBlocksHelpButton howAllWorksButton">Владельцу</div>
+                <div class="allBlocksHelpButton jsOrintiedButtons howAllWorksButton activeHowAllWorksButton">Арендатору</div>
+                <div class="allBlocksHelpButton jsOrintiedButtons howAllWorksButton">Владельцу</div>
             </div>
             <div id="howAllWorksExampleBlockContainer">
                 <div class="howAllWorksExampleBlock">
@@ -199,45 +199,86 @@
                         <div class="exampleText">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
                     </div> -->
                 </div>
-                <div class="animatedButton blue"><div class="animatedButtonEnter"></div><p>Перейти к выбору автомобиля</p></div>
+                <div class="animatedButton blue"><div class="animatedButtonEnter"></div><p>Перейти к подбору транспорта</p></div>
             </div>
         </div>
         <div id="questions">
             <div id="popularQuestions">
                 <h3>Популярные вопросы</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div id="howAllWorksButtons">
+                <div class="allBlocksHelpButton questionsJSButtons howAllWorksButton activeHowAllWorksButton">Арендатору</div>
+                <div class="allBlocksHelpButton questionsJSButtons howAllWorksButton">Владельцу</div>
             </div>
-            <div id="questionsContent">
-                <div class="question">
-                    <p class="questionMain">Lorem ipsum dolor sit</p>
-                    <p class="questionIcon">+</p>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+            </div>
+
+            <div id="questionsAnimationMainBlock">
+                <div id="questionsContent" class="forQuestionsBlock">
+                    <div class="question">
+                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionIcon">+</p>
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
                 </div>
-                <div class="questionTextContainer">
-                    <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                </div>
-                <div class="question">
-                    <p class="questionMain">Lorem ipsum dolor sit</p>
-                    <p class="questionIcon">+</p>
-                    <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
-                </div>
-                <div class="questionTextContainer">
-                    <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                </div>
-                <div class="question">
-                    <p class="questionMain">Lorem ipsum dolor sit</p>
-                    <p class="questionIcon">+</p>
-                    <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
-                </div>
-                <div class="questionTextContainer">
-                    <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                </div>
-                <div class="question">
-                    <p class="questionMain">Lorem ipsum dolor sit</p>
-                    <p class="questionIcon">+</p>
-                    <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
-                </div>
-                <div class="questionTextContainer">
-                    <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+                <div id="questionsContent" class="forQuestionsBlock notDisplayedForQuestionBlock">
+                    <div class="question">
+                        <p class="questionMain">Lorem ipsum dolor sit 123</p>
+                        <p class="questionIcon">+</p>
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
                 </div>
             </div>
         </div>
