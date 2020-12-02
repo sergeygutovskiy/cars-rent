@@ -535,7 +535,7 @@
 
                 <div class="form-block-rcl default-field datepicker customServisInput emptyState" id="endDateBlock">
 
-                    <div class="formLabel">Конец аренды</div>
+                    <div class="formLabel">Финиш аренды</div>
 
                     <!-- <div class="formContentReset">
                         <div class="formContentResetContent"></div>

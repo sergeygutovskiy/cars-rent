@@ -69,17 +69,36 @@ window.addEventListener('DOMContentLoaded', () => {
             let me = document.getElementById('startDate').value.split('.');
             let it = document.getElementById('endDate').value.split('.');
 
-            if (me[2] <= it[2]) {
-                if (me[1] <= it[1]) {
-                    if (me[0] < it[0]) {
+            if (Number(me[2]) < Number(it[2])) {
+                if (Number(me[1]) < Number(it[1])) {
+                    if (Number(me[0]) < Number(it[0])) {
                     } else {
-                        document.getElementById('startDate').value = ('0' + (it[0] - 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+                        let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                        var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                        date -= 3600 * 24 * 1000;
+
+                        document.getElementById('startDate').value = formatDate(new Date(date));
                     }
                 } else {
-                    document.getElementById('startDate').value = ('0' + (it[0] - 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+                    let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                    var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                    date -= 3600 * 24 * 1000;
+
+                    document.getElementById('startDate').value = formatDate(new Date(date));   
                 }
             } else {
-                document.getElementById('startDate').value = ('0' + (it[0] - 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+                
+                let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                date -= 3600 * 24 * 1000;
+
+                document.getElementById('startDate').value = formatDate(new Date(date));
             }
         }
     });
@@ -93,18 +112,61 @@ window.addEventListener('DOMContentLoaded', () => {
             let it = document.getElementById('startDate').value.split('.');
             let me = document.getElementById('endDate').value.split('.');
 
-            if (me[2] >= it[2]) {
-                if (me[1] >= it[1]) {
-                    if (me[0] > it[0]) {
+            console.log(me[2] > it[2])
+            console.log(me[1] > it[1])
+            console.log(me[0] > it[0])
+            
+
+            if (Number(me[2]) > Number(it[2])) {
+                if (Number(me[1]) > Number(it[1])) {
+                    if (Number(me[0]) > Number(it[0])) {
                     } else {
-                        document.getElementById('endDate').value = ('0' + (Number(it[0]) + 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+
+                        let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                        var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                        date += 3600 * 24 * 1000;
+
+                        document.getElementById('endDate').value = formatDate(new Date(date));
+
                     }
                 } else {
-                    document.getElementById('endDate').value = ('0' + (Number(it[0]) + 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+                    let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                    var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                    date += 3600 * 24 * 1000;
+
+                    document.getElementById('endDate').value = formatDate(new Date(date));
                 }
             } else {
-                document.getElementById('endDate').value = ('0' + (Number(it[0]) + 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+
+                let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                date += 3600 * 24 * 1000;
+
+                document.getElementById('endDate').value = formatDate(new Date(date));
             }
+
+
+
+            // me = document.getElementById('endDate').value.split('.');
+
+            // var date = new Date(me[2], me[1], me[0]).getTime();
+            // alert(date)
+
+            // var example = '05-10-1983';
+            // var date = new Date();
+            // var parts = document.getElementById('endDate').value.split('.');
+            // alert(document.getElementById('endDate').value)
+            // alert(document.getElementById('endDate').value.split('.')[2])
+            // alert(parts[2] + " " + Number(parts[1])-1 + " "  + parts[0])
+            // date.setFullYear(parts[2], parts[1]-1, parts[0]); // year, month (0-based), day
+            // date.setTime(date.getTime() + 86400000);
+            // alert(date);
         }
     });
 
@@ -154,3 +216,17 @@ window.addEventListener('DOMContentLoaded', () => {
       });
 
 });
+
+function formatDate(date) {
+
+    var dd = date.getDate();
+    if (dd < 10) dd = '0' + dd;
+  
+    var mm = date.getMonth() + 1;
+    if (mm < 10) mm = '0' + mm;
+  
+    var yy = date.getFullYear() % 100;
+    if (yy < 10) yy = '0' + yy;
+  
+    return dd + '.' + mm + '.20' + yy;
+  }

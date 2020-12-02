@@ -85,6 +85,7 @@ window.addEventListener('DOMContentLoaded', () => {
                             activeCategory = -1;
                         } else {
                             categories[activeCategory].classList.toggle('activeCategoryInputContainer');
+                            categoriesMarkers[activeCategory].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
                             activeCategory = elem;
                         }
                         if (categories[elem].classList.contains('activeCategoryInputContainer')) {

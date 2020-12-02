@@ -891,7 +891,7 @@
 
                 <div class="form-block-rcl default-field datepicker customServisInput emptyState" id="startDateBlock">
 
-                    <div class="formLabel">Начало аренды</div>
+                    <div class="formLabel">Старт аренды</div>
 
                     <!-- <div class="formContentReset">
                         <div class="formContentResetContent"></div>
@@ -914,7 +914,7 @@
 
                 <div class="form-block-rcl default-field datepicker customServisInput emptyState" id="endDateBlock">
 
-                    <div class="formLabel">Конец аренды</div>
+                    <div class="formLabel">Финиш аренды</div>
 
                     <!-- <div class="formContentReset">
                         <div class="formContentResetContent"></div>
@@ -950,7 +950,7 @@
 
                 
                 <div class="input textInput">
-                    <input class="inputContent" type="text" id="city" placeholder="Укажите город"/>
+                    <input class="inputContent" type="text" id="city" placeholder="Укажите город" autocomplete="off"/>
                     <img src="assets/all/Search.svg" class="inputLogo"/>
 
                     <div class="citiesContent">
@@ -1191,7 +1191,7 @@
             <div id="footerConf"><a href="#">Политика конфиденциальности</a></div>
             <div id="footerHelp">Служба поддержки</div>
             <div id="footerPhone">8 800 000 00 00</div>
-            <div id="footerTrash"><a href="#">created by TEREXOV</a></div>
+            <div id="footerTrash"><a href="#">created by terexov</a></div>
         </div>
 
     </div>

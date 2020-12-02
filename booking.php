@@ -547,8 +547,8 @@
                 <div class="accountNavMain"><p>Бронирование</p></div>
                 <div class="accountNavContent">
                     <div class="accountNavElem">Профиль</div>
-                    <div class="accountNavElem">Заявки и объявления</div>
-                    <div class="accountNavElem">Сделки</div>
+                    <div class="accountNavElem">Мои объявления</div>
+                    <div class="accountNavElem">Мои заказы</div>
                 </div>
             </div>
 

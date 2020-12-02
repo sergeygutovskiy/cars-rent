@@ -510,8 +510,8 @@
                 <div class="accountNavMain"><p>Личный кабинет</p></div>
                 <div class="accountNavContent">
                     <div class="accountNavElem activeAccountNavElem uncheckedUpdates">Профиль <div class="activeAccountNavElemHint"></div></div>
-                    <div class="accountNavElem">Заявки и объявления <div class="activeAccountNavElemHint"></div> </div>
-                    <div class="accountNavElem">Сделки <div class="activeAccountNavElemHint"></div></div>
+                    <div class="accountNavElem">Мои объявления <div class="activeAccountNavElemHint"></div> </div>
+                    <div class="accountNavElem">Мои заказы <div class="activeAccountNavElemHint"></div></div>
                 </div>
             </div>
 

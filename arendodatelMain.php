@@ -509,8 +509,8 @@
                 <div class="accountNavMain"><p>Личный кабинет</p></div>
                 <div class="accountNavContent">
                     <div class="accountNavElem">Профиль <div class="activeAccountNavElemHint"></div></div>
-                    <div class="accountNavElem activeAccountNavElem uncheckedUpdates">Заявки и объявления <div class="activeAccountNavElemHint"></div> </div>
-                    <div class="accountNavElem">Сделки <div class="activeAccountNavElemHint"></div></div>
+                    <div class="accountNavElem activeAccountNavElem uncheckedUpdates">Мои объявления <div class="activeAccountNavElemHint"></div> </div>
+                    <div class="accountNavElem">Мои заказы <div class="activeAccountNavElemHint"></div></div>
                 </div>
             </div>
 
@@ -677,11 +677,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -716,11 +716,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -754,11 +754,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -792,11 +792,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -835,11 +835,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -874,11 +874,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -912,11 +912,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -950,11 +950,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -993,11 +993,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1032,11 +1032,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1070,11 +1070,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1108,11 +1108,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1151,11 +1151,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1190,11 +1190,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1228,11 +1228,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1266,11 +1266,11 @@
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">начало аренды</div>
+                                        <div class="infoBlockHint">Старт аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">конец аренды</div>
+                                        <div class="infoBlockHint">Финиш аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">

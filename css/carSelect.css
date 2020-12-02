@@ -4,7 +4,7 @@
     width: 1200px;
     height: max-content;
     /* height: 1500px; */
-    min-height: 900px;
+    /* min-height: 900px; */
     margin: auto;
     margin-top: 30px;
     /* background-color: teal; */
@@ -297,7 +297,7 @@
 
 /* Customize the label (the container) */
 .container:nth-child(8) {
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 
 .container {

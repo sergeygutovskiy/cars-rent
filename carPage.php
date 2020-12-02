@@ -620,7 +620,7 @@
             
                             <div class="form-block-rcl default-field datepicker customServisInput emptyState" id="startDateBlock">
             
-                                <div class="formLabel">Начало аренды</div>
+                                <div class="formLabel">Старт аренды</div>
             
                                 <!-- <div class="formContentReset">
                                     <div class="formContentResetContent"></div>
@@ -643,7 +643,7 @@
             
                             <div class="form-block-rcl default-field datepicker customServisInput emptyState" id="endDateBlock">
             
-                                <div class="formLabel">Конец аренды</div>
+                                <div class="formLabel">Финиш аренды</div>
             
                                 <!-- <div class="formContentReset">
                                     <div class="formContentResetContent"></div>

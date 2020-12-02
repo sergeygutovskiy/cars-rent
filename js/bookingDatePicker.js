@@ -65,17 +65,36 @@ window.addEventListener('DOMContentLoaded', () => {
             let me = document.getElementById('startDate').value.split('.');
             let it = document.getElementById('endDate').value.split('.');
 
-            if (me[2] <= it[2]) {
-                if (me[1] <= it[1]) {
-                    if (me[0] < it[0]) {
+            if (Number(me[2]) < Number(it[2])) {
+                if (Number(me[1]) < Number(it[1])) {
+                    if (Number(me[0]) < Number(it[0])) {
                     } else {
-                        document.getElementById('startDate').value = ('0' + (it[0] - 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+                        let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                        var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                        date -= 3600 * 24 * 1000;
+
+                        document.getElementById('startDate').value = formatDate(new Date(date));
                     }
                 } else {
-                    document.getElementById('startDate').value = ('0' + (it[0] - 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+                    let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                    var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                    date -= 3600 * 24 * 1000;
+
+                    document.getElementById('startDate').value = formatDate(new Date(date));   
                 }
             } else {
-                document.getElementById('startDate').value = ('0' + (it[0] - 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+                
+                let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                date -= 3600 * 24 * 1000;
+
+                document.getElementById('startDate').value = formatDate(new Date(date));
             }
         }
     });
@@ -89,17 +108,38 @@ window.addEventListener('DOMContentLoaded', () => {
             let it = document.getElementById('startDate').value.split('.');
             let me = document.getElementById('endDate').value.split('.');
 
-            if (me[2] >= it[2]) {
-                if (me[1] >= it[1]) {
-                    if (me[0] > it[0]) {
+            if (Number(me[2]) > Number(it[2])) {
+                if (Number(me[1]) > Number(it[1])) {
+                    if (Number(me[0]) > Number(it[0])) {
                     } else {
-                        document.getElementById('endDate').value = ('0' + (Number(it[0]) + 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+
+                        let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                        var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                        date += 3600 * 24 * 1000;
+
+                        document.getElementById('endDate').value = formatDate(new Date(date));
+
                     }
                 } else {
-                    document.getElementById('endDate').value = ('0' + (Number(it[0]) + 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+                    let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                    var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                    date += 3600 * 24 * 1000;
+
+                    document.getElementById('endDate').value = formatDate(new Date(date));
                 }
             } else {
-                document.getElementById('endDate').value = ('0' + (Number(it[0]) + 1)).slice(-2) + '.' + it[1] + '.' + it[2];
+
+                let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
+
+                var date = new Date(tmp[2], (Number(tmp[1]) - 1), tmp[0]).getTime();
+
+                date += 3600 * 24 * 1000;
+
+                document.getElementById('endDate').value = formatDate(new Date(date));
             }
         }
     });

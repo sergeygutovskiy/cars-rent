@@ -552,8 +552,8 @@
                 <div class="accountNavMain"><p>Бронирование</p></div>
                 <div class="accountNavContent">
                     <div class="accountNavElem">Профиль <div class="activeAccountNavElemHint"></div></div>
-                    <div class="accountNavElem">Заявки и объявления <div class="activeAccountNavElemHint"></div> </div>
-                    <div class="accountNavElem activeAccountNavElem uncheckedUpdates">Сделки <div class="activeAccountNavElemHint"></div></div>
+                    <div class="accountNavElem">Мои объявления <div class="activeAccountNavElemHint"></div> </div>
+                    <div class="accountNavElem activeAccountNavElem uncheckedUpdates">Мои заказы <div class="activeAccountNavElemHint"></div></div>
                 </div>
 
                 <div class="backFromDeal"><i class="fas fa-angle-left"></i>&nbsp; Вернуться ко всем сделкам</div>
@@ -574,7 +574,7 @@
                     <div class="notEndedDeal">
                         <div class="bookingBlock bookingTariffs dealDates">
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Начало аренды</div>
+                                <div class="bookingTariffName">Старт аренды</div>
                                 <div class="bookingTariffPrice">25.10.2020</div>
                             </div>
                             <div class="bookingTariff">
@@ -612,7 +612,7 @@
 
                         <div class="bookingBlock bookingTariffs dealDates">
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Начало аренды</div>
+                                <div class="bookingTariffName">Старт аренды</div>
                                 <div class="bookingTariffPrice">25.10.2020</div>
                             </div>
                             <div class="bookingTariff">
