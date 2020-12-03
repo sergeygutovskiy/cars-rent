@@ -467,6 +467,10 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
 .stepContentBlockTableFlex {
     margin-top: 18px;
     width: 616px;

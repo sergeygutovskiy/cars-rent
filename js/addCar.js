@@ -64,9 +64,39 @@ window.addEventListener('DOMContentLoaded', () => {
     let inputs = document.getElementsByClassName('stepContentBlockInputFlexElemContent');
     let values = document.getElementsByClassName('tableFlexElemContent');
 
+    let inputsManager = [0, 0, 0, 0, 0];
+
     for (let i = 0; i < inputs.length; i++) {
         inputs[i].addEventListener('input', () => {
-            values[i].innerHTML = (inputs[i].value * .9).toFixed(2);
+            
+            if (inputs[i].value) inputsManager[i] = 1; else inputsManager[i] = 0;
+            if (inputs[i].value) {
+                let cur = i;
+                for (let j = i; j < inputs.length; j++) {
+                    values[j].innerHTML = (inputs[cur].value * .9).toFixed(2);
+                    if (inputsManager[j]) {
+                        cur = j;
+                        values[j].innerHTML = (inputs[cur].value * .9).toFixed(2);
+                    }
+                }
+            } else {
+                let cur = 0;
+                for (let k = i; k >= 0; k--) {
+                    if (inputsManager[k]) {
+                        cur = k;
+                        break;
+                    }
+                }
+                for (let j = i; j < inputs.length; j++) {
+
+                    if (inputsManager[j]) {
+                        break;
+                    }
+                    values[j].innerHTML = (inputs[cur].value * .9).toFixed(2);
+                    
+                }
+            }
+            
         });
     }
 
