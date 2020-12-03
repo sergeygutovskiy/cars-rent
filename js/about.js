@@ -61,7 +61,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 questionsBlock[1].classList.remove('notDisplayedForQuestionBlock');
                 questionsBlock[0].classList.add('notDisplayedForQuestionBlock');
                 document.getElementById('questionsAnimationMainBlock').style.opacity = '1';
-                question[4].click();
+                question[9].click();
             },300);
         }
     });
@@ -95,4 +95,72 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     question[0].click();
+
+    if (window.innerWidth >= 1260) {
+        answerBlocks[0].style.top = '32px';
+        answerBlocks[1].style.top = '124px';
+        answerBlocks[2].style.top = '216px';
+        answerBlocks[3].style.top = '108px';
+        answerBlocks[4].style.top = '55px';
+        answerBlocks[5].style.top = '158px';
+        answerBlocks[6].style.top = '328px';
+        answerBlocks[7].style.top = '306px';
+        answerBlocks[8].style.top = '604px';
+        answerBlocks[9].style.top = '32px';
+        answerBlocks[10].style.top = '126px';
+        answerBlocks[11].style.top = '92px';
+        answerBlocks[12].style.top = '-167px';
+        answerBlocks[13].style.top = '80px';
+    } else {
+        answerBlocks[0].style.top = '0px';
+        answerBlocks[1].style.top = '0px';
+        answerBlocks[2].style.top = '0px';
+        answerBlocks[3].style.top = '0px';
+        answerBlocks[4].style.top = '0px';
+        answerBlocks[5].style.top = '0px';
+        answerBlocks[6].style.top = '0px';
+        answerBlocks[7].style.top = '0px';
+        answerBlocks[8].style.top = '0px';
+        answerBlocks[9].style.top = '0px';
+        answerBlocks[10].style.top = '0px';
+        answerBlocks[11].style.top = '0px';
+        answerBlocks[12].style.top = '0px';
+        answerBlocks[13].style.top = '0px';
+    }
+
+    window.addEventListener('resize', () => {
+        if (window.innerWidth >= 1260) {
+            answerBlocks[0].style.top = '32px';
+            answerBlocks[1].style.top = '124px';
+            answerBlocks[2].style.top = '216px';
+            answerBlocks[3].style.top = '108px';
+            answerBlocks[4].style.top = '55px';
+            answerBlocks[5].style.top = '158px';
+            answerBlocks[6].style.top = '328px';
+            answerBlocks[7].style.top = '306px';
+            answerBlocks[8].style.top = '604px';
+            answerBlocks[9].style.top = '32px';
+            answerBlocks[10].style.top = '126px';
+            answerBlocks[11].style.top = '92px';
+            answerBlocks[12].style.top = '-167px';
+            answerBlocks[13].style.top = '80px';
+        } else {
+            answerBlocks[0].style.top = '0px';
+            answerBlocks[1].style.top = '0px';
+            answerBlocks[2].style.top = '0px';
+            answerBlocks[3].style.top = '0px';
+            answerBlocks[4].style.top = '0px';
+            answerBlocks[5].style.top = '0px';
+            answerBlocks[6].style.top = '0px';
+            answerBlocks[7].style.top = '0px';
+            answerBlocks[8].style.top = '0px';
+            answerBlocks[9].style.top = '0px';
+            answerBlocks[10].style.top = '0px';
+            answerBlocks[11].style.top = '0px';
+            answerBlocks[12].style.top = '0px';
+            answerBlocks[13].style.top = '0px';
+        }
+    });
+
+    
 });

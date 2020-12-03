@@ -215,69 +215,139 @@
             <div id="questionsAnimationMainBlock">
                 <div id="questionsContent" class="forQuestionsBlock">
                     <div class="question">
-                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionMain">Какие требования к Арендатору?</p>
                         <p class="questionIcon">+</p>
                     </div>
-                    <div class="questionTextContainer">
-                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <div class="reversedBlock questionTextContainer">
+                        <div class="questionText">Для пользования сервисом Арендатор должен соответствовать следующим требованиям:
+                            <ul>
+                                <li>возраст Арендатора составляет не менее 18 лет;</li>
+                                <li>арендатор обладает правом на управление транспортным средством и имеет в наличии необходимый комплект документов для подтверждения.</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="question">
-                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionMain">Как и куда вернуть транспорт после аренды?</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="reversedBlock questionTextContainer">
+                        <p class="questionText">Место, дату и время возврата транспорта после окончания срока аренды Вы уточняете с Арендатором напрямую, используя чат в личном кабинете.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Что делать в случае ДТП?</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="reversedBlock questionTextContainer">
+                        <p class="questionText">В случае наступления ДТП Арендатор сообщает об этом в органы ГИБДД и одновременно информирует о наступлении ДТП Владельцу по обговоренным каналам связи. Арендатор получает в органах ГИБДД необходимые документы: справку о ДТП, копию протокола. Арендатор передаёт их (подлинные экземпляры) Владельцу транспортного средства. Арендатор обязуется участвовать во всех мероприятиях, предусмотренных ПДД, при необходимости.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Кто оплачивает штрафы ГИБДД за нарушения ПДД?</p>
                         <p class="questionIcon">+</p>
                         <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
                     </div>
                     <div class="questionTextContainer">
-                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <p class="questionText">Арендатор обязуется должным образом и в полном объёме соблюдать ПДД РФ. В случае нарушения ПДД Арендатор должен нести полную ответственность: оплачивать из личных средств сумм штрафов (в полном объеме), выписанных за период, совпадающий с периодом аренды транспорта по условиям договора об аренде.</p>
                     </div>
+
                     <div class="question">
-                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionMain">Информация о коронавирусе (COVID-19) для Арендаторов</p>
                         <p class="questionIcon">+</p>
                         <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
                     </div>
                     <div class="questionTextContainer">
-                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <p class="questionText">В связи с распространением коронавирусной инфекции мы просим Вас соблюдать меры, предусмотренные для защиты себя и окружающих. Используйте маску для лица, при встрече с Владельцем, поездке с пассажиром. Пользуйтесь антисептическим гелем и дезинфицирующими салфетками. Перед началом аренды очистите и продезинфицируйте транспортное средство, обращая особое внимание на поверхности, к которым часто прикасаются. Повторите процедуры после завершения использования транспортного средства. Оставайтесь дома, если заболели. Если Вы плохо себя чувствуете, отмените предстоящую аренду и оставайтесь дома.</p>
                     </div>
                     <div class="question">
-                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionMain">Возможны ли дополнительные водители при аренде??</p>
                         <p class="questionIcon">+</p>
                         <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
                     </div>
                     <div class="questionTextContainer">
-                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <p class="questionText">При желании использовать арендованное транспортное средство не только Вами лично, но и вашими знакомыми или родственниками в качестве второго водителя, Вы должны обговорить данную возможность с Владельцем транспорта напрямую на стадии заключения договора об аренде. Если Владелец одобрит возможность использования своего транспорта несколькими водителями, то необходимо будет предоставить комплект документов дополнительных водителей и указать их данные в документах о передачи прав пользования транспортным средством. Важно, чтобы дополнительные водители соответствовали требованиям, установленным для арендаторов.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Как продлить сроки аренды?</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">При желании продлить сроки аренды, Вы должны отправить запрос на продление Владельцу транспортного средства. Ваш запрос должен быть подтвержден Владельцем до окончания аренды. Сроки аренды будут изменены только в том случае, если Владелец одобрит ваш запрос. Если владелец не подтверждает продление сроков аренды, Вы должны соблюдать первоначально запланированные даты и вернуть транспортное средство в ранее установленные сроки.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Как происходит отмена аренды?</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">При желании отменить аренду транспортного средства Вам необходимо сообщить о своем решении Владельцу. Во избежание споров между сторонами о возврате средств (части средств) рекомендуем договориться о выплатах на стадии составления договора и задокументировать их. В общем случае за отмену аренды: за 48 часов и более до начала аренды Вам может быть возвращена полная стоимость аренды; менее чем за 48 часов до начала аренды Вам может быть возвращена половина стоимости аренды; после начала аренды никакая стоимость не может быть возвращена. Исключения составляет отмена по решению или вине Владельца, тогда Вам будут полностью возвращены средства.</p>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Каким возвращать транспорт после аренды?</p>
+                        <p class="questionIcon">+</p>
+                        <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
+                    </div>
+                    <div class="questionTextContainer">
+                        <p class="questionText">После использования арендованного транспорта Вы должны вернуть его Владельцу в том же состоянии, что и до начала аренды. Если вы получили полностью заправленное транспортное средство, то и вернуть его необходимо с тем же количеством топлива.</p>
                     </div>
                 </div>
 
                 <div id="questionsContent" class="forQuestionsBlock notDisplayedForQuestionBlock">
                     <div class="question">
-                        <p class="questionMain">Lorem ipsum dolor sit 123</p>
+                        <p class="questionMain">Какие требования к Владельцу?</p>
                         <p class="questionIcon">+</p>
                     </div>
-                    <div class="questionTextContainer">
-                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <div class="reversedBlock questionTextContainer">
+                        <div class="questionText">Для пользования сервисом Владелец должен соответствовать следующим требованиям:
+                            <ul>
+                                <li>возраст Владельца составляет не менее 18 лет;</li>
+                                <li>владелец обладает полномочиями на сдачу ТС в аренду: ТС является собственностью Владельца, либо же Владелец имеет признаваемое положениями действующего Законодательства РФ право, указанное в имеющейся в наличии доверенности или ином документе, сдавать имеющееся в его распоряжении ТС в аренду;</li>
+                                <li>владелец имеет в наличии полный комплект документов, необходимый для подтверждения прав на владение ТС в соответствии с положениями законодательства РФ.</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="question">
-                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionMain">Какие требования к транспорту для сдачи в аренду?</p>
+                        <p class="questionIcon">+</p>
+                    </div>
+                    <div class="reversedBlock questionTextContainer">
+                        <div class="questionText">Транспорт, размещаемый на сервисе для аренды, должен соответствовать следующим требованиям:
+                            <ul>
+                                <li>транспортное средство должно быть вашей собственностью, либо Вы должны иметь полномочия на его использование (предоставление в аренду), также вам необходимо иметь полный комплект документов, подтверждающий ваши права;</li>
+                                <li>транспортное средство должно соответствовать требованиям законодательства РФ, а также не состоять в розыске или под арестом;</li>
+                                <li>транспортное средство должно быть технически исправно.</li>
+                            </ul>
+                            Автомобиль, предоставляемый для сдачи в аренду, должен соответствовать следующим требованиям:
+                            <ul>
+                                <li>возраст автомобиля не превышает 15 лет;</li>
+                                <li>пробег автомобиля не превышает 200 000 км.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p class="questionMain">Где я могу забрать транспорт после аренды?</p>
                         <p class="questionIcon">+</p>
                         <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
                     </div>
                     <div class="questionTextContainer">
-                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <p class="questionText">Место, дату и время возврата транспорта после окончания срока аренды Вы уточняете с Арендатором напрямую, используя чат в личном кабинете.</p>
                     </div>
                     <div class="question">
-                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionMain">Что делать, если мне на почту пришел штраф за нарушение ПДД моим автомобилем, когда он находился в аренде?</p>
                         <p class="questionIcon">+</p>
                         <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
                     </div>
                     <div class="questionTextContainer">
-                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <p class="questionText">Согласно законодательству РФ к административной ответственности привлекается лицо совершившее проступок. Владелец транспортного средства имеет право обжаловать выписанный штраф, если он докажет, что в момент фиксации совершения правонарушения транспортное средство находилось под управлением другого лица. Доказательствами, подтверждающими факт нахождения транспортного средства в пользовании другого лица, могут являться: доверенность на право управления транспортным средством другим лицом, договор аренды транспортного средства, показания свидетелей или лица, непосредственно управлявшего транспортным средством в момент фиксации административного правонарушения. Если нахождение транспортного средства под управлением другого лица в момент фиксации правонарушения доказано, то согласно порядку обжалования, Владельцу предоставляется требование отменить постановление.</p>
                     </div>
                     <div class="question">
-                        <p class="questionMain">Lorem ipsum dolor sit</p>
+                        <p class="questionMain">Информация о коронавирусе (COVID-19) для Владельцев</p>
                         <p class="questionIcon">+</p>
                         <!-- <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> -->
                     </div>
                     <div class="questionTextContainer">
-                        <p class="questionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <p class="questionText">В связи с распространением коронавирусной инфекции мы просим Владельцев транспортных средств соблюдать меры по очистке и дезинфекции транспортного средства, чтобы обезопасить себя и арендаторов. Оставляйте в сдаваемом в аренду транспорте дезинфицирующие салфетки или другие антисептические средства, чтобы водители могли использовать их. Указывайте арендаторам на необходимость соблюдения мер по защите себя и окружающих. Очищайте и дезинфицируйте свой транспорт, уделяя особое внимание к часто касающимся поверхностям. При чистке транспорта используйте маску для лица и перчатки для дополнительной защиты.</p>
                     </div>
                 </div>
             </div>

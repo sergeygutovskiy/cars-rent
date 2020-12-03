@@ -274,7 +274,8 @@
 
 .question {
     width: 500px;
-    max-height: 68px;
+    /* max-height: 68px; */
+    height: max-content;
     background: #EAEBF4;
     border-radius: 10px;
     border: 2px solid #EAEBF4;
@@ -287,6 +288,7 @@
     padding-right: 20px;
     cursor: pointer;
     transition: .5s;
+    position: relative;
 }
 
 .question:hover {
@@ -304,8 +306,8 @@
 
 .questionMain {
     font-style: normal;
-    height: 28px;
-    width: 450px;
+    /* height: 28px; */
+    width: 400px;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -321,8 +323,11 @@
 .questionIcon{
     float: right;
     clear: left;
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 12px);
     height: 28px;
-    margin-top: -28px;
+    /* margin-top: calc(-50% + 14px); */
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -352,6 +357,13 @@
     color: #4E4B66;
 }
 
+.questionText ul {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 0;
+}
+
 .questionText {
     height: 100%;
     width: 100%;
@@ -368,16 +380,23 @@
     border-radius: 35px 35px 35px 0px;
 }
 
+.reversedBlock .questionText {
+    border-radius: 0px 35px 35px 35px;
+}
+
 .questionTextContainer {
     left: 524px;
     top: 80px;
     position: absolute;
-    width: 500px;
+    width: 550px;
     height: max-content;
     overflow: hidden;
     opacity: 0;
     transition: opacity .3s;
+    z-index: 1;
 }
+
+
 
 .activeQuestionTextContainer {
     opacity: 1;
@@ -518,12 +537,16 @@
         margin-bottom: 6px;
     }
 
+    .reversedBlock .questionText {
+        border-radius: 35px 0px 35px 35px;
+    }
+
     .questionText {
         border-radius: 35px 0px 35px 35px;
     }
     
     .activeQuestionTextContainer {
-        max-height: 300px;
+        max-height: 550px;
         transition: max-height .3s;
     }
 
@@ -699,7 +722,7 @@
     }
 
     .activeQuestionTextContainer {
-        max-height: 300px;
+        max-height: 750px;
         transition: max-height .3s;
     }
 

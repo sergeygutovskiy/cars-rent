@@ -227,7 +227,7 @@
 }
 
 .categoryInputText {
-    width: 173px;
+    width: 183px;
     height: 20px;
 
     font-family: Commissioner;
@@ -262,10 +262,40 @@
     margin-top: 4px;
     width: 254px;
     height: max-content;
+    max-height: 200px;
     padding: 24px;
     background: #EFF0F6;
     border-radius: 8px;
+    overflow-y: auto;
 }
+
+.categoryInputContent::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+
+  .categoryInputContent::-webkit-scrollbar-track {
+    border-radius: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+  
+  .categoryInputContent::-webkit-scrollbar-thumb {
+      cursor: pointer;
+    background-color: #B7C0CC;
+    border-radius: 20px;
+    transition: .2s;
+  }
+  
+  .categoryInputContent::-webkit-scrollbar-thumb:hover { 
+    cursor: pointer;
+    background-color: #A0A3BD;
+    border-radius: 20px;
+    transition: .2s;
+  }
 
 .categoryInputContentItem:nth-child(1) {
     margin-top: 0px;

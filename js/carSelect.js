@@ -62,7 +62,7 @@ window.addEventListener('DOMContentLoaded', () => {
     try {categories = document.getElementById('selectContent').getElementsByClassName('categoryInputContainer');} catch (e) {console.log(e)};
     console.log(categories)
     console.log(document.getElementById('selectContent'))
-    let categoriesNames = ["Цена", "Марка", "Класс", "Категория", "Коробка", "Двигатель",         "Тип", "Ширина", "Длина", "Осадка", "Вместимость", "Макс. скорость",       "Тип", "Макс. скорость", "Объем двигателя", "Мощность", "Объем бака", "Вес", "Пробег"];
+    let categoriesNames = ["Цена", "Марка", "Тип кузова", "Мощность", "Год выпуска", "КПП", "Привод", "Руль", "Двигатель", "Пробег",        "Тип", "Цена", "Мощность", "Двигатель", "Тактность",       "Тип", "Цена", "Марка", "Объем", "Двигатель", "КПП", "Тактность", "Пробег"];
     let categoriesText;
     try {categoriesText = document.getElementById('selectContent').getElementsByClassName('categoryInputText');} catch (e) {console.log(e)};
     let categoriesMarkers;
