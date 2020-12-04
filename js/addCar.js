@@ -440,7 +440,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         newFeatureInput[4].click();
 
-        this.value = this.value.split(" д.")[0];
+        this.value = this.value.split(" дв.")[0];
         this.type = 'number';
 
         // categories[elem].classList.toggle('activeCategoryInputContainer');
@@ -465,21 +465,21 @@ window.addEventListener('DOMContentLoaded', () => {
 
     newFeatureInput[4].addEventListener('blur', function () {
         this.type = 'text';
-        if (this.value) this.value += ' д.';
+        if (this.value) this.value += ' дв.';
     });
 
     newFeatureInput[5].addEventListener('focus', function () {
 
         newFeatureInput[5].click();
 
-        this.value = this.value.split(" ч.")[0];
+        this.value = this.value.split(" чел.")[0];
         this.type = 'number';
 
     });
 
     newFeatureInput[5].addEventListener('blur', function () {
         this.type = 'text';
-        if (this.value) this.value += ' ч.';
+        if (this.value) this.value += ' чел.';
     });
 
     newFeatureInput[6].addEventListener('focus', function () {
@@ -557,14 +557,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
         newFeatureInput[11].click();
 
-        this.value = this.value.split(" ч.")[0];
+        this.value = this.value.split(" чел.")[0];
         this.type = 'number';
 
     });
 
     newFeatureInput[11].addEventListener('blur', function () {
         this.type = 'text';
-        if (this.value) this.value += ' ч.';
+        if (this.value) this.value += ' чел.';
     });
 
     newFeatureInput[12].addEventListener('focus', function () {
