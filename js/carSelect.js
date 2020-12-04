@@ -73,6 +73,10 @@ window.addEventListener('DOMContentLoaded', () => {
         document.getElementById('motoCatContainer').innerHTML += '<div class="categoryInputContentItem">' + moto[i] + '</div>'
     }
 
+    for (let i = 0; i < cars.length; i++) {
+        document.getElementById('carsCatContainer').innerHTML += '<div class="categoryInputContentItem">' + cars[i] + '</div>'
+    }
+
     let categoriesContent;
     try {categoriesContent = document.getElementById('selectContent').getElementsByClassName('categoryInputContentItem');} catch (e) {console.log(e)};
 

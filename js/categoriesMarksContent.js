@@ -3,5 +3,5 @@ let moto = [
 ];
 
 let cars = [
-    
+    "Acura", "Alfa Romeo", "Aston Martin", "Audi", "Bentley", "BMW", "Brilliance", "Bugatti", "Buick", "BYD", "Cadillac", "Changan", "Chery", "Chevrolet", "Chrysler", "Citroen", "Daewoo", "Daihatsu", "Datsun", "Dodge", "Dongfeng", "FAW", "Ferrari", "Fiat", "Fisker", "Ford", "GAZ", "Geely", "Genesis", "GMC", "Great Wall", "Haval", "Holden", "Honda", "Hummer", "Hyundai", "Infiniti", "Isuzu", "Iveco", "Jaguar", "Jeep", "Kia", "Lada", "Lamborghini", "Lancia", "Land Rover", "Lexus", "Lifan", "Lincoln", "Lotus", "Marussia", "Maserati", "Maybach", "Mazda", "McLaren", "Mercedes", "Mercury", "MG", "Mini", "Mitsubishi", "Nissan", "Noble", "Opel", "Peugeot", "Plymouth", "Pontiac", "Porsche", "Ravon", "Renault", "Rolls-Royce", "Rover", "Saab", "Saturn", "Scion", "Seat", "Skoda", "Smart", "Ssang Yong", "Subaru", "Suzuki", "Tesla", "Toyota", "UAZ", "VAZ", "Volkswagen", "Volvo"
 ]

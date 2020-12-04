@@ -583,7 +583,6 @@
                 
                                     
                     
-                                <div class="categoryInputContainerFixer">
                                     <div class="categoryInputContainer">
                                         <div class="categoryInput">
                                             <div class="categoryInputText">Марка</div>
@@ -591,13 +590,12 @@
                                         </div>
                     
                                         <div class="categoryInputContent">
-                                            <div class="categoryInputContentFixer">
-                                            <div class="categoryInputContentItem">Lorem</div>
-                                            <div class="categoryInputContentItem">ipsum</div>
+                                            <div class="categoryInputContentFixer" id="carsCatContainer">
+                                            <!-- <div class="categoryInputContentItem">Lorem</div>
+                                            <div class="categoryInputContentItem">ipsum</div> -->
                                         </div>
                                         </div>
                                     </div>
-                                     </div>
 
                                      <div class="categoryInputContainerFixer">
                                         <div class="categoryInputContainer">
