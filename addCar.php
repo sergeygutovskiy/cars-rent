@@ -17,8 +17,9 @@
     <script src="js/swiper.js"></script>
     <!-- <script src="js/additionalSwiper.js"></script> -->
     <script src="js/hamburger.js"></script>
-    <script src="js/carSelect.js"></script>
+    <!-- <script src="js/carSelect.js"></script> -->
     <script src="js/addCar.js"></script>
+    <script src="js/categoriesMarksContent.js"></script>
     <script src="js/login_registration.js"></script>
 
     <!-- <link rel="stylesheet" href="datepicker/dist/css/datepicker.material.css">
@@ -579,90 +580,195 @@
                                 </div>
             
                                 <div class="stickyContent autoStickyContent">
+                
+                                    
+                    
+                                <div class="categoryInputContainerFixer">
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Марка</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                    
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Lorem</div>
+                                            <div class="categoryInputContentItem">ipsum</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                     </div>
+
+                                     <div class="categoryInputContainerFixer">
+                                        <div class="categoryInputContainer">
+                                            <div class="stepContentBlockInputFlexElem">
+                                                <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                <input type="text" class="newCarFeatureInput" placeholder="Модель"/>
+                                                <div class="categoryInputContent">
+                                                    <div class="categoryInputText"></div>
+                                                    <div class="categoryInputMarker"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         </div>
                                     
                                     <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Цена</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                        
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Тип кузова</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
                                         </div>
-                                    </div>
-                    
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Марка</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                        
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                    
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Класс</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                    
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Категория</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
                                         
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Седан</div>
+                                            <div class="categoryInputContentItem">Универсал</div>
+                                            <div class="categoryInputContentItem">Хэтчбэк</div>
+                                            <div class="categoryInputContentItem">Кроссовер</div>
+                                            <div class="categoryInputContentItem">Внедорожник</div>
+                                            <div class="categoryInputContentItem">Кабриолет</div>
+                                            <div class="categoryInputContentItem">Купе</div>
+                                            <div class="categoryInputContentItem">Минивэн</div>
+                                            <div class="categoryInputContentItem">Лимузин</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                     </div>
+                    
                                     <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Коробка</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
+                                    <div class="categoryInputContainer">
+                                        <div class="stepContentBlockInputFlexElem">
+                                            <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                            <input type="number" class="newCarFeatureInput" placeholder="Мощность"/>
                                             <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
+                                                <div class="categoryInputText"></div>
+                                                <div class="categoryInputMarker"></div>
                                             </div>
                                         </div>
                                     </div>
-                        
-                                    <div class="categoryInputContainerFixer">
+                                     </div>
+            
+                                     <div class="categoryInputContainerFixer">
                                         <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Двигатель</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
+                                            <div class="stepContentBlockInputFlexElem">
+                                                <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                <input type="number" class="newCarFeatureInput" placeholder="Год выпуска"/>
+                                                <div class="categoryInputContent">
+                                                    <div class="categoryInputText"></div>
+                                                    <div class="categoryInputMarker"></div>
+                                                </div>
                                             </div>
                                         </div>
+                                         </div>
+                    
+                                    <div class="categoryInputContainerFixer">
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">КПП</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Автомат</div>
+                                            <div class="categoryInputContentItem">Механика</div>
+                                            <div class="categoryInputContentItem">Робот</div>
+                                            <div class="categoryInputContentItem">Вариатор</div>
+                                        </div>
+                                        </div>
                                     </div>
+                                     </div>
+            
+                                    <div class="categoryInputContainerFixer">
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Привод</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Передний</div>
+                                            <div class="categoryInputContentItem">Задний</div>
+                                            <div class="categoryInputContentItem">Полный</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                     </div>
+            
+                                    <div class="categoryInputContainerFixer">
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Руль</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Левый</div>
+                                            <div class="categoryInputContentItem">Правый</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                     </div>
+                    
+                                    <div class="categoryInputContainerFixer">
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Двигатель</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Бензин</div>
+                                            <div class="categoryInputContentItem">Дизель</div>
+                                            <div class="categoryInputContentItem">Гибрид</div>
+                                            <div class="categoryInputContentItem">Электричество</div>
+                                            <div class="categoryInputContentItem">Газ</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                     </div>
+            
+                                     <div class="categoryInputContainerFixer">
+                                        <div class="categoryInputContainer">
+                                            <div class="stepContentBlockInputFlexElem">
+                                                <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                <input type="number" class="newCarFeatureInput" placeholder="Пробег"/>
+                                                <div class="categoryInputContent">
+                                                    <div class="categoryInputText"></div>
+                                                    <div class="categoryInputMarker"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         </div>
+
+                                         <div class="categoryInputContainerFixer">
+                                            <div class="categoryInputContainer">
+                                                <div class="stepContentBlockInputFlexElem">
+                                                    <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                    <input type="number" class="newCarFeatureInput" placeholder="Кол-во дверей"/>
+                                                    <div class="categoryInputContent">
+                                                        <div class="categoryInputText"></div>
+                                                        <div class="categoryInputMarker"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             </div>
+
+                                             <div class="categoryInputContainerFixer">
+                                                <div class="categoryInputContainer">
+                                                    <div class="stepContentBlockInputFlexElem">
+                                                        <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                        <input type="number" class="newCarFeatureInput" placeholder="Вместимость"/>
+                                                        <div class="categoryInputContent">
+                                                            <div class="categoryInputText"></div>
+                                                            <div class="categoryInputMarker"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                 </div>
                     
                                     <label class="container">Поездка за пределы города
                                         <input class="filterRadio" type="checkbox">
@@ -693,89 +799,137 @@
                                 <div class="stickyContent waterStickyContent">
                 
                                     <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Тип</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                        
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Тип</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                    
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Гидроциклы</div>
+                                            <div class="categoryInputContentItem">Катера/моторные яхты</div>
+                                            <div class="categoryInputContentItem">Яхты</div>
+                                            <div class="categoryInputContentItem">Моторные лодки</div>
+                                            <div class="categoryInputContentItem">Гребные лодки</div>
+                                        </div>
                                         </div>
                                     </div>
-                        
-                        
+                                     </div>
+                    
+                                     <div class="categoryInputContainerFixer">
+                                        <div class="categoryInputContainer">
+                                            <div class="stepContentBlockInputFlexElem">
+                                                <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                <input type="number" class="newCarFeatureInput" placeholder="Мощность"/>
+                                                <div class="categoryInputContent">
+                                                    <div class="categoryInputText"></div>
+                                                    <div class="categoryInputMarker"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         </div>
+                    
+                    
                                     <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Ширина</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                        
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Двигатель</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                                <div class="categoryInputContentItem">Бензин</div>
+                                                <div class="categoryInputContentItem">Дизель</div>
+                                                <div class="categoryInputContentItem">Гибрид</div>
+                                                <div class="categoryInputContentItem">Электричество</div>
+                                                <div class="categoryInputContentItem">Газ</div>
                                             </div>
                                         </div>
                                     </div>
-                        
+                                     </div>
+                    
                                     <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Длина</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Тактность</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                                <div class="categoryInputContentItem">2-х тактный</div>
+                                                <div class="categoryInputContentItem">4-х тактный</div>
                                             </div>
                                         </div>
                                     </div>
-                        
-                                    <div class="categoryInputContainerFixer">
+                                     </div>
+
+                                     <div class="categoryInputContainerFixer">
                                         <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Осадка</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
+                                            <div class="stepContentBlockInputFlexElem">
+                                                <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                <input type="number" class="newCarFeatureInput" placeholder="Длина"/>
+                                                <div class="categoryInputContent">
+                                                    <div class="categoryInputText"></div>
+                                                    <div class="categoryInputMarker"></div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                        
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Вместимость</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                         </div>
+
+                                         <div class="categoryInputContainerFixer">
+                                            <div class="categoryInputContainer">
+                                                <div class="stepContentBlockInputFlexElem">
+                                                    <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                    <input type="number" class="newCarFeatureInput" placeholder="Ширина"/>
+                                                    <div class="categoryInputContent">
+                                                        <div class="categoryInputText"></div>
+                                                        <div class="categoryInputMarker"></div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                        
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Макс. скорость</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                             </div>
+                                             
+                                             <div class="categoryInputContainerFixer">
+                                                <div class="categoryInputContainer">
+                                                    <div class="stepContentBlockInputFlexElem">
+                                                        <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                        <input type="number" class="newCarFeatureInput" placeholder="Объем бака (если есть)"/>
+                                                        <div class="categoryInputContent">
+                                                            <div class="categoryInputText"></div>
+                                                            <div class="categoryInputMarker"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                 </div>
+
+                                                 <div class="categoryInputContainerFixer">
+                                                    <div class="categoryInputContainer">
+                                                        <div class="stepContentBlockInputFlexElem">
+                                                            <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                            <input type="number" class="newCarFeatureInput" placeholder="Осадка"/>
+                                                            <div class="categoryInputContent">
+                                                                <div class="categoryInputText"></div>
+                                                                <div class="categoryInputMarker"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                     </div>
+
+                                                     <div class="categoryInputContainerFixer">
+                                                        <div class="categoryInputContainer">
+                                                            <div class="stepContentBlockInputFlexElem">
+                                                                <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                                <input type="number" class="newCarFeatureInput" placeholder="Вместимость"/>
+                                                                <div class="categoryInputContent">
+                                                                    <div class="categoryInputText"></div>
+                                                                    <div class="categoryInputMarker"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                         </div>
                     
                                     <label class="container">Поездка за пределы города
                                         <input class="filterRadio" type="checkbox">
@@ -787,102 +941,151 @@
                                 <div class="stickyContent motoStickyContent">
                 
                                     <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Тип</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                        
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Тип</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                    
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Мотоциклы</div>
+                                            <div class="categoryInputContentItem">Скутер/мопед</div>
+                                            <div class="categoryInputContentItem">Квадроциклы/багги</div>
+                                            <div class="categoryInputContentItem">Снегоходы</div>
+                                        </div>
                                         </div>
                                     </div>
-                        
+                                     </div>
+                    
+                    
+                                    <div class="categoryInputContainerFixer">
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Марка</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent" >
+                                            <div class="categoryInputContentFixer" id="motoCatContainer">
+                                        </div>
+                                        </div>
+                                    </div>
+                                     </div>
+                    
+                                     <div class="categoryInputContainerFixer">
+                                        <div class="categoryInputContainer">
+                                            <div class="stepContentBlockInputFlexElem">
+                                                <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                <input type="number" class="newCarFeatureInput" placeholder="Объем двигателя"/>
+                                                <div class="categoryInputContent">
+                                                    <div class="categoryInputText"></div>
+                                                    <div class="categoryInputMarker"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         </div>
+                    
+                                    <div class="categoryInputContainerFixer">
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Двигатель</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Бензин</div>
+                                            <div class="categoryInputContentItem">Дизель</div>
+                                            <div class="categoryInputContentItem">Электричество</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                     </div>
+                    
+                                    <div class="categoryInputContainerFixer">
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">КПП</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">Автомат</div>
+                                            <div class="categoryInputContentItem">Механика</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                     </div>
+            
+                                    <div class="categoryInputContainerFixer">
+                                    <div class="categoryInputContainer">
+                                        <div class="categoryInput">
+                                            <div class="categoryInputText">Тактность</div>
+                                            <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                        </div>
+                                        
+                                        <div class="categoryInputContent">
+                                            <div class="categoryInputContentFixer">
+                                            <div class="categoryInputContentItem">2-х тактный</div>
+                                            <div class="categoryInputContentItem">4-х тактный</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+            
                                     <div class="categoryInputContainerFixer">
                                         <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Макс. скорость</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                        
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                        
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Объем двигателя</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
+                                            <div class="stepContentBlockInputFlexElem">
+                                                <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                <input type="number" class="newCarFeatureInput" placeholder="Пробег"/>
+                                                <div class="categoryInputContent">
+                                                    <div class="categoryInputText"></div>
+                                                    <div class="categoryInputMarker"></div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                        
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Мощность</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
+                                         </div>
+
+                                         <div class="categoryInputContainerFixer">
+                                            <div class="categoryInputContainer">
+                                                <div class="stepContentBlockInputFlexElem">
+                                                    <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                    <input type="number" class="newCarFeatureInput" placeholder="Объем бака"/>
+                                                    <div class="categoryInputContent">
+                                                        <div class="categoryInputText"></div>
+                                                        <div class="categoryInputMarker"></div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                        
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Объем бака</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                        
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Вес</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                
-                                    <div class="categoryInputContainerFixer">
-                                        <div class="categoryInputContainer">
-                                            <div class="categoryInput">
-                                                <div class="categoryInputText">Пробег</div>
-                                                <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
-                                            </div>
-                                            
-                                            <div class="categoryInputContent">
-                                                <div class="categoryInputContentItem">Lorem</div>
-                                                <div class="categoryInputContentItem">ipsum</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                             </div>
+
+                                             <div class="categoryInputContainerFixer">
+                                                <div class="categoryInputContainer">
+                                                    <div class="stepContentBlockInputFlexElem">
+                                                        <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                        <input type="number" class="newCarFeatureInput" placeholder="Вес"/>
+                                                        <div class="categoryInputContent">
+                                                            <div class="categoryInputText"></div>
+                                                            <div class="categoryInputMarker"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                 </div>
+
+                                                 <div class="categoryInputContainerFixer">
+                                                    <div class="categoryInputContainer">
+                                                        <div class="stepContentBlockInputFlexElem">
+                                                            <!-- <div class="inputContentLabel">1-3 дня:</div> -->
+                                                            <input type="number" class="newCarFeatureInput" placeholder="Вместимость"/>
+                                                            <div class="categoryInputContent">
+                                                                <div class="categoryInputText"></div>
+                                                                <div class="categoryInputMarker"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                     </div>
                     
                                     <label class="container">Поездка за пределы города
                                         <input class="filterRadio" type="checkbox">
@@ -890,10 +1093,11 @@
                                     </label>
                                     
                                 </div>
-            
+                
+                                <!-- <div class="resetCategories"><i class="fas fa-times"></i>&nbsp; Сбросить все параметры (<span class="resetCategoriesCount">0</span>)</div> -->
                             </div>
-
                         </div>
+                            
 
                         <div class="descFlex">
                             <textarea id="textarea" onkeyup="adjustHeight(this)" cols="30" rows="5" placeholder="Напишите описание к объявлению"></textarea>

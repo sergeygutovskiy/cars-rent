@@ -69,6 +69,10 @@ window.addEventListener('DOMContentLoaded', () => {
     try {categoriesMarkers = document.getElementById('selectContent').getElementsByClassName('categoryInputMarker');} catch (e) {console.log(e)};
     let activatedCategories = 0;
 
+    for (let i = 0; i < moto.length; i++) {
+        document.getElementById('motoCatContainer').innerHTML += '<div class="categoryInputContentItem">' + moto[i] + '</div>'
+    }
+
     let categoriesContent;
     try {categoriesContent = document.getElementById('selectContent').getElementsByClassName('categoryInputContentItem');} catch (e) {console.log(e)};
 
@@ -86,6 +90,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         } else {
                             categories[activeCategory].classList.toggle('activeCategoryInputContainer');
                             categoriesMarkers[activeCategory].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+                            categoriesMarkers[activeCategory].style.top="22px";
                             activeCategory = elem;
                         }
                         if (categories[elem].classList.contains('activeCategoryInputContainer')) {

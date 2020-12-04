@@ -253,6 +253,14 @@
     margin-right: 20px;
 }
 
+.categoryInputContent {
+    margin-top: 4px;
+}
+
+.categoryInput {
+    margin-bottom: 4px;
+}
+
 .auto .autoStickyContent {
     display: flex;
     justify-content: left;
@@ -400,6 +408,11 @@
     margin-bottom: 24px;
 }
 
+#secondStep .stepContentBlockInputFlexElem {
+    width: 254px;
+    margin-bottom: 0px;
+}
+
 .inputContentLabel {
     font-style: normal;
     font-weight: normal;
@@ -416,8 +429,8 @@
 .stepContentBlockInputFlexElemContent {
     border: 2px solid #F7F7FC;
     background: #F7F7FC;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 50px;
     border-radius: 8px;
     width: 100%;
@@ -434,16 +447,47 @@
     transition: .2s;
 }
 
+.newCarFeatureInput {
+    border: 2px solid #F7F7FC;
+    background: #F7F7FC;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    border-radius: 8px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    font-family: Commissioner;
+
+    letter-spacing: 0.02em;
+
+    color: #14142B;
+    transition: .2s; 
+}
+
 .stepContentBlockInputFlexElemContent:hover {
     border: 2px solid #2997EE;
     transition: .2s;
     
 }
 
+.newCarFeatureInput:hover {
+    border: 2px solid #2997EE;
+    transition: .2s;
+}
+
 .stepContentBlockInputFlexElemContent:focus {
     border: 2px solid #2997EE;
     transition: .2s;
     
+}
+
+.newCarFeatureInput:focus {
+    border: 2px solid #2997EE;
+    transition: .2s;
 }
 
 .stepContentBlockInputFlexElemContent::placeholder {
@@ -458,6 +502,25 @@
     /* light grey */
 
     color: #7993AF;
+}
+
+.newCarFeatureInput::placeholder  {
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* light grey */
+
+    color: #7993AF;
+}
+
+input + .categoryInputContent {
+    margin-top: 0px;
+    max-height: 0px;
 }
 
 input::-webkit-outer-spin-button,

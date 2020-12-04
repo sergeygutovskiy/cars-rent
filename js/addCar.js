@@ -126,6 +126,517 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+
+
+
+
+
+
+
+
+
+    let sorters = document.getElementsByClassName('selectSortElemBlock');
+    let sortersMarkers = document.getElementsByClassName('selectSortElemMarker');
+    let price = 0;
+    
+    try {
+        sorters[0].addEventListener('click', () => {
+            price = !price;
+            sortersMarkers[0].classList.toggle('fa-angle-up');
+            sortersMarkers[0].classList.toggle('fa-angle-down');
+        });
+    
+        document.getElementsByClassName('selectFiltration')[0].addEventListener('click', () => {
+            document.getElementById('stickyBlock').classList.toggle('selectedStickyBlock');
+        });
+    } catch (e) {
+        console.log(e);
+    }
+
+    let pointChoice = document.getElementsByClassName('pointChoiceText');
+    let activePoint = 0;
+    let pointMarker = document.getElementsByClassName('pointChoiceMarker')[0];
+    let positions = ["calc(18% - 8px)","calc(50% - 8px)","calc(84% - 8px)"];
+
+    try {
+        for (let elem in pointChoice) {
+            (() => {
+                    pointChoice[elem].addEventListener('click', () => {
+                        try {document.getElementsByClassName('resetCategories')[0].click();} catch(e) {console.log(e)}
+                        if (elem != activePoint) {
+
+                            if (elem == 0) {
+                                document.getElementById('stickyBlock').classList.add('auto');
+                                document.getElementById('stickyBlock').classList.remove('water');
+                                document.getElementById('stickyBlock').classList.remove('moto');
+                            }
+                            if (elem == 1) {
+                                document.getElementById('stickyBlock').classList.remove('auto');
+                                document.getElementById('stickyBlock').classList.add('water');
+                                document.getElementById('stickyBlock').classList.remove('moto');
+                            }
+                            if (elem == 2) {
+                                document.getElementById('stickyBlock').classList.remove('auto');
+                                document.getElementById('stickyBlock').classList.remove('water');
+                                document.getElementById('stickyBlock').classList.add('moto');
+                            }
+                            
+                            pointChoice[elem].classList.toggle('activePoint');
+                            pointChoice[activePoint].classList.toggle('activePoint');
+                            activePoint = elem;
+                            pointMarker.style.left = positions[elem];
+                        }
+                    });
+            })()
+        }
+    } catch (e) {
+        console.log(e);
+    }
+
+    let activeCategory = -1;
+    let categories;
+    try {categories = document.getElementById('selectContent').getElementsByClassName('categoryInputContainer');} catch (e) {console.log(e)};
+    console.log(categories)
+    console.log(document.getElementById('selectContent'))
+    let categoriesNames = ["Марка", "", "Тип кузова", "", "", "КПП", "Привод", "Руль", "Двигатель", "", "", "",        "Тип", "", "Двигатель", "Тактность", "", "", "", "", "",             "Тип", "Марка", "", "Двигатель", "КПП", "Тактность", "", "", "", ""];
+    let categoriesText;
+    try {categoriesText = document.getElementById('selectContent').getElementsByClassName('categoryInputText');} catch (e) {console.log(e)};
+    let categoriesMarkers;
+    try {categoriesMarkers = document.getElementById('selectContent').getElementsByClassName('categoryInputMarker');} catch (e) {console.log(e)};
+    let activatedCategories = 0;
+
+    for (let i = 0; i < moto.length; i++) {
+        document.getElementById('motoCatContainer').innerHTML += '<div class="categoryInputContentItem">' + moto[i] + '</div>'
+    }
+
+    let categoriesContent;
+    try {categoriesContent = document.getElementById('selectContent').getElementsByClassName('categoryInputContentItem');} catch (e) {console.log(e)};
+
+
+    try {
+        for (let elem in categories) {
+            (() => {
+                    categories[elem].addEventListener('click', () => {
+                        // console.log(elem)
+
+                        
+
+                        categories[elem].classList.toggle('activeCategoryInputContainer');
+
+                        // if (activeCategory != -1) {
+                        //     if (categoriesMarkers[activeCategory].innerHTML == "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>") {
+                        //         categoriesMarkers[activeCategory].style.top="22px";
+                        //     }
+                        // }
+
+                        if (activeCategory == -1) {
+                            activeCategory = elem;
+                        } else if (activeCategory == elem) {
+                            activeCategory = -1;
+                        } else {
+                            categories[activeCategory].classList.toggle('activeCategoryInputContainer');
+                            categoriesMarkers[activeCategory].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+                            categoriesMarkers[activeCategory].style.top="22px";
+                            activeCategory = elem;
+                        }
+                        if (categories[elem].classList.contains('activeCategoryInputContainer')) {
+                            categoriesText[elem].innerHTML = categoriesNames[elem];
+                            categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
+                            categoriesMarkers[elem].style.top="18px";
+                        } else {
+                            categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+                            categoriesMarkers[elem].style.top="22px";
+                        }
+                    });
+            })()
+        }
+    } catch (e) {
+        console.log(e);
+    }
+
+    try {
+        for (let elem in categoriesContent) {
+            (() => {
+                    categoriesContent[elem].addEventListener('click', () => {
+                        categoriesText[activeCategory].innerHTML = categoriesContent[elem].innerHTML;
+                    });
+            })()
+        }
+    } catch (e) {
+        console.log(e);
+    }
+
+    let filterRadio = document.getElementsByClassName('filterRadio');
+
+    try {
+        document.getElementById('selectContent').addEventListener('click', () => {
+            activatedCategories = 0;
+            for (let i = 0; i < categoriesNames.length; i++) {
+                if (categoriesText[i].innerHTML != categoriesNames[i]) activatedCategories++;
+            }
+            for (let i = 0; i < filterRadio.length; i++) {
+                if (filterRadio[i].checked) activatedCategories++;
+            }
+            document.getElementsByClassName('resetCategoriesCount')[0].innerHTML = activatedCategories;
+            try {document.getElementsByClassName('filtersCount')[0].innerHTML = activatedCategories;} catch {}
+        });
+    } catch (e) {
+        console.log(e);
+    }
+
+    try {
+        document.getElementsByClassName('resetCategories')[0].addEventListener('click', () => {
+            activeCategory = -1;
+            activatedCategories = 0;
+            for (let i = 0; i < filterRadio.length; i++) {
+                filterRadio[i].checked = false;
+            }
+            for (let i = 0; i < categoriesNames.length; i++) {
+                if (categoriesText[i].innerHTML != categoriesNames[i]) {
+                    categoriesText[i].innerHTML = categoriesNames[i];
+                }
+                if (categories[i].classList.contains('activeCategoryInputContainer')) {
+                    categories[i].classList.toggle('activeCategoryInputContainer');
+                    categoriesMarkers[i].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+                    categoriesMarkers[i].style.top="22px";
+                }
+            }
+        });
+    } catch (e) {
+        console.log(e);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    let newFeatureInput = document.getElementsByClassName('newCarFeatureInput');
+
+    newFeatureInput[1].addEventListener('focus', function () {
+
+        newFeatureInput[1].click();
+
+        this.value = this.value.split(" л.с.")[0];
+        this.type = 'number';
+
+        // categories[elem].classList.toggle('activeCategoryInputContainer');
+        //                 if (activeCategory == -1) {
+        //                     activeCategory = elem;
+        //                 } else if (activeCategory == elem) {
+        //                     activeCategory = -1;
+        //                 } else {
+        //                     categories[activeCategory].classList.toggle('activeCategoryInputContainer');
+        //                     categoriesMarkers[activeCategory].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+        //                     activeCategory = elem;
+        //                 }
+        //                 if (categories[elem].classList.contains('activeCategoryInputContainer')) {
+        //                     categoriesText[elem].innerHTML = categoriesNames[elem];
+        //                     categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
+        //                     categoriesMarkers[elem].style.top="22px";
+        //                 } else {
+        //                     categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+        //                     categoriesMarkers[elem].style.top="22px";
+        //                 }
+    });
+
+    newFeatureInput[1].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' л.с.';
+    });
+
+    newFeatureInput[2].addEventListener('focus', function () {
+
+        newFeatureInput[2].click();
+
+        this.value = this.value.split(" г.")[0];
+        this.type = 'number';
+
+        // categories[elem].classList.toggle('activeCategoryInputContainer');
+        //                 if (activeCategory == -1) {
+        //                     activeCategory = elem;
+        //                 } else if (activeCategory == elem) {
+        //                     activeCategory = -1;
+        //                 } else {
+        //                     categories[activeCategory].classList.toggle('activeCategoryInputContainer');
+        //                     categoriesMarkers[activeCategory].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+        //                     activeCategory = elem;
+        //                 }
+        //                 if (categories[elem].classList.contains('activeCategoryInputContainer')) {
+        //                     categoriesText[elem].innerHTML = categoriesNames[elem];
+        //                     categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
+        //                     categoriesMarkers[elem].style.top="22px";
+        //                 } else {
+        //                     categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+        //                     categoriesMarkers[elem].style.top="22px";
+        //                 }
+    });
+
+    newFeatureInput[2].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' г.';
+    });
+
+    newFeatureInput[3].addEventListener('focus', function () {
+
+        newFeatureInput[3].click();
+
+        this.value = this.value.split(" км")[0];
+        this.type = 'number';
+
+        // categories[elem].classList.toggle('activeCategoryInputContainer');
+        //                 if (activeCategory == -1) {
+        //                     activeCategory = elem;
+        //                 } else if (activeCategory == elem) {
+        //                     activeCategory = -1;
+        //                 } else {
+        //                     categories[activeCategory].classList.toggle('activeCategoryInputContainer');
+        //                     categoriesMarkers[activeCategory].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+        //                     activeCategory = elem;
+        //                 }
+        //                 if (categories[elem].classList.contains('activeCategoryInputContainer')) {
+        //                     categoriesText[elem].innerHTML = categoriesNames[elem];
+        //                     categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
+        //                     categoriesMarkers[elem].style.top="22px";
+        //                 } else {
+        //                     categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+        //                     categoriesMarkers[elem].style.top="22px";
+        //                 }
+    });
+
+    newFeatureInput[3].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' км';
+    });
+
+    newFeatureInput[4].addEventListener('focus', function () {
+
+        newFeatureInput[4].click();
+
+        this.value = this.value.split(" д.")[0];
+        this.type = 'number';
+
+        // categories[elem].classList.toggle('activeCategoryInputContainer');
+        //                 if (activeCategory == -1) {
+        //                     activeCategory = elem;
+        //                 } else if (activeCategory == elem) {
+        //                     activeCategory = -1;
+        //                 } else {
+        //                     categories[activeCategory].classList.toggle('activeCategoryInputContainer');
+        //                     categoriesMarkers[activeCategory].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+        //                     activeCategory = elem;
+        //                 }
+        //                 if (categories[elem].classList.contains('activeCategoryInputContainer')) {
+        //                     categoriesText[elem].innerHTML = categoriesNames[elem];
+        //                     categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowRight.svg' width='5px' height='9px'/>";
+        //                     categoriesMarkers[elem].style.top="22px";
+        //                 } else {
+        //                     categoriesMarkers[elem].innerHTML = "<img src='assets/all/sortArrowDown.svg' />";
+        //                     categoriesMarkers[elem].style.top="22px";
+        //                 }
+    });
+
+    newFeatureInput[4].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' д.';
+    });
+
+    newFeatureInput[5].addEventListener('focus', function () {
+
+        newFeatureInput[5].click();
+
+        this.value = this.value.split(" ч.")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[5].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' ч.';
+    });
+
+    newFeatureInput[6].addEventListener('focus', function () {
+
+        newFeatureInput[6].click();
+
+        this.value = this.value.split(" л.с.")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[6].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' л.с.';
+    });
+
+    newFeatureInput[7].addEventListener('focus', function () {
+
+        newFeatureInput[7].click();
+
+        this.value = this.value.split(" м")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[7].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' м';
+    });
+
+    newFeatureInput[8].addEventListener('focus', function () {
+
+        newFeatureInput[8].click();
+
+        this.value = this.value.split(" м")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[8].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' м';
+    });
+
+    newFeatureInput[9].addEventListener('focus', function () {
+
+        newFeatureInput[9].click();
+
+        this.value = this.value.split(" л")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[9].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' л';
+    });
+
+    newFeatureInput[10].addEventListener('focus', function () {
+
+        newFeatureInput[10].click();
+
+        this.value = this.value.split(" см")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[10].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' см';
+    });
+
+
+    newFeatureInput[11].addEventListener('focus', function () {
+
+        newFeatureInput[11].click();
+
+        this.value = this.value.split(" ч.")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[11].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' ч.';
+    });
+
+    newFeatureInput[12].addEventListener('focus', function () {
+
+        newFeatureInput[12].click();
+
+        this.value = this.value.split(" см3")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[12].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' см3';
+    });
+
+    newFeatureInput[13].addEventListener('focus', function () {
+
+        newFeatureInput[13].click();
+
+        this.value = this.value.split(" км")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[13].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' км';
+    });
+
+    newFeatureInput[14].addEventListener('focus', function () {
+
+        newFeatureInput[14].click();
+
+        this.value = this.value.split(" л/вт")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[14].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' л/вт';
+    });
+
+    newFeatureInput[15].addEventListener('focus', function () {
+
+        newFeatureInput[15].click();
+
+        this.value = this.value.split(" кг")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[15].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' кг';
+    });
+
+    newFeatureInput[16].addEventListener('focus', function () {
+
+        newFeatureInput[16].click();
+
+        this.value = this.value.split(" ч")[0];
+        this.type = 'number';
+
+    });
+
+    newFeatureInput[16].addEventListener('blur', function () {
+        this.type = 'text';
+        if (this.value) this.value += ' ч';
+    });
+
 });
 
 function adjustHeight(el){

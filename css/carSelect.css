@@ -48,6 +48,7 @@
     height: max-content;
     /* float: right;
     clear: left; */
+    min-height: 1000px;
     margin-left: 340px;
     /* position: relative; */
     top: 0;
@@ -263,10 +264,20 @@
     width: 254px;
     height: max-content;
     max-height: 200px;
-    padding: 24px;
+    /* padding: 24px; */
     background: #EFF0F6;
     border-radius: 8px;
     overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.categoryInputContentFixer {
+    width: calc(100% - 48px);
+    height: calc(100% - 48px);
+    margin: 24px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .categoryInputContent::-webkit-scrollbar {
@@ -458,7 +469,7 @@
     }
 
     #selectMainContainer {
-        
+        min-height: 200px;
         width: 728px;
         height: max-content;
         position: relative;

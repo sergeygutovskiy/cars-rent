@@ -16,6 +16,7 @@
     <!-- <script src="js/swiper.js"></script> -->
     <script src="js/hamburger.js"></script>
     <script src="js/carSelect.js"></script>
+    <script src="js/categoriesMarksContent.js"></script>
     <script src="js/mainInput.js"></script>
     <script src="js/login_registration.js"></script>
 
@@ -736,10 +737,12 @@
                             </div>
         
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">До 1500 ₽</div>
                                 <div class="categoryInputContentItem">1500-2500 ₽</div>
                                 <div class="categoryInputContentItem">2500-5000 ₽</div>
                                 <div class="categoryInputContentItem">От 5000 ₽</div>
+                            </div>
                             </div>
                         </div>
         
@@ -751,8 +754,10 @@
                             </div>
         
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Lorem</div>
                                 <div class="categoryInputContentItem">ipsum</div>
+                            </div>
                             </div>
                         </div>
         
@@ -763,6 +768,7 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Седан</div>
                                 <div class="categoryInputContentItem">Универсал</div>
                                 <div class="categoryInputContentItem">Хэтчбэк</div>
@@ -773,6 +779,7 @@
                                 <div class="categoryInputContentItem">Минивэн</div>
                                 <div class="categoryInputContentItem">Лимузин</div>
                             </div>
+                            </div>
                         </div>
         
                         <div class="categoryInputContainer">
@@ -782,11 +789,13 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Менее 50 л.с.</div>
                                 <div class="categoryInputContentItem">50-150 л.с.</div>
                                 <div class="categoryInputContentItem">150-300 л.с.</div>
                                 <div class="categoryInputContentItem">300-500 л.с.</div>
                                 <div class="categoryInputContentItem">Более 500 л.с.</div>
+                            </div>
                             </div>
                         </div>
 
@@ -797,11 +806,13 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Младше 3-х лет</div>
                                 <div class="categoryInputContentItem">3-6 лет</div>
                                 <div class="categoryInputContentItem">6-10 лет</div>
                                 <div class="categoryInputContentItem">10-15 лет</div>
                                 <div class="categoryInputContentItem">Старше 15 лет</div>
+                            </div>
                             </div>
                         </div>
         
@@ -812,10 +823,12 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Автомат</div>
                                 <div class="categoryInputContentItem">Механика</div>
                                 <div class="categoryInputContentItem">Робот</div>
                                 <div class="categoryInputContentItem">Вариатор</div>
+                            </div>
                             </div>
                         </div>
 
@@ -826,9 +839,11 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Передний</div>
                                 <div class="categoryInputContentItem">Задний</div>
                                 <div class="categoryInputContentItem">Полный</div>
+                            </div>
                             </div>
                         </div>
 
@@ -839,8 +854,10 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Левый</div>
                                 <div class="categoryInputContentItem">Правый</div>
+                            </div>
                             </div>
                         </div>
         
@@ -851,11 +868,13 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Бензин</div>
                                 <div class="categoryInputContentItem">Дизель</div>
                                 <div class="categoryInputContentItem">Гибрид</div>
                                 <div class="categoryInputContentItem">Электричество</div>
                                 <div class="categoryInputContentItem">Газ</div>
+                            </div>
                             </div>
                         </div>
 
@@ -866,10 +885,12 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Менее 50 т.</div>
                                 <div class="categoryInputContentItem">50-100 т.</div>
                                 <div class="categoryInputContentItem">100-150 т.</div>
                                 <div class="categoryInputContentItem">Более 150 т.</div>
+                            </div>
                             </div>
                         </div>
         
@@ -908,11 +929,13 @@
                             </div>
         
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Гидроциклы</div>
                                 <div class="categoryInputContentItem">Катера/моторные яхты</div>
                                 <div class="categoryInputContentItem">Яхты</div>
                                 <div class="categoryInputContentItem">Моторные лодки</div>
                                 <div class="categoryInputContentItem">Гребные лодки</div>
+                            </div>
                             </div>
                         </div>
         
@@ -924,10 +947,12 @@
                             </div>
         
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">До 1500 ₽</div>
                                 <div class="categoryInputContentItem">1500-2500 ₽</div>
                                 <div class="categoryInputContentItem">2500-5000 ₽</div>
                                 <div class="categoryInputContentItem">От 5000 ₽</div>
+                            </div>
                             </div>
                         </div>
         
@@ -938,10 +963,12 @@
                             </div>
                             
                             <div class="categoryInputContent">
-                                <div class="categoryInputContentItem">Менее 10 л.с.</div>
-                                <div class="categoryInputContentItem">10-50 л.с.</div>
-                                <div class="categoryInputContentItem">50-150 л.с.</div>
-                                <div class="categoryInputContentItem">Менее 150 л.с.</div>
+                                <div class="categoryInputContentFixer">
+                                    <div class="categoryInputContentItem">Менее 10 л.с.</div>
+                                    <div class="categoryInputContentItem">10-50 л.с.</div>
+                                    <div class="categoryInputContentItem">50-150 л.с.</div>
+                                    <div class="categoryInputContentItem">Более 150 л.с.</div>
+                                </div>
                             </div>
                         </div>
         
@@ -952,11 +979,13 @@
                             </div>
                             
                             <div class="categoryInputContent">
-                                <div class="categoryInputContentItem">Бензин</div>
-                                <div class="categoryInputContentItem">Дизель</div>
-                                <div class="categoryInputContentItem">Гибрид</div>
-                                <div class="categoryInputContentItem">Электричество</div>
-                                <div class="categoryInputContentItem">Газ</div>
+                                <div class="categoryInputContentFixer">
+                                    <div class="categoryInputContentItem">Бензин</div>
+                                    <div class="categoryInputContentItem">Дизель</div>
+                                    <div class="categoryInputContentItem">Гибрид</div>
+                                    <div class="categoryInputContentItem">Электричество</div>
+                                    <div class="categoryInputContentItem">Газ</div>
+                                </div>
                             </div>
                         </div>
         
@@ -967,8 +996,10 @@
                             </div>
                             
                             <div class="categoryInputContent">
-                                <div class="categoryInputContentItem">2-х тактный</div>
-                                <div class="categoryInputContentItem">4-х тактный</div>
+                                <div class="categoryInputContentFixer">
+                                    <div class="categoryInputContentItem">2-х тактный</div>
+                                    <div class="categoryInputContentItem">4-х тактный</div>
+                                </div>
                             </div>
                         </div>
         
@@ -988,10 +1019,12 @@
                             </div>
         
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Мотоциклы</div>
                                 <div class="categoryInputContentItem">Скутер/мопед</div>
                                 <div class="categoryInputContentItem">Квадроциклы/багги</div>
                                 <div class="categoryInputContentItem">Снегоходы</div>
+                            </div>
                             </div>
                         </div>
         
@@ -1003,10 +1036,12 @@
                             </div>
         
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">До 1500 ₽</div>
                                 <div class="categoryInputContentItem">1500-2500 ₽</div>
                                 <div class="categoryInputContentItem">2500-5000 ₽</div>
                                 <div class="categoryInputContentItem">От 5000 ₽</div>
+                            </div>
                             </div>
                         </div>
         
@@ -1016,9 +1051,9 @@
                                 <div class="categoryInputMarker"><img src="assets/all/sortArrowDown.svg" ></div>
                             </div>
                             
-                            <div class="categoryInputContent">
-                                <div class="categoryInputContentItem">Lorem</div>
-                                <div class="categoryInputContentItem">ipsum</div>
+                            <div class="categoryInputContent" >
+                                <div class="categoryInputContentFixer" id="motoCatContainer">
+                            </div>
                             </div>
                         </div>
         
@@ -1029,10 +1064,12 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Менее 125 см3</div>
                                 <div class="categoryInputContentItem">125-300 см3</div>
                                 <div class="categoryInputContentItem">300-600 см3</div>
                                 <div class="categoryInputContentItem">Более 600 см3</div>
+                            </div>
                             </div>
                         </div>
         
@@ -1043,9 +1080,11 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Бензин</div>
                                 <div class="categoryInputContentItem">Дизель</div>
                                 <div class="categoryInputContentItem">Электричество</div>
+                            </div>
                             </div>
                         </div>
         
@@ -1056,8 +1095,10 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Автомат</div>
                                 <div class="categoryInputContentItem">Механика</div>
+                            </div>
                             </div>
                         </div>
 
@@ -1068,8 +1109,10 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">2-х тактный</div>
                                 <div class="categoryInputContentItem">4-х тактный</div>
+                            </div>
                             </div>
                         </div>
 
@@ -1080,10 +1123,12 @@
                             </div>
                             
                             <div class="categoryInputContent">
+                                <div class="categoryInputContentFixer">
                                 <div class="categoryInputContentItem">Менее 50 т.</div>
                                 <div class="categoryInputContentItem">50-100 т.</div>
                                 <div class="categoryInputContentItem">100-150 т.</div>
                                 <div class="categoryInputContentItem">Более 150 т.</div>
+                                </div>
                             </div>
                         </div>
         
