@@ -68,10 +68,10 @@ window.addEventListener('DOMContentLoaded', () => {
             if (Number(me[2]) < Number(it[2])) {
                 
             } else {
-                if (Number(me[2]) < Number(it[2]) && Number(me[1]) < Number(it[1])) {
+                if ((Number(me[2]) <= Number(it[2]) && Number(me[1]) < Number(it[1]))) {
                     
                 } else {
-                    if (Number(me[2]) < Number(it[2]) && Number(me[1]) < Number(it[1]) && Number(me[0]) < Number(it[0])) {
+                    if ((Number(me[2]) <= Number(it[2]) && Number(me[1]) <= Number(it[1]) && Number(me[0]) < Number(it[0]))) {
                     } else {
                         let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
 
@@ -99,11 +99,11 @@ window.addEventListener('DOMContentLoaded', () => {
                 
             } else {
 
-                if (Number(me[2]) > Number(it[2]) && Number(me[1]) > Number(it[1])) {
+                if ((Number(me[2]) >= Number(it[2]) && Number(me[1]) > Number(it[1]))) {
                     
                 } else {
 
-                    if (Number(me[2]) > Number(it[2]) && Number(me[1]) > Number(it[1]) && Number(me[0]) > Number(it[0])) {
+                    if ((Number(me[2]) >= Number(it[2]) && Number(me[1]) >= Number(it[1]) && Number(me[0]) > Number(it[0]))) {
                     } else {
 
                         let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
