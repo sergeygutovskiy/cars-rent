@@ -69,17 +69,17 @@ window.addEventListener('DOMContentLoaded', () => {
             let me = document.getElementById('startDate').value.split('.');
             let it = document.getElementById('endDate').value.split('.');
 
-            console.log(me[2] < it[2])
-            console.log(me[1] < it[1])
-            console.log(me[0] < it[0])
+            // console.log(me[2] < it[2])
+            // console.log(me[1] < it[1])
+            // console.log(me[0] < it[0])
 
             if (Number(me[2]) < Number(it[2])) {
                 
             } else {
-                if (Number(me[2]) < Number(it[2]) || Number(me[1]) < Number(it[1])) {
+                if ((Number(me[2]) <= Number(it[2]) && Number(me[1]) < Number(it[1]))) {
                     
                 } else {
-                    if (Number(me[2]) < Number(it[2]) || Number(me[1]) < Number(it[1]) || Number(me[0]) < Number(it[0])) {
+                    if ((Number(me[2]) <= Number(it[2]) && Number(me[1]) <= Number(it[1]) && Number(me[0]) < Number(it[0]))) {
                     } else {
                         let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
 
@@ -103,20 +103,20 @@ window.addEventListener('DOMContentLoaded', () => {
             let it = document.getElementById('startDate').value.split('.');
             let me = document.getElementById('endDate').value.split('.');
 
-            console.log(me[2] > it[2])
-            console.log(me[1] > it[1])
-            console.log(me[0] > it[0])
+            // console.log(me[2] > it[2])
+            // console.log(me[1] > it[1])
+            // console.log(me[0] > it[0])
             
 
             if (Number(me[2]) > Number(it[2])) {
                 
             } else {
 
-                if (Number(me[2]) > Number(it[2]) || Number(me[1]) > Number(it[1])) {
+                if ((Number(me[2]) >= Number(it[2]) && Number(me[1]) > Number(it[1]))) {
                     
                 } else {
 
-                    if (Number(me[2]) > Number(it[2]) || Number(me[1]) > Number(it[1]) || Number(me[0]) > Number(it[0])) {
+                    if ((Number(me[2]) >= Number(it[2]) && Number(me[1]) >= Number(it[1]) && Number(me[0]) > Number(it[0]))) {
                     } else {
 
                         let tmp = (('0' + (Number(it[0]))).slice(-2) + '.' + it[1] + '.' + it[2]).split('.');
