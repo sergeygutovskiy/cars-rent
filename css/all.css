@@ -1138,7 +1138,7 @@ h3 {
     color: #4E4B66;
 }
 
-#footerTrash {
+#footerCompLink {
     position: absolute;
     right: 0;
     bottom: -15px;
@@ -1154,12 +1154,12 @@ h3 {
     color: #4E4B66;
 }
 
-#footerTrash a{
+#footerCompLink a{
     color: #4E4B66;
     transition: .3s;
 }
 
-#footerTrash a:hover{
+#footerCompLink a:hover{
     color: #2997EE;
     transition: .3s;
 }
@@ -2499,12 +2499,12 @@ h3 {
         transition: .3s;
     }
     
-    #footerTrash a{
+    #footerCompLink a{
         color: #4E4B66;
         transition: .3s;
     }
     
-    #footerTrash a:hover{
+    #footerCompLink a:hover{
         color: #2997EE;
         transition: .3s;
     }
@@ -3070,7 +3070,7 @@ h3 {
         bottom: -160px;
     }
 
-    #footerTrash {
+    #footerCompLink {
         right: unset;
         left: 0;
         bottom: -185px;
@@ -3086,12 +3086,12 @@ h3 {
         transition: .3s;
     }
 
-    #footerTrash a{
+    #footerCompLink a{
         color: #4E4B66;
         transition: .3s;
     }
     
-    #footerTrash a:hover{
+    #footerCompLink a:hover{
         color: #2997EE;
         transition: .3s;
     }

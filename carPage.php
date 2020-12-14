@@ -667,47 +667,47 @@
                     <div class="carDescriptionMain auto">
                         <div class="descriptionContent  autoCarDescriptionMain">
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img class="biggestIcon" src="assets/ads/car/transmission.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Коробка передач</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
-                            <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                            <div class="carDescriptionMainBlock carIconBlock">
+                                <div class="carDescriptionMainBlockImg"><img class="carIcon" src="assets/ads/car/car.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Тип кузова</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img class="biggestIcon" src="assets/ads/car/run.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Пробег</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/moto/gear.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Привод</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img class="tooBigIcon" src="assets/ads/car/fuel.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Двигатель</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img class="biggestIcon" src="assets/ads/car/calendar.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Год</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/car/users.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Вместимость</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/car/door.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Кол-во дверей</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/car/color.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Цвет</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
@@ -715,27 +715,27 @@
 
                         <div class="descriptionContent  waterCarDescriptionMain">
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/water/width.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Ширина</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/water/width.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Длина</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/water/boat.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">осадка</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/water/users.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Вместимость</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/water/speed.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Макс. скорость</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
@@ -743,37 +743,37 @@
 
                         <div class="descriptionContent  motoCarDescriptionMain">
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/moto/speed_moto.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Макс. скорость</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/moto/gear.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Объем двигателя</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img class="powerIcon" src="assets/ads/moto/power.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Мощность</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img class="tooBigIcon" src="assets/ads/moto/fuel.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Объем бака</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img class="tooBigIcon" src="assets/ads/moto/weight.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Вес</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/moto/run.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Пробег</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
                             <div class="carDescriptionMainBlock">
-                                <div class="carDescriptionMainBlockImg"></div>
+                                <div class="carDescriptionMainBlockImg"><img src="assets/ads/moto/moto.svg" /></div>
                                 <div class="carDescriptionMainBlockDesc">Тип</div>
                                 <div class="carDescriptionMainBlockMain">Седан</div>
                             </div>
