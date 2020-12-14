@@ -30,8 +30,20 @@
 .aboutPlusesBlockLogo {
     width: 50px;
     height: 50px;
-    background-color: #C4C4C4;
+    /* background-color: #C4C4C4; */
 }
+
+.aboutPlusesBlockLogo img{
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 19px 28px rgba(8, 24, 81, 0.3));
+}
+
+.aboutPlusesBlockLogo img#dollarLogo{
+    width: 38px;
+    margin-left: 6px;
+}
+
 
 .aboutPlusesBlockMain {
     font-style: normal;

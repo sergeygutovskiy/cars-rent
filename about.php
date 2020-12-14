@@ -107,22 +107,22 @@
         <div id="aboutBlock">
             <div id="aboutPluses">
                 <div class="aboutPlusesBlock">
-                    <div class="aboutPlusesBlockLogo"></div>
+                    <div class="aboutPlusesBlockLogo"><img src="assets/about/1.svg" /></div>
                     <div class="aboutPlusesBlockMain">Безопасная сделка</div>
                     <div class="aboutPlusesBlockText">Наша служба безопасности тщательно проверяет каждого потенциального арендатора и владельца транспорта с помощью подробных профилей и подтвержденных отзывов.</div>
                 </div>
                 <div class="aboutPlusesBlock">
-                    <div class="aboutPlusesBlockLogo"></div>
+                    <div class="aboutPlusesBlockLogo"><img src="assets/about/2.svg" /></div>
                     <div class="aboutPlusesBlockMain">Полный контроль над сделкой</div>
                     <div class="aboutPlusesBlockText">Наш сервис предоставляет вам возможность выбора арендатора. Вы можете управлять заявками на аренду вашего транспортного средства, только вы определяете сдавать ли его в аренду.</div>
                 </div>
                 <div class="aboutPlusesBlock">
-                    <div class="aboutPlusesBlockLogo"></div>
+                    <div class="aboutPlusesBlockLogo"><img src="assets/about/3.svg" /></div>
                     <div class="aboutPlusesBlockMain">Помощь & Поддержка</div>
                     <div class="aboutPlusesBlockText">Наша служба поддержки всегда готова ответить на интересующие вас вопросы, помочь при возникновении ошибок, чтобы упростить вам работу с сервисом.</div>
                 </div>
                 <div class="aboutPlusesBlock">
-                    <div class="aboutPlusesBlockLogo"></div>
+                    <div class="aboutPlusesBlockLogo"><img src="assets/about/4.svg" id="dollarLogo" /></div>
                     <div class="aboutPlusesBlockMain">Гибкий источник дохода</div>
                     <div class="aboutPlusesBlockText">Наш сервис помогает владельцам автомобилей зарабатывать на собственных автомобилях, сдавая их на выгодных для вас условиях.</div>
                 </div>
