@@ -574,11 +574,11 @@
                     <div class="notEndedDeal">
                         <div class="bookingBlock bookingTariffs dealDates">
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Старт аренды</div>
+                                <div class="bookingTariffName">Начало аренды</div>
                                 <div class="bookingTariffPrice">25.10.2020</div>
                             </div>
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Окончание аренды</div>
+                                <div class="bookingTariffName">Завершение аренды</div>
                                 <div class="bookingTariffPrice">27.10.2020</div>
                             </div>
                         </div>
@@ -612,11 +612,11 @@
 
                         <div class="bookingBlock bookingTariffs dealDates">
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Старт аренды</div>
+                                <div class="bookingTariffName">Начало аренды</div>
                                 <div class="bookingTariffPrice">25.10.2020</div>
                             </div>
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Окончание аренды</div>
+                                <div class="bookingTariffName">Завершение аренды</div>
                                 <div class="bookingTariffPrice">27.10.2020</div>
                             </div>
                         </div>

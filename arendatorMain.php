@@ -572,18 +572,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -611,18 +611,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -649,18 +649,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -687,18 +687,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -725,18 +725,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -768,18 +768,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -807,18 +807,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -845,18 +845,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -883,18 +883,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -921,18 +921,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -964,18 +964,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1003,18 +1003,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1041,18 +1041,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1079,18 +1079,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1117,18 +1117,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1160,18 +1160,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1199,18 +1199,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1237,18 +1237,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1275,18 +1275,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1313,18 +1313,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1356,18 +1356,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1395,18 +1395,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1433,18 +1433,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1471,18 +1471,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
@@ -1509,18 +1509,18 @@
 
                                     <div class="flexDealBlockPersonalInfo">
                                         <div class="infoImg"></div>
-                                        <div class="infoName">Имя Фамилия</div>
+                                        <div class="infoName">Имя Ф.</div>
                                         <div class="infoCar">Mercedes-Benz E</div>
                                     </div>
                                 </div>
 
                                 <div class="flexDealBlockMainInfo">
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Старт аренды</div>
+                                        <div class="infoBlockHint">Начало аренды</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">
-                                        <div class="infoBlockHint">Финиш аренды</div>
+                                        <div class="infoBlockHint">Завершение</div>
                                         <div class="infoBlockContent">09.11.2020</div>
                                     </div>
                                     <div class="flexDealBlockMainInfoBlock">

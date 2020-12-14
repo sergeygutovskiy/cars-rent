@@ -575,11 +575,11 @@
                     <div class="notEndedDeal">
                         <div class="bookingBlock bookingTariffs dealDates">
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Старт аренды</div>
+                                <div class="bookingTariffName">Начало аренды</div>
                                 <div class="bookingTariffPrice">25.10.2020</div>
                             </div>
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Окончание аренды</div>
+                                <div class="bookingTariffName">Завершение аренды</div>
                                 <div class="bookingTariffPrice">27.10.2020</div>
                             </div>
                         </div>
@@ -613,11 +613,11 @@
 
                         <div class="bookingBlock bookingTariffs dealDates">
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Старт аренды</div>
+                                <div class="bookingTariffName">Начало аренды</div>
                                 <div class="bookingTariffPrice">25.10.2020</div>
                             </div>
                             <div class="bookingTariff">
-                                <div class="bookingTariffName">Окончание аренды</div>
+                                <div class="bookingTariffName">Завершение аренды</div>
                                 <div class="bookingTariffPrice">27.10.2020</div>
                             </div>
                         </div>
@@ -676,7 +676,7 @@
                 <div class="ownerRating">
                     <h4>Арендатор</h4>
                     <div class="rateImg"></div>
-                    <div class="rateName">ФИО</div>
+                    <div class="rateName">Имя Ф.</div>
                     <div class="rateRating"></div>
                 </div>
 
@@ -686,7 +686,7 @@
 
                         <div class="rateBlock">
                             <div class="rateBlockImg"></div>
-                            <div class="rateBlockName">Имя Фамилия</div>
+                            <div class="rateBlockName">Имя Ф.</div>
                             <div class="rateBlockDate">
                                 <!-- Владелец Mercedes-Benz E,<br/> -->
                                 20 сентября, 2020</div>
@@ -696,7 +696,7 @@
 
                         <div class="rateBlock">
                             <div class="rateBlockImg"></div>
-                            <div class="rateBlockName">Имя Фамилия</div>
+                            <div class="rateBlockName">Имя Ф.</div>
                             <div class="rateBlockDate">
                                 <!-- Владелец Mercedes-Benz E,<br/> -->
                                 20 сентября, 2020</div>
@@ -706,7 +706,7 @@
 
                         <div class="rateBlock">
                             <div class="rateBlockImg"></div>
-                            <div class="rateBlockName">Имя Фамилия</div>
+                            <div class="rateBlockName">Имя Ф.</div>
                             <div class="rateBlockDate">
                                 <!-- Владелец Mercedes-Benz E,<br/> -->
                                 20 сентября, 2020</div>
@@ -716,7 +716,7 @@
 
                         <div class="rateBlock">
                             <div class="rateBlockImg"></div>
-                            <div class="rateBlockName">Имя Фамилия</div>
+                            <div class="rateBlockName">Имя Ф.</div>
                             <div class="rateBlockDate">
                                 <!-- Владелец Mercedes-Benz E,<br/> -->
                                 20 сентября, 2020</div>

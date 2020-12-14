@@ -813,7 +813,7 @@
                     <div class="ownerRating">
                         <h4>Собственник</h4>
                         <div class="rateImg"></div>
-                        <div class="rateName">ФИО</div>
+                        <div class="rateName">Имя Ф.</div>
                         <div class="rateRating"></div>
                     </div>
 
@@ -823,7 +823,7 @@
 
                             <div class="rateBlock">
                                 <div class="rateBlockImg"></div>
-                                <div class="rateBlockName">Фамилия И.</div>
+                                <div class="rateBlockName">Имя Ф.</div>
                                 <div class="rateBlockDate">20 сентября, 2020</div>
                                 <div class="rateBlockText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                                 <div class="rateBlockRating"></div>
@@ -831,7 +831,7 @@
 
                             <div class="rateBlock">
                                 <div class="rateBlockImg"></div>
-                                <div class="rateBlockName">Фамилия И.</div>
+                                <div class="rateBlockName">Имя Ф.</div>
                                 <div class="rateBlockDate">20 сентября, 2020</div>
                                 <div class="rateBlockText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                                 <div class="rateBlockRating"></div>
@@ -839,7 +839,7 @@
 
                             <div class="rateBlock">
                                 <div class="rateBlockImg"></div>
-                                <div class="rateBlockName">Фамилия И.</div>
+                                <div class="rateBlockName">Имя Ф.</div>
                                 <div class="rateBlockDate">20 сентября, 2020</div>
                                 <div class="rateBlockText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                                 <div class="rateBlockRating"></div>
@@ -847,7 +847,7 @@
 
                             <div class="rateBlock">
                                 <div class="rateBlockImg"></div>
-                                <div class="rateBlockName">Фамилия И.</div>
+                                <div class="rateBlockName">Имя Ф.</div>
                                 <div class="rateBlockDate">20 сентября, 2020</div>
                                 <div class="rateBlockText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                                 <div class="rateBlockRating"></div>
