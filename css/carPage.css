@@ -23,7 +23,9 @@
 .galleryName {
     height: max-content;
     width: 100%;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
+    height: 56px;
+    overflow: hidden;
 }
 
 .carGallery {
@@ -152,6 +154,7 @@
 }
 
 .galleryNameMain {
+    height: 56px;
     width: 340px;
     height: max-content;
     font-style: normal;
@@ -168,7 +171,8 @@
 }
 
 .galleryNameAdd {
-    margin-top: -22px;
+    top: 0;
+    /* margin-top: -22px; */
     width: 130px;
     height: 28px;
     float: right;
@@ -176,13 +180,11 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height, or 137% */
-
     letter-spacing: 0.03em;
-
-    /* light grey */
-
     color: #7993AF;
+    position: absolute;
+    right: 0;
+    line-height: 28px;
 }
 
 .galleryNameAddPrice {
@@ -208,7 +210,7 @@
 }
 
 #allPageContent #mainInputBlock {
-    margin-top: unset;
+    /* margin-top: unset; */
     width: 673px;
     height: 88px;
 }
@@ -649,7 +651,12 @@ h4 {
 
     #allPageContent #mainInputBlock {
         width: 660px;
+        margin-top: unset;
     }
+
+    /* #allPageContent #mainInputBlock {
+        margin-top: unset;
+    } */
 
     #allPageContent #inputFixerBlock {
         width: 648px;
@@ -706,6 +713,7 @@ h4 {
     #allPageContent #mainInputBlock .submitButton {
         margin-right: 12px;
         margin-top: 12px;
+        width: 288px;
     }
 
     #mainInputBlock {
@@ -739,7 +747,16 @@ h4 {
 
     .galleryNameAdd {
         float: unset;
+        position: relative;
         margin-top: 13px;
+    }
+
+    .galleryName {
+        height: max-content;
+    }
+
+    .galleryNameMain {
+        width: 312px;
     }
 
     .carPageCarGallery {
@@ -763,16 +780,16 @@ h4 {
 
     #allPageContent #inputFixerBlock {
         margin-top: unset;
-        width: 336px;
+        width: 312px;
         height: 232px;
         margin-left: 0px;
     }
 
     #allPageContent #mainInputBlock {
         margin-top: unset;
-        width: 336px;
+        width: 312px;
         height: 232px;
-        margin-left: -12px;
+        /* margin-left: -12px; */
     }
 
     #mainInputBlock .submitButton {
@@ -798,7 +815,7 @@ h4 {
     }
 
     .carDescriptionMainBlock {
-        width: 153px;
+        width: 156px;
     }
 
     .carDescriptionMainBlockImg {
