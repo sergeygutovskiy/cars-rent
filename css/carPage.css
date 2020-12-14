@@ -253,13 +253,7 @@
     filter: drop-shadow(0px 15px 20px rgba(8, 24, 81, 0.3));
 }
 
-.carIconBlock .carDescriptionMainBlockImg img.carIcon {
-    margin-left: 5px;
-}
 
-.carDescriptionMainBlockImg img.carIcon {
-    width: 45px;
-}
 
 .carDescriptionMainBlockImg .powerIcon {
     width: 26px;
@@ -743,6 +737,14 @@ h4 {
 
 
 @media screen and (max-width: 767px) {
+
+    .carIconBlock .carDescriptionMainBlockImg img.carIcon {
+        margin-left: 5px;
+    }
+    
+    .carDescriptionMainBlockImg img.carIcon {
+        width: 45px;
+    }
 
     #allPageContent #mainInputBlock .submitButton {
         margin-right: 12px;
