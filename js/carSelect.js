@@ -22,17 +22,20 @@ window.addEventListener('DOMContentLoaded', () => {
     let pointMarker = document.getElementsByClassName('pointChoiceMarker')[0];
     let positions = ["calc(18% - 8px)","calc(50% - 8px)","calc(84% - 8px)"];
 
+    let pointHandler = 0;
+
     try {
         for (let elem in pointChoice) {
             (() => {
                     pointChoice[elem].addEventListener('click', () => {
-                        try {document.getElementsByClassName('resetCategories')[0].click();} catch(e) {console.log(e)}
+                        
                         if (elem != activePoint) {
 
                             if (elem == 0) {
                                 document.getElementById('stickyBlock').classList.add('auto');
                                 document.getElementById('stickyBlock').classList.remove('water');
                                 document.getElementById('stickyBlock').classList.remove('moto');
+                                
                             }
                             if (elem == 1) {
                                 document.getElementById('stickyBlock').classList.remove('auto');
@@ -49,6 +52,61 @@ window.addEventListener('DOMContentLoaded', () => {
                             pointChoice[activePoint].classList.toggle('activePoint');
                             activePoint = elem;
                             pointMarker.style.left = positions[elem];
+
+
+
+
+
+                            let formData = new FormData(document.forms.carSelectForm);
+                            
+                            if (pointHandler == 0) {
+                                formData.append("type", "car");
+                                for (let i = 0; i < 10; i++) {
+                                    let text = "";
+                                    if (categoriesNames[i] != categoriesText[i].innerHTML) text = categoriesText[i].innerHTML;
+                                    formData.append(categoriesNames[i], text);
+                                    console.log(formData.get(categoriesNames[i]));
+                                    
+                                }
+                            } else if (pointHandler == 1) {
+                                formData.append("type", "water");
+                                for (let i = 10; i < 15; i++) {
+                                    let text = "";
+                                    if (categoriesNames[i] != categoriesText[i].innerHTML) text = categoriesText[i].innerHTML;
+                                    formData.append(categoriesNames[i], text);
+                                    console.log(formData.get(categoriesNames[i]));
+                                }
+                            } else if (pointHandler == 2) {
+                                formData.append("type", "moto");
+                                for (let i = 15; i < 23; i++) {
+                                    let text = "";
+                                    if (categoriesNames[i] != categoriesText[i].innerHTML) text = categoriesText[i].innerHTML;
+                                    formData.append(categoriesNames[i], text);
+                                    console.log(formData.get(categoriesNames[i]));
+                                }
+                            }
+
+                            if (elem == 0) {
+                                pointHandler = 0;
+                            }
+                            if (elem == 1) {
+                                pointHandler = 1;
+                            }
+                            if (elem == 2) {
+                                pointHandler = 2;
+                            }
+
+                            try {document.getElementsByClassName('resetCategories')[0].click();} catch(e) {console.log(e)}
+
+                            // var xhr = new XMLHttpRequest();
+                            // xhr.open("POST", "/user.py");
+                            // xhr.send(formData);
+                            // formData.reset();
+                           
+
+
+
+
                         }
                     });
             })()

@@ -1273,6 +1273,8 @@
 
                 </div>
             </div>
+
+            <form type="post" action="" name='carSelectForm'></form>
             
         </div>
 
