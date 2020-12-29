@@ -523,7 +523,7 @@
                     </div>
                     <div class="photoContainerHint"><i class="fas fa-paperclip"></i>&nbsp; Загрузить фото профиля</div>
                     <div class="passwordChanger">Изменить пароль</div>
-                    <input type="file" id="mainPhotoInput" style="display:none;" />
+                    <input type="file" name="mainPhotoInput" id="mainPhotoInput" style="display:none;" />
                 </div>
 
                 <div class="accountInputColumn">
@@ -640,11 +640,11 @@
                         <div class="accountFlexBoxPhotoBlock">
                             <div class="accountFlexBoxPhotoBlockContent" id="passport1PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
-                                <input type="file" id="passport1PhotoInput" style="display:none;" />
+                                <input type="file" name="passport1PhotoInput" id="passport1PhotoInput" style="display:none;" />
                             </div>
                             <div class="accountFlexBoxPhotoBlockContent" id="passport2PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
-                                <input type="file" id="passport2PhotoInput" style="display:none;" />
+                                <input type="file" name="passport2PhotoInput" id="passport2PhotoInput" style="display:none;" />
                             </div>
                         </div>
                         <div class="accountFlexBoxPhotoBlockContentHint shortBlockText">Разворот с ФИО и разворот с пропиской</div>
@@ -654,11 +654,11 @@
                         <div class="accountFlexBoxPhotoBlock">
                             <div class="accountFlexBoxPhotoBlockContent" id="driver1PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
-                                <input type="file" id="driver1PhotoInput" style="display:none;" />
+                                <input type="file" name="driver1PhotoInput" id="driver1PhotoInput" style="display:none;" />
                             </div>
                             <div class="accountFlexBoxPhotoBlockContent" id="driver2PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
-                                <input type="file" id="driver2PhotoInput" style="display:none;" />
+                                <input type="file" name="driver1PhotoInput" id="driver2PhotoInput" style="display:none;" />
                             </div>
                         </div>
                         <div class="accountFlexBoxPhotoBlockContentHint">Разворот с фото, фамилией и категорией управления транспортом</div>
@@ -669,11 +669,11 @@
                         <div class="accountFlexBoxPhotoBlock">
                             <div class="accountFlexBoxPhotoBlockContent" id="water1PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
-                                <input type="file" id="water1PhotoInput" style="display:none;" />
+                                <input type="file" name="water1PhotoInput" id="water1PhotoInput" style="display:none;" />
                             </div>
                             <div class="accountFlexBoxPhotoBlockContent" id="water2PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
-                                <input type="file" id="water2PhotoInput" style="display:none;" />
+                                <input type="file" name="water1PhotoInput" id="water2PhotoInput" style="display:none;" />
                             </div>
                         </div>
                         <div class="accountFlexBoxPhotoBlockContentHint">Разворот с фото, фамилией и типом управления судном</div>
