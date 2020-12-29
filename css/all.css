@@ -287,7 +287,7 @@ h3 {
     top: 0;
     left: 0;
     background-color: #F5F6F9;
-    z-index: 100;
+    z-index: 4;
     transition: .5s;
     overflow: hidden;
     overflow-y: hidden;

@@ -1,5 +1,20 @@
 
 window.addEventListener('DOMContentLoaded', () => {
+
+    try {
+        let ifNotLoggedElems = document.getElementsByClassName('ifNotEnteredShower');
+        for (let i = 0; i < ifNotLoggedElems.length; i++) {
+            ifNotLoggedElems[i].addEventListener('click', () => {
+                if (!document.getElementById('page').classList.contains('logged')) {
+                    document.getElementsByClassName('absolutedEnter')[0].style.display = 'flex';
+                    document.getElementsByClassName('absolutedEnter')[0].style.opacity = '1';
+                }
+            });
+        }
+        
+    } catch {
+        
+    }
     
     let inputs = document.getElementsByClassName('customServisInput');
     let inputContents = document.getElementsByClassName('customServisInputMain');

@@ -638,11 +638,13 @@
                     <div class="accountDocsContentFlexBox">
                         <div class="accountFlexMain shortBlockText">Загрузите фотографию паспорта</div>
                         <div class="accountFlexBoxPhotoBlock">
-                            <div class="accountFlexBoxPhotoBlockContent">
+                            <div class="accountFlexBoxPhotoBlockContent" id="passport1PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
+                                <input type="file" id="passport1PhotoInput" style="display:none;" />
                             </div>
-                            <div class="accountFlexBoxPhotoBlockContent">
+                            <div class="accountFlexBoxPhotoBlockContent" id="passport2PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
+                                <input type="file" id="passport2PhotoInput" style="display:none;" />
                             </div>
                         </div>
                         <div class="accountFlexBoxPhotoBlockContentHint shortBlockText">Разворот с ФИО и разворот с пропиской</div>
@@ -650,11 +652,13 @@
                     <div class="accountDocsContentFlexBox">
                         <div class="accountFlexMain middleBlockText">Загрузите фотографию водительского удостоверения</div>
                         <div class="accountFlexBoxPhotoBlock">
-                            <div class="accountFlexBoxPhotoBlockContent">
+                            <div class="accountFlexBoxPhotoBlockContent" id="driver1PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
+                                <input type="file" id="driver1PhotoInput" style="display:none;" />
                             </div>
-                            <div class="accountFlexBoxPhotoBlockContent">
+                            <div class="accountFlexBoxPhotoBlockContent" id="driver2PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
+                                <input type="file" id="driver2PhotoInput" style="display:none;" />
                             </div>
                         </div>
                         <div class="accountFlexBoxPhotoBlockContentHint">Разворот с фото, фамилией и категорией управления транспортом</div>
@@ -663,11 +667,13 @@
                     <div class="accountDocsContentFlexBox">
                         <div class="accountFlexMain">Загрузите фотографию удостоверения на право управления судном</div>
                         <div class="accountFlexBoxPhotoBlock">
-                            <div class="accountFlexBoxPhotoBlockContent">
+                            <div class="accountFlexBoxPhotoBlockContent" id="water1PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
+                                <input type="file" id="water1PhotoInput" style="display:none;" />
                             </div>
-                            <div class="accountFlexBoxPhotoBlockContent">
+                            <div class="accountFlexBoxPhotoBlockContent" id="water2PhotoInputContainer">
                                 <img src="assets/all/camera.svg" />
+                                <input type="file" id="water2PhotoInput" style="display:none;" />
                             </div>
                         </div>
                         <div class="accountFlexBoxPhotoBlockContentHint">Разворот с фото, фамилией и типом управления судном</div>
